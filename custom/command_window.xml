@@ -1,0 +1,1202 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>command</Name>
+        <WindowId>Command</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>195</Width>
+        <Height>180</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_menu_right</TemplateName>
+        </ImageAreaDef>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>82</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>tool_tip_background</TemplateName>
+            <Width>110</Width>
+            <Height>28</Height>
+        </FullResizeImageDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_attaque_menu_right</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <ControlId>10</ControlId>
+            <Position>
+                <X>51</X>
+                <Y>114</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button0_small_blue</TemplateName>
+            <Label>LIER</Label>
+            <onClickEvent>Bind</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>8</ControlId>
+            <Position>
+                <X>51</X>
+                <Y>130</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button0_small_red</TemplateName>
+            <Label>REL</Label>
+            <onClickEvent>Release</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>7</ControlId>
+            <Position>
+                <X>51</X>
+                <Y>146</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button0_small_green</TemplateName>
+            <Label>PRIER</Label>
+            <onClickEvent>Pray</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>19</ControlId>
+            <Position>
+                <X>51</X>
+                <Y>162</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button0_small_red</TemplateName>
+            <Label>QUIT</Label>
+            <onClickEvent>Quit</onClickEvent>
+        </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_fx_right</TemplateName>
+            <AdapterName>compass_heading</AdapterName>
+        </StatusIconDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>60</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button1_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>ShowWarMap</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>face</ControlId>
+            <Position>
+                <X>33</X>
+                <Y>33</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button2_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>Face</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>stick</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>62</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button3_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>Stick</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>attaque</ControlId>
+            <Position>
+                <X>9</X>
+                <Y>91</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button4_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>ToggleAttackMode</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>sprint</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>120</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button5_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>Sprint</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>149</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button6_right</TemplateName>
+            <Label>assis</Label>
+            <onClickEvent>ToggleSitting</onClickEvent>
+        </ButtonDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_warmap_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>59</X>
+                <Y>39</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_face_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>35</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_stick_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_attaque_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>18</X>
+                <Y>130</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_sprint_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>14</X>
+                <Y>158</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_assis_small</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>160</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>merchant_platinum</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>P:999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>157</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>platinum_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>132</X>
+                <Y>13</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>merchant_gold</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>227</R>
+                <G>182</G>
+                <B>45</B>
+                <A>255</A>
+            </Color>
+            <Data>G:999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>129</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>gold_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>113</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>merchant_silver</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data>S:999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>110</X>
+                <Y>26</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>silver_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>96</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>merchant_copper</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>35</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>163</R>
+                <G>143</G>
+                <B>9</B>
+                <A>255</A>
+            </Color>
+            <Data>C:999</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>93</X>
+                <Y>39</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>copper_decal</TemplateName>
+        </ImageAreaDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>50</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>166</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>25</Width>
+            <Height>15</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <Data>Rang</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>6</X>
+                <Y>38</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>realm_rank</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>36</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>146</X>
+                <Y>51</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9s</FontName>
+            <Adapter>stats_realm_points</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>60</Width>
+            <Height>16</Height>
+            <MaxCharacters>42</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>125</X>
+                <Y>51</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9s</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>10</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <Data>RP :</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>95</X>
+                <Y>60</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_barc_rang</TemplateName>
+            <AdapterName>realm_exp_coarse</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>96</X>
+                <Y>69</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>yellow_status_small</TemplateName>
+            <AdapterName>realm_exp_fine</AdapterName>
+            <Width>88</Width>
+        </StatusBarDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>174</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button0_vsmall</TemplateName>
+            <Label>+</Label>
+            <onClickEvent>ToggleCustom5</onClickEvent>
+        </ButtonDef>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>80</X>
+                <Y>78</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_noresize</TemplateName>
+            <Width>115</Width>
+            <Height>100</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>116</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>51</G>
+                <B>51</B>
+                <A>255</A>
+            </Color>
+            <Data>Pdv</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>130</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9s</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>51</R>
+                <G>255</G>
+                <B>51</B>
+                <A>255</A>
+            </Color>
+            <Data>Endu</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>83</X>
+                <Y>138</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data>Mana</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>107</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>70</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>107</X>
+                <Y>132</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_endu</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>70</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>107</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_mana</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>70</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>178</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>summary_player_hits</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>24</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>178</X>
+                <Y>128</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>summary_player_end</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>24</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>0</R>
+                <G>204</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>178</X>
+                <Y>139</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>summary_player_power</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>24</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>85</X>
+                <Y>158</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter>summary_target</Adapter>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Width>100</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>155</R>
+                <G>155</G>
+                <B>155</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>18</X>
+                <Y>170</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>lym_bar_fin</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>84</X>
+                <Y>170</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>lym_bar_vide</TemplateName>
+            <AdapterName></AdapterName>
+            <Width>93</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>84</X>
+                <Y>170</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>93</Width>
+        </StatusBarDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>178</X>
+                <Y>166</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>summary_target_hits</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>28</Width>
+            <Height>16</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>0</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>95</X>
+                <Y>81</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>32</ToolTipID>
+            <TemplateName>lym_barc_lvl</TemplateName>
+            <AdapterName>summary_exp_coarse</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>96</X>
+                <Y>90</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>32</ToolTipID>
+            <TemplateName>blue_status</TemplateName>
+            <AdapterName>summary_exp_fine</AdapterName>
+            <Width>88</Width>
+        </StatusBarDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>95</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>51</R>
+                <G>51</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>LvL:</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>119</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>stats_level</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>145</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>51</R>
+                <G>51</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>BB:</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>163</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>summary_exp_fine</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>32</Width>
+            <Height>12</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>180</X>
+                <Y>95</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>12</Width>
+            <Height>12</Height>
+            <MaxCharacters>12</MaxCharacters>
+            <Color>
+                <R>51</R>
+                <G>51</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>%</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>82</X>
+                <Y>108</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>stats_name</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>111</Width>
+            <Height>10</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>204</G>
+                <B>204</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>185</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_close</TemplateName>
+            <Label></Label>
+            <onClickEvent>ToggleCommandWindow</onClickEvent>
+        </ButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>82</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>32</ToolTipID>
+            <Label></Label>
+            <OnClickEvent>ToggleCustom5</OnClickEvent>
+            <Width>110</Width>
+            <Height>25</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>WarmapUpdateBonuses</OnClickEvent>
+            <Width>50</Width>
+            <Height>13</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

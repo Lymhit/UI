@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>chat_config</Name>
+        <WindowId>ChatConfig</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>350</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>300</MinWidth>
+        <MinHeight>200</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>300</Width>
+            <Height>350</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>dlg_interior_large</TemplateName>
+            <Width>282</Width>
+            <Height>340</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>chat_config_title</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>300</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>51</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data>Configuration Discussion</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>ACCEPTER</Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>86</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>ANNULER</Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>11</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>selection_box</TemplateName>
+            <Width>278</Width>
+            <Height>16</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>2004</ControlId>
+            <Position>
+                <X>165</X>
+                <Y>322</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>150</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Changer Couleur</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>2009</ControlId>
+            <Position>
+                <X>250</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2010</ControlId>
+            <Position>
+                <X>268</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>2007</ControlId>
+            <Position>
+                <X>16</X>
+                <Y>298</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>chat_config_output_label</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>150</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Canal Sortie - Défaut</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId>2008</ControlId>
+            <Position>
+                <X>165</X>
+                <Y>298</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>chat_config_current_output</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>150</Width>
+            <Height>16</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>kwijiboe</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>2005</ControlId>
+            <Position>
+                <X>250</X>
+                <Y>296</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>2006</ControlId>
+            <Position>
+                <X>268</X>
+                <Y>296</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <!--Check boxes for channel selection (16)-->
+
+
+        <CheckBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel0</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel1</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>56</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel2</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel3</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel4</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel5</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>120</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel6</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>136</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel7</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>152</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel8</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel9</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel10</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>200</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel11</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>216</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel12</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel13</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>248</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel14</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>18</X>
+                <Y>264</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_check</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_config_channel15</TextAdapterName>
+            <Data></Data>
+            <LabelWidth>256</LabelWidth>
+        </CheckBoxDef>
+
+
+        <!--Invisible buttons for selecting channel-->
+
+
+        <InvisibleButtonDef>
+            <ControlId>3000</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3001</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>38</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3002</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3003</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3004</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>86</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3005</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>102</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3006</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>118</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3007</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>134</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3008</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>150</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3009</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>166</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3010</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>182</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3011</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>198</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3012</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>214</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3013</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>230</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3014</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>246</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>3015</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>262</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>256</Width>
+            <Height>16</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

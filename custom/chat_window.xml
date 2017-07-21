@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>chat</Name>
+        <WindowId>Chat</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>350</Width>
+        <Height>200</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>312</MinWidth>
+        <MinHeight>120</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>350</Width>
+            <Height>200</Height>
+        </FullResizeImageDef>
+
+
+        <ChatControlDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>log</TemplateName>
+            <LinePadding>0</LinePadding>
+            <TextOffset>
+                <X>10</X>
+                <Y>2</Y>
+            </TextOffset>
+            <Width>330</Width>
+            <Height>84</Height>
+            <BufferName>system</BufferName>
+        </ChatControlDef>
+
+
+        <ChatControlDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>chat</TemplateName>
+            <LinePadding>0</LinePadding>
+            <TextOffset>
+                <X>10</X>
+                <Y>2</Y>
+            </TextOffset>
+            <Width>330</Width>
+            <Height>84</Height>
+            <BufferName>chat</BufferName>
+        </ChatControlDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <TemplateName>chat_bg</TemplateName>
+            <Width>350</Width>
+            <Height>16</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>15</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <FontName>resize_font</FontName>
+            <Adapter>chat_entry</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>325</Width>
+            <Height>16</Height>
+            <MaxCharacters>1024</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>340</Width>
+            <Height>84</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent></OnClickEvent>
+            <Width>350</Width>
+            <Height>8</Height>
+        </InvisibleButtonDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2000</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_tab</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_tab0</TextAdapterName>
+            <Data>Général</Data>
+            <LabelWidth>56</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2001</ControlId>
+            <Position>
+                <X>76</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_tab</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_tab1</TextAdapterName>
+            <Data>Général</Data>
+            <LabelWidth>56</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2002</ControlId>
+            <Position>
+                <X>132</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_tab</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_tab2</TextAdapterName>
+            <Data>Guilde</Data>
+            <LabelWidth>56</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>188</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_tab</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_tab3</TextAdapterName>
+            <Data>Groupe</Data>
+            <LabelWidth>56</LabelWidth>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>2004</ControlId>
+            <Position>
+                <X>244</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_tab</TemplateName>
+            <AdapterName>none</AdapterName>
+            <TextAdapterName>chat_tab4</TextAdapterName>
+            <Data>Discussion</Data>
+            <LabelWidth>56</LabelWidth>
+        </CheckBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>TwoWayResizeTopRight</ControlId>
+            <Position>
+                <X>-1</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>window_close</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

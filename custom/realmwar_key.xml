@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>realm_symbols</Name>
+        <File>custom/realm_symb.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>map_icons</Name>
+        <File>custom/map_icons.tga</File>
+    </Texture>
+
+
+    <CheckBoxTemplate>
+        <Name>realmwar_tab</Name>
+        <Size>
+            <X>57</X>
+            <Y>17</Y>
+        </Size>
+        <Font>
+            <Name>arial11</Name>
+            <ColorNormal>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>192</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>128</R>
+                <G>128</G>
+                <B>128</B>
+                <A>128</A>
+            </ColorDisabled>
+            <TextOffset>
+                <X>0</X>
+                <Y>4</Y>
+            </TextOffset>
+            <TextAlignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </TextAlignment>
+            <ChangeFontColor>true</ChangeFontColor>
+        </Font>
+        <Texture>
+            <TextureName>none</TextureName>
+            <Normal>
+                <X>163</X>
+                <Y>65</Y>
+            </Normal>
+            <Pressed>
+                <X>163</X>
+                <Y>47</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>163</X>
+                <Y>65</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>163</X>
+                <Y>47</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>163</X>
+                <Y>65</Y>
+            </Disabled>
+        </Texture>
+    </CheckBoxTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_tower</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>5</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_keep</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>16</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>5</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_milegate</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>80</X>
+            <Y>0</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>2</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_battle_large</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>32</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_battle_medium</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>48</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_battle_small</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>0</X>
+            <Y>64</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_scouting_small</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>64</X>
+            <Y>32</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_scouting_medium</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>64</X>
+            <Y>48</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <StatusIconTemplate>
+        <Name>realmwar_scouting_large</Name>
+        <TextureName>map_icons</TextureName>
+        <TextureStart>
+            <X>64</X>
+            <Y>64</Y>
+        </TextureStart>
+        <Width>16</Width>
+        <Height>16</Height>
+        <MaxLevels>3</MaxLevels>
+        <Horizontal>true</Horizontal>
+    </StatusIconTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>bridge_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>32</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>keep_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>tower_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>relic_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>96</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>dungeon_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>80</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mgopen_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>96</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>mgclosed_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>80</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>battle_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>48</X>
+            <Y>48</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>impasse_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>siege_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>16</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>destination_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>48</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>selection_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>64</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>dock_symbol</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>16</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>112</X>
+            <Y>80</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>realmwar_selection</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>48</X>
+            <Y>48</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>80</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>realmwar_destination</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>48</X>
+            <Y>48</Y>
+        </Size>
+        <TopLeft>
+            <X>48</X>
+            <Y>80</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>realmwar_siege</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>32</X>
+            <Y>32</Y>
+        </Size>
+        <TopLeft>
+            <X>96</X>
+            <Y>96</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>player_location</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>11</X>
+            <Y>11</Y>
+        </Size>
+        <TopLeft>
+            <X>99</X>
+            <Y>82</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>group_location1</Name>
+        <TextureName>map_icons</TextureName>
+        <Size>
+            <X>9</X>
+            <Y>9</Y>
+        </Size>
+        <TopLeft>
+            <X>132</X>
+            <Y>3</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <WindowTemplate>
+        <Name>realmwar_key</Name>
+        <WindowId></WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>128</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>140</Width>
+        <Height>250</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_lg_title_noresize</TemplateName>
+            <Width>140</Width>
+            <Height>250</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>arial11</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Légende</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>bridge_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Pont</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>keep_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Fort</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>tower_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>56</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Tour</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>68</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>relic_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Reliquaire</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>84</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dungeon_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>88</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Donjon</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mgopen_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Muraille Ouverte</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>116</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>mgclosed_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>120</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Muraille Fermée</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>134</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>battle_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>136</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Combats Actuels</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>150</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>impasse_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>152</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Impasse</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>164</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>siege_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Attaqué</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>182</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>destination_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Destination du Téléport</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>198</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>selection_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>200</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Sélection Actuelle</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>214</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dock_symbol</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>216</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Quai</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>7</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>player_location</TemplateName>
+        </ImageAreaDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>24</X>
+                <Y>232</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>arial9</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>140</Width>
+            <Height>250</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <Data>Position Actuelle</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
