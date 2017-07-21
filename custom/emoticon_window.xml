@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <ImageAreaTemplate>
         <Name>smile</Name>
         <TextureName>emoticons</TextureName>
@@ -17,8 +12,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>slit</Name>
         <TextureName>emoticons</TextureName>
@@ -31,8 +24,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>shrug</Name>
         <TextureName>emoticons</TextureName>
@@ -45,8 +36,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>military_salute</Name>
         <TextureName>emoticons</TextureName>
@@ -59,8 +48,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>dance</Name>
         <TextureName>emoticons</TextureName>
@@ -73,8 +60,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>beg</Name>
         <TextureName>emoticons</TextureName>
@@ -87,8 +72,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>tricks</Name>
         <TextureName>emoticons</TextureName>
@@ -101,8 +84,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>worship</Name>
         <TextureName>emoticons</TextureName>
@@ -115,8 +96,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>knock</Name>
         <TextureName>emoticons</TextureName>
@@ -129,8 +108,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>ponder</Name>
         <TextureName>emoticons</TextureName>
@@ -143,8 +120,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>angry</Name>
         <TextureName>emoticons</TextureName>
@@ -157,8 +132,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>yawn</Name>
         <TextureName>emoticons</TextureName>
@@ -171,8 +144,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>slap</Name>
         <TextureName>emoticons</TextureName>
@@ -185,8 +156,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>mememe</Name>
         <TextureName>emoticons</TextureName>
@@ -199,8 +168,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>charge</Name>
         <TextureName>emoticons</TextureName>
@@ -213,8 +180,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>courbette</Name>
         <TextureName>emoticons</TextureName>
@@ -227,8 +192,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>doh</Name>
         <TextureName>emoticons</TextureName>
@@ -241,8 +204,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>bow</Name>
         <TextureName>emoticons</TextureName>
@@ -255,8 +216,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>point</Name>
         <TextureName>emoticons</TextureName>
@@ -269,8 +228,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>pet</Name>
         <TextureName>emoticons</TextureName>
@@ -283,8 +240,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>cry</Name>
         <TextureName>emoticons</TextureName>
@@ -297,8 +252,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>stagger</Name>
         <TextureName>emoticons</TextureName>
@@ -311,8 +264,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>shiver</Name>
         <TextureName>emoticons</TextureName>
@@ -325,8 +276,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lookfar</Name>
         <TextureName>emoticons</TextureName>
@@ -339,8 +288,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>induct</Name>
         <TextureName>emoticons</TextureName>
@@ -353,8 +300,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>graze</Name>
         <TextureName>emoticons</TextureName>
@@ -367,8 +312,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>blush</Name>
         <TextureName>emoticons</TextureName>
@@ -381,8 +324,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>sweat</Name>
         <TextureName>emoticons</TextureName>
@@ -395,8 +336,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>present</Name>
         <TextureName>emoticons</TextureName>
@@ -409,8 +348,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>dismiss</Name>
         <TextureName>emoticons</TextureName>
@@ -423,8 +360,6 @@
             <Y>40</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>confuse</Name>
         <TextureName>emoticons</TextureName>
@@ -437,8 +372,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>stench</Name>
         <TextureName>emoticons</TextureName>
@@ -451,8 +384,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>salute</Name>
         <TextureName>emoticons</TextureName>
@@ -465,8 +396,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>kiss</Name>
         <TextureName>emoticons</TextureName>
@@ -479,8 +408,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>beckon</Name>
         <TextureName>emoticons</TextureName>
@@ -493,8 +420,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>halt</Name>
         <TextureName>emoticons</TextureName>
@@ -507,8 +432,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>raise</Name>
         <TextureName>emoticons</TextureName>
@@ -521,8 +444,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>drink</Name>
         <TextureName>emoticons</TextureName>
@@ -535,8 +456,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>curtsey</Name>
         <TextureName>emoticons</TextureName>
@@ -549,8 +468,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>horse_nod</Name>
         <TextureName>emoticons</TextureName>
@@ -563,8 +480,6 @@
             <Y>60</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>cheer</Name>
         <TextureName>emoticons</TextureName>
@@ -577,8 +492,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>surrender</Name>
         <TextureName>emoticons</TextureName>
@@ -591,8 +504,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>rude</Name>
         <TextureName>emoticons</TextureName>
@@ -605,8 +516,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>hug</Name>
         <TextureName>emoticons</TextureName>
@@ -619,8 +528,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>bang</Name>
         <TextureName>emoticons</TextureName>
@@ -633,8 +540,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>startle</Name>
         <TextureName>emoticons</TextureName>
@@ -647,8 +552,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>taunt</Name>
         <TextureName>emoticons</TextureName>
@@ -661,8 +564,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>yes</Name>
         <TextureName>emoticons</TextureName>
@@ -675,8 +576,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>victory</Name>
         <TextureName>emoticons</TextureName>
@@ -689,8 +588,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>horse_rear</Name>
         <TextureName>emoticons</TextureName>
@@ -703,8 +600,6 @@
             <Y>80</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>wave</Name>
         <TextureName>emoticons</TextureName>
@@ -717,8 +612,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>no</Name>
         <TextureName>emoticons</TextureName>
@@ -731,8 +624,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>rofl</Name>
         <TextureName>emoticons</TextureName>
@@ -745,8 +636,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>flex</Name>
         <TextureName>emoticons</TextureName>
@@ -759,8 +648,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>laugh</Name>
         <TextureName>emoticons</TextureName>
@@ -773,8 +660,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>clap</Name>
         <TextureName>emoticons</TextureName>
@@ -787,8 +672,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <WindowTemplate>
         <Name>emoticon</Name>
         <WindowId>Emoticon</WindowId>
@@ -802,7 +685,7 @@
         <TitleWidth>166</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>166</Width>
-        <Height>146</Height>
+        <Height>166</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
@@ -810,32 +693,22 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName>emoticon_context</ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>BackgroundImage</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <TemplateName>tool_tip_background</TemplateName>
             <Width>166</Width>
-            <Height>146</Height>
+            <Height>166</Height>
         </FullResizeImageDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>3</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>137</ToolTipID>
             <ImageAreaTemplateName>smile</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -847,17 +720,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1001</ControlId>
             <Position>
                 <X>23</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>121</ToolTipID>
             <ImageAreaTemplateName>laugh</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -869,17 +737,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1002</ControlId>
             <Position>
                 <X>43</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>130</ToolTipID>
             <ImageAreaTemplateName>rofl</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -891,17 +754,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1003</ControlId>
             <Position>
                 <X>63</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>119</ToolTipID>
             <ImageAreaTemplateName>kiss</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -913,17 +771,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1004</ControlId>
             <Position>
                 <X>83</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>117</ToolTipID>
             <ImageAreaTemplateName>hug</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -935,17 +788,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1005</ControlId>
             <Position>
                 <X>103</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>104</ToolTipID>
             <ImageAreaTemplateName>blush</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -957,17 +805,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1006</ControlId>
             <Position>
                 <X>123</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>108</ToolTipID>
             <ImageAreaTemplateName>clap</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -979,17 +822,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1007</ControlId>
             <Position>
                 <X>143</X>
                 <Y>3</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>107</ToolTipID>
             <ImageAreaTemplateName>cheer</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1001,17 +839,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1008</ControlId>
             <Position>
                 <X>3</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>109</ToolTipID>
             <ImageAreaTemplateName>confuse</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1023,17 +856,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1009</ControlId>
             <Position>
                 <X>23</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>114</ToolTipID>
             <ImageAreaTemplateName>doh</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1045,17 +873,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1010</ControlId>
             <Position>
                 <X>43</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>134</ToolTipID>
             <ImageAreaTemplateName>shrug</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1067,17 +890,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1011</ControlId>
             <Position>
                 <X>63</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>127</ToolTipID>
             <ImageAreaTemplateName>ponder</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1089,17 +907,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1012</ControlId>
             <Position>
                 <X>83</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>128</ToolTipID>
             <ImageAreaTemplateName>present</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1111,17 +924,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1013</ControlId>
             <Position>
                 <X>103</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>118</ToolTipID>
             <ImageAreaTemplateName>induct</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1133,17 +941,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1014</ControlId>
             <Position>
                 <X>123</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>145</ToolTipID>
             <ImageAreaTemplateName>worship</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1155,17 +958,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1015</ControlId>
             <Position>
                 <X>143</X>
                 <Y>23</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>105</ToolTipID>
             <ImageAreaTemplateName>bow</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1177,17 +975,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1016</ControlId>
             <Position>
                 <X>3</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>123</ToolTipID>
             <ImageAreaTemplateName>mememe</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1199,17 +992,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1017</ControlId>
             <Position>
                 <X>23</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>132</ToolTipID>
             <ImageAreaTemplateName>salute</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1221,17 +1009,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1018</ControlId>
             <Position>
                 <X>43</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>124</ToolTipID>
             <ImageAreaTemplateName>military_salute</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1243,17 +1026,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1019</ControlId>
             <Position>
                 <X>63</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>126</ToolTipID>
             <ImageAreaTemplateName>point</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1265,17 +1043,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1020</ControlId>
             <Position>
                 <X>83</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>106</ToolTipID>
             <ImageAreaTemplateName>charge</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1287,17 +1060,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1021</ControlId>
             <Position>
                 <X>103</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>129</ToolTipID>
             <ImageAreaTemplateName>raise</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1309,17 +1077,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1022</ControlId>
             <Position>
                 <X>123</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>144</ToolTipID>
             <ImageAreaTemplateName>wave</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1331,17 +1094,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1023</ControlId>
             <Position>
                 <X>143</X>
                 <Y>43</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>122</ToolTipID>
             <ImageAreaTemplateName>lookfar</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1353,17 +1111,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1024</ControlId>
             <Position>
                 <X>3</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>100</ToolTipID>
             <ImageAreaTemplateName>angry</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1375,17 +1128,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1025</ControlId>
             <Position>
                 <X>23</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>110</ToolTipID>
             <ImageAreaTemplateName>cry</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1397,17 +1145,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1026</ControlId>
             <Position>
                 <X>43</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>141</ToolTipID>
             <ImageAreaTemplateName>sweat</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1419,17 +1162,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1027</ControlId>
             <Position>
                 <X>63</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>113</ToolTipID>
             <ImageAreaTemplateName>dismiss</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1441,17 +1179,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1028</ControlId>
             <Position>
                 <X>83</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>131</ToolTipID>
             <ImageAreaTemplateName>rude</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1463,17 +1196,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1029</ControlId>
             <Position>
                 <X>103</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>135</ToolTipID>
             <ImageAreaTemplateName>slap</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1485,17 +1213,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1030</ControlId>
             <Position>
                 <X>123</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>142</ToolTipID>
             <ImageAreaTemplateName>taunt</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1507,17 +1230,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1031</ControlId>
             <Position>
                 <X>143</X>
                 <Y>63</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>136</ToolTipID>
             <ImageAreaTemplateName>slit</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1529,17 +1247,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1032</ControlId>
             <Position>
                 <X>3</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>146</ToolTipID>
             <ImageAreaTemplateName>yawn</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1551,17 +1264,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1033</ControlId>
             <Position>
                 <X>23</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>133</ToolTipID>
             <ImageAreaTemplateName>shiver</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1573,17 +1281,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1034</ControlId>
             <Position>
                 <X>43</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>139</ToolTipID>
             <ImageAreaTemplateName>stench</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1595,17 +1298,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1035</ControlId>
             <Position>
                 <X>63</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>103</ToolTipID>
             <ImageAreaTemplateName>beg</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1617,17 +1315,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1036</ControlId>
             <Position>
                 <X>83</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>102</ToolTipID>
             <ImageAreaTemplateName>beckon</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1639,17 +1332,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1037</ControlId>
             <Position>
                 <X>103</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>140</ToolTipID>
             <ImageAreaTemplateName>surrender</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1661,17 +1349,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1038</ControlId>
             <Position>
                 <X>123</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>143</ToolTipID>
             <ImageAreaTemplateName>victory</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1683,17 +1366,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1039</ControlId>
             <Position>
                 <X>143</X>
                 <Y>83</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>116</ToolTipID>
             <ImageAreaTemplateName>flex</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1705,17 +1383,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1040</ControlId>
             <Position>
                 <X>3</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>101</ToolTipID>
             <ImageAreaTemplateName>bang</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1727,17 +1400,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1041</ControlId>
             <Position>
                 <X>23</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>120</ToolTipID>
             <ImageAreaTemplateName>knock</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1749,17 +1417,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1042</ControlId>
             <Position>
                 <X>43</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>111</ToolTipID>
             <ImageAreaTemplateName>curtsey</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1771,17 +1434,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1043</ControlId>
             <Position>
                 <X>63</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>112</ToolTipID>
             <ImageAreaTemplateName>dance</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1793,17 +1451,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1044</ControlId>
             <Position>
                 <X>83</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>115</ToolTipID>
             <ImageAreaTemplateName>drink</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1815,17 +1468,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1045</ControlId>
             <Position>
                 <X>103</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>138</ToolTipID>
             <ImageAreaTemplateName>stagger</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1837,17 +1485,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1046</ControlId>
             <Position>
                 <X>123</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>147</ToolTipID>
             <ImageAreaTemplateName>yes</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1859,17 +1502,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1047</ControlId>
             <Position>
                 <X>143</X>
                 <Y>103</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>125</ToolTipID>
             <ImageAreaTemplateName>no</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1881,19 +1519,14 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1048</ControlId>
             <Position>
                 <X>3</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>149</ToolTipID>
-            <ImageAreaTemplateName>graze</ImageAreaTemplateName>
+            <ImageAreaTemplateName>horse_graze</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
@@ -1903,17 +1536,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1049</ControlId>
             <Position>
                 <X>23</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>151</ToolTipID>
             <ImageAreaTemplateName>horse_nod</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -1925,19 +1553,14 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1050</ControlId>
             <Position>
                 <X>43</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>150</ToolTipID>
-            <ImageAreaTemplateName>halt</ImageAreaTemplateName>
+            <ImageAreaTemplateName>horse_halt</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
@@ -1947,19 +1570,14 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1051</ControlId>
             <Position>
                 <X>63</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>148</ToolTipID>
-            <ImageAreaTemplateName>courbette</ImageAreaTemplateName>
+            <ImageAreaTemplateName>horse_courbette</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
@@ -1969,19 +1587,14 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1052</ControlId>
             <Position>
                 <X>83</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>152</ToolTipID>
-            <ImageAreaTemplateName>pet</ImageAreaTemplateName>
+            <ImageAreaTemplateName>horse_pet</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
@@ -1991,19 +1604,14 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1053</ControlId>
             <Position>
                 <X>103</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>155</ToolTipID>
-            <ImageAreaTemplateName>tricks</ImageAreaTemplateName>
+            <ImageAreaTemplateName>horse_tricks</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
@@ -2013,17 +1621,12 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1054</ControlId>
             <Position>
                 <X>123</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>153</ToolTipID>
             <ImageAreaTemplateName>horse_rear</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
@@ -2035,19 +1638,14 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1055</ControlId>
             <Position>
                 <X>143</X>
                 <Y>123</Y>
             </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
             <ToolTipID>154</ToolTipID>
-            <ImageAreaTemplateName>startle</ImageAreaTemplateName>
+            <ImageAreaTemplateName>horse_startle</ImageAreaTemplateName>
             <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
             <Width>20</Width>
             <ImageOffset>
@@ -2057,9 +1655,154 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1056</ControlId>
+            <Position>
+                <X>3</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>howl</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1057</ControlId>
+            <Position>
+                <X>23</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>diabolical</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1058</ControlId>
+            <Position>
+                <X>43</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>startled</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1059</ControlId>
+            <Position>
+                <X>63</X>
+                <Y>143</Y>
+            </Position>
+            <ImageAreaTemplateName>monty</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1060</ControlId>
+            <Position>
+                <X>83</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>cower</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1061</ControlId>
+            <Position>
+                <X>103</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>brandish</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1062</ControlId>
+            <Position>
+                <X>123</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>loco</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
+        <HorizontalResizeImageButtonDef>
+            <ControlId>1063</ControlId>
+            <Position>
+                <X>143</X>
+                <Y>143</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ImageAreaTemplateName>talk</ImageAreaTemplateName>
+            <HRButtonTemplateName>simple_hr_button</HRButtonTemplateName>
+            <Width>20</Width>
+            <ImageOffset>
+                <X>0</X>
+                <Y>0</Y>
+            </ImageOffset>
+            <Label></Label>
+            <Onclickevent></Onclickevent>
+        </HorizontalResizeImageButtonDef>
     </WindowTemplate>
-
-
 </Root_Element>

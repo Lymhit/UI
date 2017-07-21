@@ -204,7 +204,7 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 
@@ -232,7 +232,7 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 
@@ -260,7 +260,7 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 

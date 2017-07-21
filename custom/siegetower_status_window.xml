@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 	<WindowTemplate>
-		<Name>mini_craft</Name>
+		<Name>siegetower_status</Name>
 		<CloseButton>true</CloseButton>
 		<MoveButton>true</MoveButton>
-		<Width>256</Width>
-		<Height>96</Height>
-		<TitleWidth>128</TitleWidth>
+		<Width>200</Width>
+		<Height>57</Height>
+		<TitleWidth>200</TitleWidth>
 		<TitleHeight>18</TitleHeight>
 		<ResizeableWidth>0</ResizeableWidth>
 		<ResizeableHeight>0</ResizeableHeight>
 		<ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
 		<ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-		<WindowId>MiniCraft</WindowId>
+		<MinWidth>0</MinWidth>
+		<MinHeight>0</MinHeight>
 		<FullResizeImageDef>
 			<ControlId>Background</ControlId>
-			<Height>96</Height>
-			<Width>256</Width>
+			<Width>200</Width>
+			<Height>57</Height>
 			<Position>
 				<X>0</X>
 				<Y>0</Y>
@@ -35,54 +36,27 @@
 				<A>255</A>
 			</Color>
 			<FontName>arial11</FontName>
-			<Width>252</Width>
+			<Width>200</Width>
 			<Height>16</Height>
-			<MaxCharacters>64</MaxCharacters>
-			<Data>Mini Craft</Data>
+			<MaxCharacters>128</MaxCharacters>
+			<Data>Keep Name</Data>
 			<Position>
 				<X>0</X>
-				<Y>19</Y>
+				<Y>6</Y>
 			</Position>
-			<Adapter>mini_craft_title</Adapter>
 			<Alignment>
 				<CenterHorizontally>true</CenterHorizontally>
 			</Alignment>
+			<Adapter>siegetower_status_title</Adapter>
 		</LabelDef>
 		<ButtonDef>
 			<TemplateName>button_large</TemplateName>
-			<OnClickEvent>Repair</OnClickEvent>
-			<ControlId>1000</ControlId>
+			<Position>
+				<X>70</X>
+				<Y>28</Y>
+			</Position>
 			<Label>REPAIR</Label>
-			<Position>
-				<X>20</X>
-				<Y>54</Y>
-			</Position>
-		</ButtonDef>
-		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
-			<OnClickEvent>Craft</OnClickEvent>
-			<ControlId>1001</ControlId>
-			<Label>CRAFT</Label>
-			<Position>
-				<X>0</X>
-				<Y>54</Y>
-			</Position>
-			<Alignment>
-				<CenterHorizontally>true</CenterHorizontally>
-			</Alignment>
-		</ButtonDef>
-		<ButtonDef>
-			<TemplateName>button_large</TemplateName>
-			<OnClickEvent>Salvage</OnClickEvent>
-			<ControlId>1002</ControlId>
-			<Label>SALVAGE</Label>
-			<Position>
-				<X>20</X>
-				<Y>54</Y>
-			</Position>
-			<Alignment>
-				<OffsetRight>true</OffsetRight>
-			</Alignment>
+			<OnClickEvent>KeepStatusRepair</OnClickEvent>
 		</ButtonDef>
 	</WindowTemplate>
 </Root_Element>

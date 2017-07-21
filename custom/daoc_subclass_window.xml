@@ -1,228 +1,156 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
-    <WindowTemplate>
-        <Name>daoc_subclass</Name>
-        <WindowId>DAoC_Subclass</WindowId>
-        <CloseButton>true</CloseButton>
-        <MoveButton>true</MoveButton>
-        <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
-        <BottomLeftResizeButton>false</BottomLeftResizeButton>
-        <ResizeButtonOffsetX>9</ResizeButtonOffsetX>
-        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>250</TitleWidth>
-        <TitleHeight>18</TitleHeight>
-        <Width>255</Width>
-        <Height>400</Height>
-        <ResizeableWidth>0</ResizeableWidth>
-        <ResizeableHeight>0</ResizeableHeight>
-        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
-        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>250</MinWidth>
-        <MinHeight>400</MinHeight>
-        <ContextTemplateName></ContextTemplateName>
-
-
-        <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>dlg_background_resize</TemplateName>
-            <Width>255</Width>
-            <Height>400</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
-            <Position>
-                <X>7</X>
-                <Y>20</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>dlg_interior_large</TemplateName>
-            <Width>241</Width>
-            <Height>356</Height>
-        </FullResizeImageDef>
-
-
-        <HorizontalResizeImageDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>24</X>
-                <Y>3</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>dialog_inset</TemplateName>
-            <Width>0</Width>
-        </HorizontalResizeImageDef>
-
-
-        <LabelDef>
-            <ControlId>1000</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>4</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial11</FontName>
-            <Width>256</Width>
-            <Height>15</Height>
-            <ColorAdapter></ColorAdapter>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>Talents Secondaires</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-            <Adapter></Adapter>
-        </LabelDef>
-
-
-        <LabelDef>
-            <ControlId>1001</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>316</Y>
-            </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <FontName>arial11</FontName>
-            <Width>256</Width>
-            <Height>15</Height>
-            <ColorAdapter></ColorAdapter>
-            <MaxCharacters>128</MaxCharacters>
-            <Data>Points de Champion : 0 / 5</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-            <Adapter></Adapter>
-        </LabelDef>
-
-
-        <ButtonDef>
-            <ControlId>1100</ControlId>
-            <Position>
-                <X>167</X>
-                <Y>346</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_large</TemplateName>
-            <Label>ANNULER</Label>
-            <onClickEvent></onClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1101</ControlId>
-            <Position>
-                <X>95</X>
-                <Y>346</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_large</TemplateName>
-            <Label>ACHETER</Label>
-            <onClickEvent>Train</onClickEvent>
-        </ButtonDef>
-
-
-        <ButtonDef>
-            <ControlId>1102</ControlId>
-            <Position>
-                <X>23</X>
-                <Y>346</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>button_large</TemplateName>
-            <Label>INFO</Label>
-            <onClickEvent>SubclassDelve</onClickEvent>
-        </ButtonDef>
-
-
-        <IconDef>
-            <ControlId>2011</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
-            <AdapterName></AdapterName>
-            <IconId>0</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <ControlId>2012</ControlId>
-            <Position>
-                <X>65</X>
-                <Y>30</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
-            <AdapterName></AdapterName>
-            <IconId>1</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-        <IconDef>
-            <ControlId>2021</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>89</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
-            <AdapterName></AdapterName>
-            <IconId>0</IconId>
-            <Data></Data>
-        </IconDef>
-
-
-    </WindowTemplate>
-
-
+	<WindowTemplate>
+		<Name>daoc_subclass</Name>
+		<CloseButton>true</CloseButton>
+		<MoveButton>true</MoveButton>
+		<Width>255</Width>
+		<Height>400</Height>
+		<TitleWidth>250</TitleWidth>
+		<TitleHeight>18</TitleHeight>
+		<ResizeableWidth>0</ResizeableWidth>
+		<ResizeableHeight>0</ResizeableHeight>
+		<WindowId>DAoC_Subclass</WindowId>
+		<BottomRightResizeButton>false</BottomRightResizeButton>
+		<BottomLeftResizeButton>false</BottomLeftResizeButton>
+		<ResizeButtonOffsetX>9</ResizeButtonOffsetX>
+		<MinWidth>250</MinWidth>
+		<MinHeight>400</MinHeight>
+		<FullResizeImageDef>
+			<ControlId>BackgroundImage</ControlId>
+			<Height>400</Height>
+			<Width>255</Width>
+			<Position>
+				<X>0</X>
+				<Y>0</Y>
+			</Position>
+			<TemplateName>dlg_background_resize</TemplateName>
+			<Alignment>
+				<GrowWidth>true</GrowWidth>
+				<GrowHeight>true</GrowHeight>
+			</Alignment>
+		</FullResizeImageDef>
+		<FullResizeImageDef>
+			<ControlId>BackgroundImage</ControlId>
+			<Height>356</Height>
+			<Width>241</Width>
+			<Position>
+				<X>7</X>
+				<Y>20</Y>
+			</Position>
+			<TemplateName>dlg_interior_large</TemplateName>
+			<Alignment>
+				<GrowWidth>true</GrowWidth>
+				<GrowHeight>true</GrowHeight>
+			</Alignment>
+		</FullResizeImageDef>
+		<HorizontalResizeImageDef>
+			<Position>
+				<X>24</X>
+				<Y>3</Y>
+			</Position>
+			<TemplateName>dialog_inset</TemplateName>
+			<Width>0</Width>
+		</HorizontalResizeImageDef>
+		<LabelDef>
+			<ControlId>1000</ControlId>
+			<Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Color>
+			<FontName>arial11</FontName>
+			<Width>256</Width>
+			<Height>15</Height>
+			<MaxCharacters>128</MaxCharacters>
+			<Position>
+				<X>0</X>
+				<Y>4</Y>
+			</Position>
+			<Adapter></Adapter>
+			<Data>Subclassing Window</Data>
+			<Alignment>
+				<CenterHorizontally>true</CenterHorizontally>
+				<GrowWidth>true</GrowWidth>
+			</Alignment>
+		</LabelDef>
+		<LabelDef>
+			<ControlId>1001</ControlId>
+			<Color>
+				<R>255</R>
+				<G>255</G>
+				<B>255</B>
+				<A>255</A>
+			</Color>
+			<FontName>arial11</FontName>
+			<Width>256</Width>
+			<Height>15</Height>
+			<MaxCharacters>128</MaxCharacters>
+			<Position>
+				<X>18</X>
+				<Y>316</Y>
+			</Position>
+			<Adapter></Adapter>
+			<Data>Champion Points: 0 / 5</Data>
+		<Alignment><CenterHorizontally>true</CenterHorizontally></Alignment>
+		</LabelDef>
+		<ButtonDef>
+			<ControlId>1100</ControlId>
+			<TemplateName>button_large</TemplateName>
+			<OnClickEvent></OnClickEvent>
+			<Position>
+				<X>167</X>
+				<Y>346</Y>
+			</Position>
+			<Label>CANCEL</Label>
+		</ButtonDef>
+		<ButtonDef>
+			<ControlId>1101</ControlId>
+			<TemplateName>button_large</TemplateName>
+			<OnClickEvent>Train</OnClickEvent>
+			<Position>
+				<X>95</X>
+				<Y>346</Y>
+			</Position>
+			<Label>BUY</Label>
+		</ButtonDef>
+		<ButtonDef>
+			<ControlId>1102</ControlId>
+			<TemplateName>button_large</TemplateName>
+			<OnClickEvent>SubclassDelve</OnClickEvent>
+			<Position>
+				<X>23</X>
+				<Y>346</Y>
+			</Position>
+			<Label>INFO</Label>
+		</ButtonDef>
+		<IconDef>
+			<ControlId>2011</ControlId>
+			<Position>
+				<X>18</X>
+				<Y>30</Y>
+			</Position>
+			<IconId>0</IconId>
+			<TemplateName>plain_icon_large</TemplateName>
+		</IconDef>
+		<IconDef>
+			<ControlId>2012</ControlId>
+			<Position>
+				<X>65</X>
+				<Y>30</Y>
+			</Position>
+			<IconId>1</IconId>
+			<TemplateName>plain_icon_large</TemplateName>
+		</IconDef>
+		<IconDef>
+			<ControlId>2021</ControlId>
+			<Position>
+				<X>18</X>
+				<Y>89</Y>
+			</Position>
+			<IconId>0</IconId>
+			<TemplateName>plain_icon_large</TemplateName>
+		</IconDef>
+		</WindowTemplate>
 </Root_Element>

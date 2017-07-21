@@ -38,7 +38,7 @@
 		<CloseButton>true</CloseButton>
 		<MoveButton>true</MoveButton>
 		<Width>390</Width>
-		<Height>435</Height>
+		<Height>420</Height>
 		<TitleWidth>390</TitleWidth>
 		<TitleHeight>24</TitleHeight>
 		<ResizeableWidth>0</ResizeableWidth>
@@ -51,7 +51,7 @@
 		<!--background elements-->
 		<FullResizeImageDef>
 			<Width>390</Width>
-			<Height>435</Height>
+			<Height>400</Height>
 			<Position>
 				<X>0</X>
 				<Y>0</Y>
@@ -69,7 +69,7 @@
 			<Width>390</Width>
 			<Height>16</Height>
 			<MaxCharacters>128</MaxCharacters>
-			<Data>Rech. marchand rev.</Data>
+			<Data>Player Market Search</Data>
 			<Position>
 				<X>0</X>
 				<Y>6</Y>
@@ -80,7 +80,7 @@
 		</LabelDef>
 		<FullResizeImageDef>
 			<Width>380</Width>
-			<Height>380</Height>
+			<Height>340</Height>
 			<Position>
 				<X>5</X>
 				<Y>24</Y>
@@ -88,36 +88,36 @@
 			<TemplateName>dlg_lg_title_noresize</TemplateName>
 		</FullResizeImageDef>
 		<!--functional elements-->
-		<!--Reset-->
-		<HorizontalResizeButtonDef>
-			<TemplateName>generic_hr_button</TemplateName>
-			<ControlId>1027</ControlId>
-			<Label>REFAIRE</Label>
-			<Position>
-				<X>275</X>
-				<Y>380</Y>
-			</Position>
-			<Width>100</Width>
-		</HorizontalResizeButtonDef>
 		<!--Accept-->
 		<HorizontalResizeButtonDef>
 			<TemplateName>generic_hr_button</TemplateName>
 			<ControlId>1028</ControlId>
-			<Label>ACCEPTER</Label>
+			<Label>ACCEPT</Label>
 			<Position>
-				<X>119</X>
-				<Y>410</Y>
+				<X>55</X>
+				<Y>373</Y>
 			</Position>
 			<Width>75</Width>
+		</HorizontalResizeButtonDef>
+		<!--Reset-->
+		<HorizontalResizeButtonDef>
+			<TemplateName>generic_hr_button</TemplateName>
+			<ControlId>1027</ControlId>
+			<Label>RESET</Label>
+			<Position>
+				<X>143</X>
+				<Y>373</Y>
+			</Position>
+			<Width>100</Width>
 		</HorizontalResizeButtonDef>
 		<!--Cancel-->
 		<HorizontalResizeButtonDef>
 			<TemplateName>generic_hr_button</TemplateName>
 			<ControlId>1029</ControlId>
-			<Label>ANNULER</Label>
+			<Label>CANCEL</Label>
 			<Position>
-				<X>196</X>
-				<Y>410</Y>
+				<X>255</X>
+				<Y>373</Y>
 			</Position>
 			<Width>75</Width>
 		</HorizontalResizeButtonDef>
@@ -137,7 +137,7 @@
 				<X>20</X>
 				<Y>30</Y>
 			</Position>
-			<Data>Mot clé</Data>
+			<Data>Keyword</Data>
 		</LabelDef>
 		<ClickableEditBoxDef>
 			<TemplateName>generic_editbox</TemplateName>
@@ -169,7 +169,7 @@
 				<X>215</X>
 				<Y>209</Y>
 			</Position>
-			<Data>Prix min</Data>
+			<Data>Min Price</Data>
 		</LabelDef>
 		<LabelDef>
 			<Color>
@@ -186,7 +186,7 @@
 				<X>295</X>
 				<Y>209</Y>
 			</Position>
-			<Data>Indifférent</Data>
+			<Data>Don't Care</Data>
 			<ControlId>1012</ControlId>
 		</LabelDef>
 		<!--Max Price-->
@@ -205,7 +205,7 @@
 				<X>215</X>
 				<Y>229</Y>
 			</Position>
-			<Data>Prix max</Data>
+			<Data>Max Price</Data>
 		</LabelDef>
 		<LabelDef>
 			<Color>
@@ -222,7 +222,7 @@
 				<X>295</X>
 				<Y>229</Y>
 			</Position>
-			<Data>Indifférent</Data>
+			<Data>Don't Care</Data>
 			<ControlId>1013</ControlId>
 		</LabelDef>
 		<!--Min Quality-->
@@ -241,7 +241,7 @@
 				<X>215</X>
 				<Y>253</Y>
 			</Position>
-			<Data>Qualité min</Data>
+			<Data>Min Quality</Data>
 		</LabelDef>
 		<LabelDef>
 			<Color>
@@ -298,7 +298,7 @@
 				<X>215</X>
 				<Y>273</Y>
 			</Position>
-			<Data>Qualité max</Data>
+			<Data>Max Quality</Data>
 		</LabelDef>
 		<LabelDef>
 			<Color>
@@ -355,7 +355,7 @@
 				<X>215</X>
 				<Y>297</Y>
 			</Position>
-			<Data>Niveau Min</Data>
+			<Data>Min Level</Data>
 		</LabelDef>
 		<LabelDef>
 			<Color>
@@ -412,7 +412,7 @@
 				<X>215</X>
 				<Y>317</Y>
 			</Position>
-			<Data>Niveau Max</Data>
+			<Data>Max Level</Data>
 		</LabelDef>
 		<LabelDef>
 			<Color>
@@ -461,7 +461,7 @@
 			</Position>
 			<ControlId>1026</ControlId>
 			<TemplateName>generic_check</TemplateName>
-			<Data>Effets visuels</Data>
+			<Data>Visual Effects</Data>
 			<LabelWidth>120</LabelWidth>
 		</CheckBoxDef>
 		<!--Crafted-->
@@ -472,8 +472,8 @@
 			</Position>
 			<ControlId>1001</ControlId>
 			<TemplateName>generic_check</TemplateName>
-			<Data>Uniq. art. joueur</Data>
-			<LabelWidth>120</LabelWidth>
+			<Data>Player crafted only</Data>
+			<LabelWidth>150</LabelWidth>
 		</CheckBoxDef>
 		<!--Hits-->
 		<LabelDef>
@@ -494,7 +494,7 @@
 				<X>15</X>
 				<Y>290</Y>
 			</Position>
-			<Data>Points de vie</Data>
+			<Data>Hits</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -523,7 +523,7 @@
 				<X>15</X>
 				<Y>248</Y>
 			</Position>
-			<Data>Mana</Data>
+			<Data>Power</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -552,7 +552,7 @@
 				<X>15</X>
 				<Y>206</Y>
 			</Position>
-			<Data>Résist.</Data>
+			<Data>Resist</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -581,7 +581,7 @@
 				<X>15</X>
 				<Y>164</Y>
 			</Position>
-			<Data>Classe armure</Data>
+			<Data>Armor Class</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -610,7 +610,7 @@
 				<X>195</X>
 				<Y>164</Y>
 			</Position>
-			<Data>A effet</Data>
+			<Data>Procs</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -668,7 +668,7 @@
 				<X>195</X>
 				<Y>122</Y>
 			</Position>
-			<Data>Type dégâts</Data>
+			<Data>Damage Type</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -697,7 +697,7 @@
 				<X>15</X>
 				<Y>80</Y>
 			</Position>
-			<Data>Compétence</Data>
+			<Data>Skill</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>
@@ -726,7 +726,7 @@
 				<X>195</X>
 				<Y>80</Y>
 			</Position>
-			<Data>Emplacement</Data>
+			<Data>Slot</Data>
 		</LabelDef>
 		<ComboBoxDef>
 			<Position>

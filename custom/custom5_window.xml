@@ -298,7 +298,7 @@
             <Data></Data>
             <EndAligned>true</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
 
 

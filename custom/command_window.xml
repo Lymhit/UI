@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.77a -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,7 +25,6 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
-        <ContextTemplateName></ContextTemplateName>
 
 
         <ImageAreaDef>
@@ -54,6 +53,20 @@
             <Width>110</Width>
             <Height>28</Height>
         </FullResizeImageDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_attaque_menu_right</TemplateName>
+            <AdapterName>combat_mode</AdapterName>
+        </StatusIconDef>
 
 
         <ButtonDef>
@@ -114,6 +127,20 @@
             <Label>QUIT</Label>
             <onClickEvent>Quit</onClickEvent>
         </ButtonDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>42</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_fx_right</TemplateName>
+            <AdapterName>compass_heading</AdapterName>
+        </StatusIconDef>
 
 
         <ButtonDef>
@@ -204,20 +231,6 @@
             <Label>assis</Label>
             <onClickEvent>ToggleSitting</onClickEvent>
         </ButtonDef>
-
-
-        <StatusIconDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>42</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>lym_attaque_menu_right</TemplateName>
-            <AdapterName>combat_mode</AdapterName>
-        </StatusIconDef>
 
 
         <ImageAreaDef>
@@ -969,6 +982,8 @@
             <AdapterName>summary_exp_fine</AdapterName>
             <Width>88</Width>
         </StatusBarDef>
+
+
 
 
         <LabelDef>
