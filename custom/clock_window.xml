@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <StatusIconDef>
@@ -39,6 +40,19 @@
             <TemplateName>lym_compass</TemplateName>
             <AdapterName>compass_heading</AdapterName>
         </StatusIconDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_compass2</TemplateName>
+        </ImageAreaDef>
 
 
     </WindowTemplate>

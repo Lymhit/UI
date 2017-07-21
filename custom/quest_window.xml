@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
     <ImageAreaTemplate>
         <Name>quest_title_right</Name>
-        <TextureName>page3</TextureName>
+        <TextureName></TextureName>
         <Size>
             <X>128</X>
             <Y>16</Y>
@@ -21,7 +21,7 @@
 
     <ImageAreaTemplate>
         <Name>quest_title_left</Name>
-        <TextureName>page3</TextureName>
+        <TextureName></TextureName>
         <Size>
             <X>128</X>
             <Y>16</Y>
@@ -35,7 +35,7 @@
 
     <ImageAreaTemplate>
         <Name>quest_title</Name>
-        <TextureName>page3</TextureName>
+        <TextureName></TextureName>
         <Size>
             <X>128</X>
             <Y>20</Y>
@@ -65,8 +65,9 @@
         <ResizeableHeight>6</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>300</MinWidth>
-        <MinHeight>250</MinHeight>
+        <MinWidth>480</MinWidth>
+        <MinHeight>140</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -79,28 +80,29 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>lym_parchemin</TemplateName>
-            <Width>530</Width>
-            <Height>260</Height>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>512</Width>
+            <Height>256</Height>
         </FullResizeImageDef>
 
 
         <TextAreaDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>50</X>
-                <Y>50</Y>
+                <X>10</X>
+                <Y>24</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>lym_journal_text</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>quest_text</AdapterName>
-            <HasHotspots>false</HasHotspots>
+            <HasHotspots>true</HasHotspots>
+            <HotspotDelineator>{</HotspotDelineator>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>450</Width>
-            <Height>180</Height>
+            <Width>492</Width>
+            <Height>196</Height>
         </TextAreaDef>
 
 
@@ -143,17 +145,60 @@
         </ImageAreaDef>
 
 
-        <ImageAreaDef>
-            <ControlId></ControlId>
+        <ButtonDef>
+            <ControlId>1000</ControlId>
             <Position>
-                <X>10</X>
-                <Y>-7</Y>
+                <X>30</X>
+                <Y>15</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <TemplateName>lym_journal_icon</TemplateName>
-        </ImageAreaDef>
+            <TemplateName>button_large</TemplateName>
+            <Label>ANNULER</Label>
+            <onClickEvent>RemoveQuest</onClickEvent>
+        </ButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>94</X>
+                <Y>15</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>360</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>99</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>192</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>360</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>Aucune Quête Sélectionnée</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
 
 
     </WindowTemplate>

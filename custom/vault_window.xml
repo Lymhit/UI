@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
     <VerticalResizeImageTemplate>
         <Name>vault_blank</Name>
-        <Width>20</Width>
-        <TopHeight>0</TopHeight>
+        <Width>16</Width>
+        <TopHeight>1</TopHeight>
         <RepeatHeight>18</RepeatHeight>
-        <BottomHeight>0</BottomHeight>
+        <BottomHeight>1</BottomHeight>
         <Texture>
             <TextureName>page2</TextureName>
             <Top>
@@ -18,7 +18,7 @@
                 <Y>95</Y>
             </Top>
             <Repeat>
-                <X>184</X>
+                <X>186</X>
                 <Y>75</Y>
             </Repeat>
             <Bottom>
@@ -36,7 +36,7 @@
         <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
-        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>300</TitleWidth>
@@ -49,6 +49,7 @@
         <ResizeableTwoWayHeight>8</ResizeableTwoWayHeight>
         <MinWidth>300</MinWidth>
         <MinHeight>200</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -70,7 +71,7 @@
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
-                <X>10</X>
+                <X>5</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
@@ -78,8 +79,8 @@
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>dlg_interior_large</TemplateName>
-            <Width>280</Width>
-            <Height>420</Height>
+            <Width>290</Width>
+            <Height>430</Height>
         </FullResizeImageDef>
 
 
@@ -92,29 +93,29 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>96</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Coffre</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
         <VerticalResizeImageDef>
             <ControlId></ControlId>
             <Position>
-                <X>15</X>
-                <Y>32</Y>
+                <X>11</X>
+                <Y>31</Y>
             </Position>
             <Alignment>
                 <GrowHeight>true</GrowHeight>
@@ -124,11 +125,35 @@
         </VerticalResizeImageDef>
 
 
+        <ListBoxDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>8</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <Width>280</Width>
+            <Height>366</Height>
+            <TemplateName>listbox_nobg_sm_bright</TemplateName>
+            <AdapterName>vault_items</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
+        </ListBoxDef>
+
+
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
                 <X>100</X>
-                <Y>13</Y>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -144,7 +169,7 @@
             <ControlId>1004</ControlId>
             <Position>
                 <X>80</X>
-                <Y>13</Y>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -160,27 +185,27 @@
             <ControlId>1005</ControlId>
             <Position>
                 <X>10</X>
-                <Y>10</Y>
+                <Y>7</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>vault_page</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>65</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Numéro Page</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>vault_page</Adapter>
         </LabelDef>
 
 
@@ -188,7 +213,7 @@
             <ControlId>1002</ControlId>
             <Position>
                 <X>0</X>
-                <Y>13</Y>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -198,25 +223,6 @@
             <Label>PAGES</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
-        <ListBoxDef>
-            <ControlId>1000</ControlId>
-            <Position>
-                <X>15</X>
-                <Y>29</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>lym_listbox_nobg</TemplateName>
-            <AdapterName>vault_items</AdapterName>
-            <Sorting>false</Sorting>
-            <Columns>2</Columns>
-            <Width>270</Width>
-            <Height>366</Height>
-        </ListBoxDef>
 
 
     </WindowTemplate>

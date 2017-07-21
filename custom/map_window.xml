@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -80,7 +80,7 @@
             </ColorDisabled>
         </Font>
         <Texture>
-            <TextureName>page3</TextureName>
+            <TextureName>page3b</TextureName>
             <Normal>
                 <X>155</X>
                 <Y>222</Y>
@@ -125,6 +125,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -153,21 +154,21 @@
                 <GrowWidth>true</GrowWidth>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>map_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>270</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>270</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>MAP TITLE GOES HERE</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>map_title</Adapter>
         </LabelDef>
 
 
@@ -180,21 +181,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>map_info0</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>300</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>map_info0</Adapter>
         </LabelDef>
 
 
@@ -240,8 +241,23 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_wide</TemplateName>
+            <TemplateName>button_small</TemplateName>
             <Label>SUIVRE</Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>223</X>
+                <Y>312</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>Quêtes</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
 
@@ -265,6 +281,35 @@
                 <Y>0</Y>
             </TextureCoords>
         </DynamicImageDef>
+
+
+        <!-- The waypoint image areas -->
+
+
+        <ImageAreaDef>
+            <ControlId>1050</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>quest_waypoint</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1051</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>quest_giver</TemplateName>
+        </ImageAreaDef>
 
 
         <ImageAreaDef>
@@ -447,21 +492,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>45</Width>
-            <Height>10</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>196</R>
                 <G>196</G>
                 <B>196</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>45</Width>
+            <Height>10</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Région</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -474,21 +519,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>45</Width>
-            <Height>10</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>196</R>
                 <G>196</G>
                 <B>196</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>45</Width>
+            <Height>10</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Zone</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

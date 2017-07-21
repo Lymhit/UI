@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -9,54 +9,53 @@
         <Name>quiver</Name>
         <WindowId>WindowQuiver</WindowId>
         <CloseButton>true</CloseButton>
-        <MoveButton>false</MoveButton>
+        <MoveButton>true</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>true</BottomRightResizeButton>
         <BottomLeftResizeButton>true</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>65</TitleWidth>
-        <TitleHeight>8</TitleHeight>
-        <Width>65</Width>
-        <Height>148</Height>
-        <ResizeableWidth>0</ResizeableWidth>
-        <ResizeableHeight>0</ResizeableHeight>
+        <TitleWidth>240</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>240</Width>
+        <Height>100</Height>
+        <ResizeableWidth>5</ResizeableWidth>
+        <ResizeableHeight>5</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>65</MinWidth>
-        <MinHeight>148</MinHeight>
+        <MinWidth>128</MinWidth>
+        <MinHeight>100</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
-            <ControlId></ControlId>
+            <ControlId>Background</ControlId>
             <Position>
                 <X>0</X>
                 <Y>0</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>selection_box_trans</TemplateName>
-            <Width>65</Width>
-            <Height>148</Height>
+            <TemplateName>dlg_sm_title</TemplateName>
+            <Width>240</Width>
+            <Height>100</Height>
         </FullResizeImageDef>
 
 
         <FullResizeImageDef>
             <ControlId>5000</ControlId>
             <Position>
-                <X>2</X>
-                <Y>18</Y>
+                <X>1</X>
+                <Y>15</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
             <TemplateName>selection_box</TemplateName>
-            <Width>60</Width>
-            <Height>32</Height>
+            <Width>232</Width>
+            <Height>18</Height>
         </FullResizeImageDef>
 
 
@@ -64,43 +63,39 @@
             <ControlId></ControlId>
             <Position>
                 <X>0</X>
-                <Y>3</Y>
+                <Y>4</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>48</Width>
-            <Height>12</Height>
-            <MaxCharacters>16</MaxCharacters>
             <Color>
-                <R>220</R>
-                <G>220</G>
-                <B>220</B>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <Data>Quiver</Data>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>Carquois</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
-
-
-        <!--                                Slot 0                                -->
 
 
         <IconDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>2</X>
-                <Y>18</Y>
+                <X>4</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
+            <TemplateName>plain_icon_small</TemplateName>
             <AdapterName>quiver_icon0</AdapterName>
             <IconId>234</IconId>
             <Data></Data>
@@ -110,75 +105,72 @@
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>28</Y>
+                <X>21</X>
+                <Y>18</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter>quiver_count_string0</Adapter>
-            <ColorAdapter>chat0_color</ColorAdapter>
-            <Width>32</Width>
-            <Height>16</Height>
-            <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>220</R>
-                <G>220</G>
-                <B>220</B>
-                <A>255</A>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>192</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>215</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
-            <TextCentered>true</TextCentered>
+            <TextCentered>false</TextCentered>
+            <Adapter>quiver_count_string0</Adapter>
         </LabelDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>2</X>
-                <Y>18</Y>
+                <X>20</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverAdd0</OnClickEvent>
-            <Width>32</Width>
-            <Height>32</Height>
+            <OnClickEvent>QuiverSelect0</OnClickEvent>
+            <Width>220</Width>
+            <Height>16</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>28</Y>
+                <X>4</X>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverSelect0</OnClickEvent>
-            <Width>32</Width>
+            <OnClickEvent>QuiverAdd0</OnClickEvent>
+            <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
-
-
-        <!--                                Slot 1                                -->
 
 
         <IconDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>2</X>
-                <Y>50</Y>
+                <X>4</X>
+                <Y>33</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
+            <TemplateName>plain_icon_small</TemplateName>
             <AdapterName>quiver_icon1</AdapterName>
             <IconId>235</IconId>
             <Data></Data>
@@ -188,75 +180,72 @@
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>60</Y>
+                <X>21</X>
+                <Y>35</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter>quiver_count_string1</Adapter>
-            <ColorAdapter>chat0_color</ColorAdapter>
-            <Width>32</Width>
-            <Height>16</Height>
-            <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>220</R>
-                <G>220</G>
-                <B>220</B>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>215</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
-            <TextCentered>true</TextCentered>
+            <TextCentered>false</TextCentered>
+            <Adapter>quiver_count_string1</Adapter>
         </LabelDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>2</X>
-                <Y>50</Y>
+                <X>20</X>
+                <Y>33</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverAdd1</OnClickEvent>
-            <Width>32</Width>
-            <Height>32</Height>
+            <OnClickEvent>QuiverSelect1</OnClickEvent>
+            <Width>220</Width>
+            <Height>16</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>60</Y>
+                <X>4</X>
+                <Y>33</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverSelect1</OnClickEvent>
-            <Width>32</Width>
+            <OnClickEvent>QuiverAdd1</OnClickEvent>
+            <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
-
-
-        <!--                                Slot 2                                -->
 
 
         <IconDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>2</X>
-                <Y>82</Y>
+                <X>4</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
+            <TemplateName>plain_icon_small</TemplateName>
             <AdapterName>quiver_icon2</AdapterName>
             <IconId>236</IconId>
             <Data></Data>
@@ -266,75 +255,72 @@
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>92</Y>
+                <X>21</X>
+                <Y>52</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter>quiver_count_string2</Adapter>
-            <ColorAdapter>chat0_color</ColorAdapter>
-            <Width>32</Width>
-            <Height>16</Height>
-            <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>220</R>
-                <G>220</G>
-                <B>220</B>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>215</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
-            <TextCentered>true</TextCentered>
+            <TextCentered>false</TextCentered>
+            <Adapter>quiver_count_string2</Adapter>
         </LabelDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>2</X>
-                <Y>82</Y>
+                <X>20</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverAdd2</OnClickEvent>
-            <Width>32</Width>
-            <Height>32</Height>
+            <OnClickEvent>QuiverSelect2</OnClickEvent>
+            <Width>220</Width>
+            <Height>16</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>92</Y>
+                <X>4</X>
+                <Y>50</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverSelect2</OnClickEvent>
-            <Width>32</Width>
+            <OnClickEvent>QuiverAdd2</OnClickEvent>
+            <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
-
-
-        <!--                                Slot 3                                -->
 
 
         <IconDef>
             <ControlId>1003</ControlId>
             <Position>
-                <X>2</X>
-                <Y>114</Y>
+                <X>4</X>
+                <Y>67</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>plain_icon_large</TemplateName>
+            <TemplateName>plain_icon_small</TemplateName>
             <AdapterName>quiver_icon3</AdapterName>
             <IconId>237</IconId>
             <Data></Data>
@@ -344,58 +330,58 @@
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>124</Y>
+                <X>21</X>
+                <Y>69</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter>quiver_count_string3</Adapter>
-            <ColorAdapter>chat0_color</ColorAdapter>
-            <Width>32</Width>
-            <Height>16</Height>
-            <MaxCharacters>4</MaxCharacters>
             <Color>
-                <R>220</R>
-                <G>220</G>
-                <B>220</B>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
                 <A>255</A>
             </Color>
-            <Data></Data>
+            <FontName>arial9</FontName>
+            <Width>215</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
+            <Data>87</Data>
             <EndAligned>false</EndAligned>
-            <TextCentered>true</TextCentered>
+            <TextCentered>false</TextCentered>
+            <Adapter>quiver_count_string3</Adapter>
         </LabelDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>2</X>
-                <Y>114</Y>
+                <X>20</X>
+                <Y>67</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverAdd3</OnClickEvent>
-            <Width>32</Width>
-            <Height>32</Height>
+            <OnClickEvent>QuiverSelect3</OnClickEvent>
+            <Width>220</Width>
+            <Height>16</Height>
         </InvisibleButtonDef>
 
 
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>31</X>
-                <Y>124</Y>
+                <X>4</X>
+                <Y>67</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
             <Label></Label>
-            <OnClickEvent>QuiverSelect3</OnClickEvent>
-            <Width>32</Width>
+            <OnClickEvent>QuiverAdd3</OnClickEvent>
+            <Width>16</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
 

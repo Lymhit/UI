@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -64,16 +64,14 @@
         <TitleWidth>416</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>440</Width>
-        <Height>314</Height>
+        <Height>330</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
-
-
-        <!--Non-Attached Passives-->
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -87,7 +85,7 @@
             </Alignment>
             <TemplateName>dlg_lg_title_noresize</TemplateName>
             <Width>440</Width>
-            <Height>314</Height>
+            <Height>330</Height>
         </FullResizeImageDef>
 
 
@@ -100,25 +98,22 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter>lfg_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>lfg_title</Adapter>
         </LabelDef>
-
-
-        <!--ML checks-->
 
 
         <CheckBoxDef>
@@ -135,6 +130,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.1</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -152,6 +148,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.2</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -169,6 +166,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.3</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -186,6 +184,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.4</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -203,6 +202,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.5</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -220,6 +220,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.6</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -237,6 +238,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.7</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -254,6 +256,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.8</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -271,6 +274,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.9</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -288,6 +292,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML0.10</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -305,10 +310,8 @@
             <TextAdapterName></TextAdapterName>
             <Data>ML EXP</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
-        <!--Class Buttons-->
 
 
         <LabelDef>
@@ -320,21 +323,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Sélection Classe</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -362,7 +365,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_small</TemplateName>
+            <TemplateName>button_large</TemplateName>
             <Label>GUERRIER</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
@@ -428,9 +431,6 @@
         </ButtonDef>
 
 
-        <!--Class Checks-->
-
-
         <CheckBoxDef>
             <ControlId>1200</ControlId>
             <Position>
@@ -445,6 +445,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 0</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -462,6 +463,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 1</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -479,6 +481,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 2</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -496,6 +499,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 3</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -513,6 +517,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 4</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -530,6 +535,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 5</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -547,6 +553,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 6</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -564,6 +571,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 7</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -581,14 +589,15 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 8</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1209</ControlId>
             <Position>
-                <X>146</X>
-                <Y>156</Y>
+                <X>76</X>
+                <Y>282</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -598,6 +607,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 9</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -605,7 +615,7 @@
             <ControlId>1210</ControlId>
             <Position>
                 <X>146</X>
-                <Y>170</Y>
+                <Y>156</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -615,6 +625,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 10</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -622,7 +633,7 @@
             <ControlId>1211</ControlId>
             <Position>
                 <X>146</X>
-                <Y>184</Y>
+                <Y>170</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -632,6 +643,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 11</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -639,7 +651,7 @@
             <ControlId>1212</ControlId>
             <Position>
                 <X>146</X>
-                <Y>198</Y>
+                <Y>184</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -649,6 +661,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 12</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -656,7 +669,7 @@
             <ControlId>1213</ControlId>
             <Position>
                 <X>146</X>
-                <Y>212</Y>
+                <Y>198</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -666,6 +679,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 13</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -673,7 +687,7 @@
             <ControlId>1214</ControlId>
             <Position>
                 <X>146</X>
-                <Y>226</Y>
+                <Y>212</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -683,6 +697,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 14</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -690,7 +705,7 @@
             <ControlId>1215</ControlId>
             <Position>
                 <X>146</X>
-                <Y>240</Y>
+                <Y>226</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -700,6 +715,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 15</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -707,7 +723,7 @@
             <ControlId>1216</ControlId>
             <Position>
                 <X>146</X>
-                <Y>254</Y>
+                <Y>240</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -717,11 +733,30 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 16</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1217</ControlId>
+            <Position>
+                <X>146</X>
+                <Y>254</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 17</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1218</ControlId>
             <Position>
                 <X>146</X>
                 <Y>268</Y>
@@ -732,33 +767,17 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 17</Data>
-            <LabelWidth>55</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1218</ControlId>
-            <Position>
-                <X>216</X>
-                <Y>156</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>narrow_font_check</TemplateName>
-            <AdapterName></AdapterName>
-            <TextAdapterName></TextAdapterName>
             <Data>classe 18</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1219</ControlId>
             <Position>
-                <X>216</X>
-                <Y>170</Y>
+                <X>146</X>
+                <Y>282</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -768,6 +787,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 19</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -775,7 +795,7 @@
             <ControlId>1220</ControlId>
             <Position>
                 <X>216</X>
-                <Y>184</Y>
+                <Y>156</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -785,6 +805,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 20</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -792,7 +813,7 @@
             <ControlId>1221</ControlId>
             <Position>
                 <X>216</X>
-                <Y>198</Y>
+                <Y>170</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -802,6 +823,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 21</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -809,7 +831,7 @@
             <ControlId>1222</ControlId>
             <Position>
                 <X>216</X>
-                <Y>212</Y>
+                <Y>184</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -819,6 +841,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 22</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -826,7 +849,7 @@
             <ControlId>1223</ControlId>
             <Position>
                 <X>216</X>
-                <Y>226</Y>
+                <Y>198</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -836,6 +859,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 23</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -843,7 +867,7 @@
             <ControlId>1224</ControlId>
             <Position>
                 <X>216</X>
-                <Y>240</Y>
+                <Y>212</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -853,6 +877,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 24</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -860,7 +885,7 @@
             <ControlId>1225</ControlId>
             <Position>
                 <X>216</X>
-                <Y>254</Y>
+                <Y>226</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -870,11 +895,48 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 25</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1226</ControlId>
+            <Position>
+                <X>216</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 26</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1227</ControlId>
+            <Position>
+                <X>216</X>
+                <Y>254</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 27</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1228</ControlId>
             <Position>
                 <X>216</X>
                 <Y>268</Y>
@@ -885,50 +947,17 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 26</Data>
-            <LabelWidth>55</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1227</ControlId>
-            <Position>
-                <X>286</X>
-                <Y>156</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>narrow_font_check</TemplateName>
-            <AdapterName></AdapterName>
-            <TextAdapterName></TextAdapterName>
-            <Data>classe 27</Data>
-            <LabelWidth>55</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1228</ControlId>
-            <Position>
-                <X>286</X>
-                <Y>170</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>narrow_font_check</TemplateName>
-            <AdapterName></AdapterName>
-            <TextAdapterName></TextAdapterName>
             <Data>classe 28</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1229</ControlId>
             <Position>
-                <X>286</X>
-                <Y>184</Y>
+                <X>216</X>
+                <Y>282</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -938,11 +967,66 @@
             <TextAdapterName></TextAdapterName>
             <Data>classe 29</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
             <ControlId>1230</ControlId>
+            <Position>
+                <X>286</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 30</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1231</ControlId>
+            <Position>
+                <X>286</X>
+                <Y>170</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 31</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1232</ControlId>
+            <Position>
+                <X>286</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 32</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1233</ControlId>
             <Position>
                 <X>286</X>
                 <Y>198</Y>
@@ -953,13 +1037,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 30</Data>
+            <Data>classe 33</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1231</ControlId>
+            <ControlId>1234</ControlId>
             <Position>
                 <X>286</X>
                 <Y>212</Y>
@@ -970,13 +1055,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 31</Data>
+            <Data>classe 34</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1232</ControlId>
+            <ControlId>1235</ControlId>
             <Position>
                 <X>286</X>
                 <Y>226</Y>
@@ -987,13 +1073,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 32</Data>
+            <Data>classe 35</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1233</ControlId>
+            <ControlId>1236</ControlId>
             <Position>
                 <X>286</X>
                 <Y>240</Y>
@@ -1004,13 +1091,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 33</Data>
+            <Data>classe 36</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1234</ControlId>
+            <ControlId>1237</ControlId>
             <Position>
                 <X>286</X>
                 <Y>254</Y>
@@ -1021,13 +1109,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 34</Data>
+            <Data>classe 37</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1235</ControlId>
+            <ControlId>1238</ControlId>
             <Position>
                 <X>286</X>
                 <Y>268</Y>
@@ -1038,13 +1127,32 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 35</Data>
+            <Data>classe 38</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1236</ControlId>
+            <ControlId>1239</ControlId>
+            <Position>
+                <X>286</X>
+                <Y>282</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 39</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1240</ControlId>
             <Position>
                 <X>356</X>
                 <Y>156</Y>
@@ -1055,13 +1163,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 36</Data>
+            <Data>classe 40</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1237</ControlId>
+            <ControlId>1241</ControlId>
             <Position>
                 <X>356</X>
                 <Y>170</Y>
@@ -1072,13 +1181,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 37</Data>
+            <Data>classe 41</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1238</ControlId>
+            <ControlId>1242</ControlId>
             <Position>
                 <X>356</X>
                 <Y>184</Y>
@@ -1089,13 +1199,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 38</Data>
+            <Data>classe 42</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1239</ControlId>
+            <ControlId>1243</ControlId>
             <Position>
                 <X>356</X>
                 <Y>198</Y>
@@ -1106,13 +1217,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 39</Data>
+            <Data>classe 43</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1240</ControlId>
+            <ControlId>1244</ControlId>
             <Position>
                 <X>356</X>
                 <Y>212</Y>
@@ -1123,13 +1235,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 40</Data>
+            <Data>classe 44</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1241</ControlId>
+            <ControlId>1245</ControlId>
             <Position>
                 <X>356</X>
                 <Y>226</Y>
@@ -1140,13 +1253,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 41</Data>
+            <Data>classe 45</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1242</ControlId>
+            <ControlId>1246</ControlId>
             <Position>
                 <X>356</X>
                 <Y>240</Y>
@@ -1157,13 +1271,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 42</Data>
+            <Data>classe 46</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1243</ControlId>
+            <ControlId>1247</ControlId>
             <Position>
                 <X>356</X>
                 <Y>254</Y>
@@ -1174,13 +1289,14 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 43</Data>
+            <Data>classe 47</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
         <CheckBoxDef>
-            <ControlId>1244</ControlId>
+            <ControlId>1248</ControlId>
             <Position>
                 <X>356</X>
                 <Y>268</Y>
@@ -1191,25 +1307,293 @@
             <TemplateName>narrow_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>classe 44</Data>
+            <Data>classe 48</Data>
             <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
-        <!--Miscellaneous Controls-->
+        <CheckBoxDef>
+            <ControlId>1249</ControlId>
+            <Position>
+                <X>356</X>
+                <Y>282</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 49</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1250</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 50</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1251</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>170</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 51</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1252</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 52</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1253</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>198</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 53</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1254</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>212</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 54</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1255</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>226</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 55</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1256</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 56</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1257</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>254</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 57</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1258</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>268</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 58</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1259</ControlId>
+            <Position>
+                <X>426</X>
+                <Y>282</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 59</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1260</ControlId>
+            <Position>
+                <X>496</X>
+                <Y>156</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 60</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1261</ControlId>
+            <Position>
+                <X>496</X>
+                <Y>170</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 61</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1262</ControlId>
+            <Position>
+                <X>496</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 62</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1263</ControlId>
+            <Position>
+                <X>496</X>
+                <Y>198</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>narrow_font_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>classe 63</Data>
+            <LabelWidth>55</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
 
 
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
-                <X>141</X>
-                <Y>10</Y>
+                <X>85</X>
+                <Y>6</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
                 <OffsetRight>true</OffsetRight>
             </Alignment>
-            <TemplateName>button_small</TemplateName>
+            <TemplateName>button_large</TemplateName>
             <Label>CHERCHER</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
@@ -1224,21 +1608,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>75</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Niveau Min</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1309,21 +1693,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>75</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Niveau Max</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1431,6 +1815,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Rechercher Joueurs</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -1448,6 +1833,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Pas de recherche</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -1465,10 +1851,8 @@
             <TextAdapterName></TextAdapterName>
             <Data>Groupe de Combat</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
-        <!--ComboBoxes must go last in order of increasing Y positions-->
 
 
         <LabelDef>
@@ -1480,21 +1864,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>75</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>192</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Durée</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1520,21 +1904,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>75</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Objectif</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

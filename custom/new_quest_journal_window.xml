@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title_right</Name>
+        <TextureName></TextureName>
+        <Size>
+            <X>128</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>36</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title_left</Name>
+        <TextureName></TextureName>
+        <Size>
+            <X>128</X>
+            <Y>16</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>20</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <ImageAreaTemplate>
+        <Name>quest_title</Name>
+        <TextureName></TextureName>
+        <Size>
+            <X>128</X>
+            <Y>20</Y>
+        </Size>
+        <TopLeft>
+            <X>0</X>
+            <Y>0</Y>
+        </TopLeft>
+    </ImageAreaTemplate>
+
+
+    <TreeControlTemplate>
+        <Name>quest_tree_control</Name>
+        <BackgroundTemplate>none</BackgroundTemplate>
+        <ScrollbarTemplate>vscroll_no_gutter</ScrollbarTemplate>
+        <CheckBoxTemplate>tree_check</CheckBoxTemplate>
+        <IconTemplate>plain_icon_small</IconTemplate>
+        <FontName>arial9</FontName>
+        <FontColor>
+            <R>51</R>
+            <G>51</G>
+            <B>51</B>
+            <A>255</A>
+        </FontColor>
+        <LinePadding>0</LinePadding>
+        <OffsetX>0</OffsetX>
+        <OffsetY>0</OffsetY>
+        <TextOffset>2</TextOffset>
+    </TreeControlTemplate>
+
+
+    <WindowTemplate>
+        <Name>new_quest_journal</Name>
+        <WindowId>Quest</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>9</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>512</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>512</Width>
+        <Height>256</Height>
+        <ResizeableWidth>6</ResizeableWidth>
+        <ResizeableHeight>6</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>440</MinWidth>
+        <MinHeight>180</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>lym_parchemin</TemplateName>
+            <Width>512</Width>
+            <Height>256</Height>
+        </FullResizeImageDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>8</X>
+                <Y>24</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>280</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>13</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>192</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>272</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>Quêtes en cours</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>42</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>parchemin2</TemplateName>
+            <Width>430</Width>
+            <Height>170</Height>
+        </FullResizeImageDef>
+
+
+        <TreeControlDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>35</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>quest_tree_control</TemplateName>
+            <AdapterName>new_quest_journal_entries</AdapterName>
+            <Width>430</Width>
+            <Height>150</Height>
+            <Column1Width>470</Column1Width>
+            <Column1Offset>10</Column1Offset>
+            <Column2Width>355</Column2Width>
+            <Column2Offset>125</Column2Offset>
+        </TreeControlDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>quest_title_right</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>4</Y>
+            </Position>
+            <Alignment>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>quest_title_left</TemplateName>
+        </ImageAreaDef>
+
+
+        <ImageAreaDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>5</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>quest_title</TemplateName>
+        </ImageAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>1000</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>ANNULER</Label>
+            <onClickEvent>RemoveQuest</onClickEvent>
+        </ButtonDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>94</X>
+                <Y>20</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <TemplateName>dialog_inset</TemplateName>
+            <Width>308</Width>
+        </HorizontalResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>99</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>192</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>256</MaxCharacters>
+            <Data>Aucune Quête Sélectionnée</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>10</X>
+                <Y>-7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_journal_icon</TemplateName>
+        </ImageAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

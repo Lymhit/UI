@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -18,13 +18,14 @@
         <TitleWidth>300</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>390</Width>
-        <Height>470</Height>
+        <Height>550</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -38,7 +39,7 @@
             </Alignment>
             <TemplateName>dlg_lg_title_noresize</TemplateName>
             <Width>390</Width>
-            <Height>470</Height>
+            <Height>550</Height>
         </FullResizeImageDef>
 
 
@@ -51,21 +52,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>256</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>390</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Options Jeux</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -73,7 +74,7 @@
             <ControlId>1016</ControlId>
             <Position>
                 <X>165</X>
-                <Y>442</Y>
+                <Y>527</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -93,21 +94,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Options Sons</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -120,21 +121,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
-            <Data>Options Graphiques</Data>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Options graphiques &amp; Caméra</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -142,26 +143,26 @@
             <ControlId></ControlId>
             <Position>
                 <X>30</X>
-                <Y>400</Y>
+                <Y>425</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>100</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Interface</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -169,7 +170,7 @@
             <ControlId>1017</ControlId>
             <Position>
                 <X>125</X>
-                <Y>420</Y>
+                <Y>445</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -179,6 +180,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Un</Data>
             <LabelWidth>35</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -186,7 +188,7 @@
             <ControlId>1018</ControlId>
             <Position>
                 <X>177</X>
-                <Y>420</Y>
+                <Y>445</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -196,6 +198,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Deux (Alt)</Data>
             <LabelWidth>70</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -203,7 +206,7 @@
             <ControlId>1019</ControlId>
             <Position>
                 <X>265</X>
-                <Y>420</Y>
+                <Y>445</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -213,6 +216,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Trois (Ctrl)</Data>
             <LabelWidth>70</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -220,26 +224,26 @@
             <ControlId></ControlId>
             <Position>
                 <X>30</X>
-                <Y>300</Y>
+                <Y>340</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>300</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Afficher Noms</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -247,7 +251,7 @@
             <ControlId>1009</ControlId>
             <Position>
                 <X>40</X>
-                <Y>320</Y>
+                <Y>360</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -257,6 +261,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Monstres/PNJs</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -264,7 +269,7 @@
             <ControlId>1010</ControlId>
             <Position>
                 <X>40</X>
-                <Y>335</Y>
+                <Y>375</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -274,6 +279,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Tombes</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -281,7 +287,7 @@
             <ControlId>1011</ControlId>
             <Position>
                 <X>40</X>
-                <Y>350</Y>
+                <Y>390</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -291,6 +297,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Joueurs</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -298,7 +305,7 @@
             <ControlId>1012</ControlId>
             <Position>
                 <X>40</X>
-                <Y>365</Y>
+                <Y>405</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -308,6 +315,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Votre Nom</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -315,7 +323,7 @@
             <ControlId>1013</ControlId>
             <Position>
                 <X>215</X>
-                <Y>320</Y>
+                <Y>360</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -325,6 +333,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Membres de Groupe</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -332,7 +341,7 @@
             <ControlId>1014</ControlId>
             <Position>
                 <X>215</X>
-                <Y>335</Y>
+                <Y>375</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -342,6 +351,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Membres de Guilde</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -349,7 +359,7 @@
             <ControlId>1015</ControlId>
             <Position>
                 <X>215</X>
-                <Y>350</Y>
+                <Y>390</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -359,10 +369,155 @@
             <TextAdapterName></TextAdapterName>
             <Data>Joueurs Ennemis</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
-        <!--Shadows-->
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>40</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Options visage</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>40</X>
+                <Y>295</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Retour automatique</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>295</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>40</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Ombres</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ComboBoxDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>215</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>generic_combobox</TemplateName>
+        </ComboBoxDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>40</X>
+                <Y>445</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>75</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Barres</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
 
 
         <LabelDef>
@@ -374,56 +529,26 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
             <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
             <Width>150</Width>
             <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </Color>
-            <Data>Ombres</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
-
-
-        <!-- Quickbars -->
-
-
-        <LabelDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>40</X>
-                <Y>420</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
             <ColorAdapter></ColorAdapter>
-            <Width>75</Width>
-            <Height>15</Height>
             <MaxCharacters>50</MaxCharacters>
-            <Color>
-                <R>192</R>
-                <G>192</G>
-                <B>192</B>
-                <A>255</A>
-            </Color>
-            <Data>Barres</Data>
+            <Data>Clipping Monstres/Persos</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
         <ComboBoxDef>
-            <ControlId>1008</ControlId>
+            <ControlId>1020</ControlId>
             <Position>
                 <X>215</X>
                 <Y>245</Y>
@@ -435,9 +560,6 @@
         </ComboBoxDef>
 
 
-        <!--Clip Plane-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -447,21 +569,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <Data>Clipping</Data>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Clipping Terrain</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -478,9 +600,6 @@
         </ComboBoxDef>
 
 
-        <!--Spell Effects-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -490,21 +609,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>150</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Effets de Sorts</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -521,9 +640,6 @@
         </ComboBoxDef>
 
 
-        <!--Ambient Music Volume-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -533,21 +649,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Volume Musique Ambiance</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -564,9 +680,6 @@
         </ComboBoxDef>
 
 
-        <!--Ambient Sounds Volume-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -576,21 +689,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Volume Sons Ambiance</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -607,9 +720,6 @@
         </ComboBoxDef>
 
 
-        <!--Music Volume-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -619,21 +729,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Volume Musique</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -650,9 +760,6 @@
         </ComboBoxDef>
 
 
-        <!--Sound Effects Volume-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -662,21 +769,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Volume Sons</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -693,9 +800,6 @@
         </ComboBoxDef>
 
 
-        <!--Names-->
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -705,21 +809,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>50</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>50</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Noms</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -734,6 +838,219 @@
             </Alignment>
             <TemplateName>generic_combobox</TemplateName>
         </ComboBoxDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>465</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Configuration des barres de buffs</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>40</X>
+                <Y>485</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>45</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Largeur</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>90</X>
+                <Y>484</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>110</X>
+                <Y>485</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>15</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>99</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>130</X>
+                <Y>484</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>170</X>
+                <Y>485</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>45</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
+            <Data>Hauteur</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1026</ControlId>
+            <Position>
+                <X>220</X>
+                <Y>484</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <LabelDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>240</X>
+                <Y>485</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>192</R>
+                <G>192</G>
+                <B>192</B>
+                <A>255</A>
+            </Color>
+            <FontName>arial11</FontName>
+            <Width>15</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>99</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <ButtonDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>260</X>
+                <Y>484</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>40</X>
+                <Y>505</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>generic_check</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Les plus anciens buffs en premier</Data>
+            <LabelWidth>200</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
 
 
     </WindowTemplate>

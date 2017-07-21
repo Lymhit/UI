@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -66,21 +67,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>title24</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>80</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>title24</FontName>
+            <Width>80</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Bouton</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -93,21 +94,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>130</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>130</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Afficher / Retirer</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -120,21 +121,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>130</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>130</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>les boutons</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -147,21 +148,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>50</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>50</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Attaque</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -174,21 +175,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>50</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>50</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Coller</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -201,21 +202,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>50</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>50</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Face</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -228,21 +229,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>50</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>50</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Sprint</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

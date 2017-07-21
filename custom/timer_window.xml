@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -60,7 +61,7 @@
         <StatusBarDef>
             <ControlId>1000</ControlId>
             <Position>
-                <X>0</X>
+                <X>13</X>
                 <Y>28</Y>
             </Position>
             <Alignment>
@@ -81,21 +82,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>timer_text</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>300</Width>
-            <Height>10</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>300</Width>
+            <Height>10</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Bizquit</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>timer_text</Adapter>
         </LabelDef>
 
 

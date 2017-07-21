@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -52,21 +53,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>112</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Choix Quantité</Data>
             <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
+            <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -79,21 +80,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>value_item_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>112</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>update me!</Data>
             <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
+            <TextCentered>true</TextCentered>
+            <Adapter>value_item_title</Adapter>
         </LabelDef>
 
 

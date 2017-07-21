@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <XML ID="DAOCUi">
-	<!--small icons-->
 	<Canvas>
 		<Name>skill1_s</Name>
 		<File>icons/skill1_s.bmp</File>
 	</Canvas>
-	<!--large icons-->
 	<Canvas>
 		<Name>skill1_b</Name>
 		<File>icons/skill1_b.bmp</File>

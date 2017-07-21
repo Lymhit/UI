@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -47,7 +47,7 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page1</TextureName>
+            <TextureName>page1b</TextureName>
             <Normal>
                 <X>76</X>
                 <Y>241</Y>
@@ -112,6 +112,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -138,12 +139,17 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <Width>178</Width>
+            <Height>367</Height>
             <TemplateName>listbox_bg</TemplateName>
             <AdapterName></AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>178</Width>
-            <Height>367</Height>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
 
 
@@ -190,21 +196,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>164</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>164</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Magie</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

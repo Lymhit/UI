@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -100,21 +101,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>435</Width>
-            <Height>15</Height>
-            <MaxCharacters>50</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>435</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>50</MaxCharacters>
             <Data>Titre du Personnage</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -127,21 +128,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>128</Width>
-            <Height>17</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>128</Width>
+            <Height>17</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Titres Disponibles</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -155,12 +156,17 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
+            <Width>190</Width>
+            <Height>200</Height>
             <TemplateName>listbox_gr</TemplateName>
             <AdapterName>titles_available_titles</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>190</Width>
-            <Height>200</Height>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
 
 
@@ -173,21 +179,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>128</Width>
-            <Height>17</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>128</Width>
+            <Height>17</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Statistiques</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

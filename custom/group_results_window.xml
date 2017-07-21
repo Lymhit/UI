@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -16,12 +16,8 @@
         <ScrollbarBottomOffset>0</ScrollbarBottomOffset>
         <ScrollbarRightOffset>0</ScrollbarRightOffset>
         <Sorting>false</Sorting>
-        <BackgroundTemplate></BackgroundTemplate>
+        <BackgroundTemplate>none</BackgroundTemplate>
         <IconTemplate>plain_icon_small</IconTemplate>
-        <IconSize>
-            <X>16</X>
-            <Y>16</Y>
-        </IconSize>
         <TextFont>
             <Name>arial9</Name>
             <ColorNormal>
@@ -32,7 +28,7 @@
             </ColorNormal>
             <ColorHighlit>
                 <R>255</R>
-                <G>51</G>
+                <G>192</G>
                 <B>0</B>
                 <A>255</A>
             </ColorHighlit>
@@ -48,6 +44,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
+            <IconSize>
+                <X>16</X>
+                <Y>16</Y>
+            </IconSize>
     </ListBoxTemplate>
 
 
@@ -71,6 +71,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -83,25 +84,9 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_background_resize</TemplateName>
+            <TemplateName>dlg_lg_title_noresize</TemplateName>
             <Width>484</Width>
             <Height>448</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>10</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>dlg_lg_notitle_noresize</TemplateName>
-            <Width>464</Width>
-            <Height>438</Height>
         </FullResizeImageDef>
 
 
@@ -115,12 +100,17 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
+            <Width>456</Width>
+            <Height>360</Height>
             <TemplateName>listbox_gr</TemplateName>
             <AdapterName>group_results</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>456</Width>
-            <Height>360</Height>
+            <IconTemplate>plain_icon_small</IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
 
 
@@ -128,7 +118,7 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>25</X>
-                <Y>20</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -148,25 +138,22 @@
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>365</Width>
-            <Height>16</Height>
-            <MaxCharacters>200</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>365</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>200</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
-
-
-        <!--column headers-->
 
 
         <LabelDef>
@@ -178,21 +165,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Nom</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -205,21 +192,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Classe</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -232,21 +219,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>NIV</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -259,21 +246,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Lieu</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -286,21 +273,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Durée</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -313,21 +300,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Statut</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -340,21 +327,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>124</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <R>128</R>
+                <G>255</G>
+                <B>128</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>124</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Objectif</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

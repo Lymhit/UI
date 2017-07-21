@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -81,9 +81,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
-
-
-        <!--large icons-->
+        <ContextTemplateName></ContextTemplateName>
 
 
         <StatusIconDef>
@@ -126,9 +124,6 @@
             <TemplateName>framerate_icon_large</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
-
-
-        <!--small icons-->
 
 
         <StatusIconDef>

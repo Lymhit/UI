@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <ImageAreaDef>
@@ -219,20 +220,6 @@
         </ButtonDef>
 
 
-        <StatusIconDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>lym_fx_left</TemplateName>
-            <AdapterName>compass_heading</AdapterName>
-        </StatusIconDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -257,21 +244,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Heure irl :</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -284,21 +271,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Heure DAoC :</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -311,21 +298,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>time_of_day</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>90</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>90</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>time_of_day</Adapter>
         </LabelDef>
 
 
@@ -338,21 +325,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>game_time</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>40</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>40</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>game_time</Adapter>
         </LabelDef>
 
 
@@ -394,21 +381,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>24</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Force</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -450,21 +437,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>25</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Constitution</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -506,21 +493,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>26</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Dextérité</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -562,21 +549,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>27</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Vivacité</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -618,21 +605,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>28</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>20</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>20</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Intel.</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -674,21 +661,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>29</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>30</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>30</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Empa.</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -730,21 +717,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>30</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>30</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>30</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Piété</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -786,21 +773,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>31</ToolTipID>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>30</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>30</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Chari.</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -949,21 +936,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Niveau:</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -976,21 +963,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>204</R>
                 <G>204</G>
                 <B>204</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Attaque:</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1059,21 +1046,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>204</R>
                 <G>204</G>
                 <B>204</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Pts de Vie:</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>8</ResizeableTwoWayHeight>
         <MinWidth>250</MinWidth>
         <MinHeight>150</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -43,22 +44,6 @@
         </FullResizeImageDef>
 
 
-        <FullResizeImageDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>10</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-            </Alignment>
-            <TemplateName>dlg_lg_notitle_noresize</TemplateName>
-            <Width>280</Width>
-            <Height>438</Height>
-        </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -69,21 +54,21 @@
                 <GrowWidth>true</GrowWidth>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>256</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <Data>Aide</Data>
+            <FontName>arial11</FontName>
+            <Width>256</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Mettez moi à jour !</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -102,8 +87,8 @@
             <AdapterName>help_text</AdapterName>
             <HasHotspots>true</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>270</Width>
-            <Height>390</Height>
+            <Width>290</Width>
+            <Height>400</Height>
         </TextAreaDef>
 
 
@@ -111,7 +96,7 @@
             <ControlId>1001</ControlId>
             <Position>
                 <X>27</X>
-                <Y>15</Y>
+                <Y>10</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>
@@ -119,8 +104,9 @@
             <TemplateName>small_font_check</TemplateName>
             <AdapterName></AdapterName>
             <TextAdapterName></TextAdapterName>
-            <Data>Aide au Démarrage?</Data>
+            <Data>Aide au Démarrage</Data>
             <LabelWidth>150</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -128,7 +114,7 @@
             <ControlId>1002</ControlId>
             <Position>
                 <X>25</X>
-                <Y>15</Y>
+                <Y>8</Y>
             </Position>
             <Alignment>
                 <OffsetBottom>true</OffsetBottom>

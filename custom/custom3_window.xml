@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -178,21 +179,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class0</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class0</Adapter>
         </LabelDef>
 
 
@@ -205,21 +206,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name0</Adapter>
-            <ColorAdapter>group_color0</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name0</Adapter>
         </LabelDef>
 
 
@@ -443,21 +444,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class1</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class1</Adapter>
         </LabelDef>
 
 
@@ -470,21 +471,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name1</Adapter>
-            <ColorAdapter>group_color1</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name1</Adapter>
         </LabelDef>
 
 
@@ -708,21 +709,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class2</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class2</Adapter>
         </LabelDef>
 
 
@@ -735,21 +736,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name2</Adapter>
-            <ColorAdapter>group_color2</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name2</Adapter>
         </LabelDef>
 
 
@@ -973,21 +974,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class3</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class3</Adapter>
         </LabelDef>
 
 
@@ -1000,21 +1001,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name3</Adapter>
-            <ColorAdapter>group_color3</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name3</Adapter>
         </LabelDef>
 
 
@@ -1238,21 +1239,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class4</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class4</Adapter>
         </LabelDef>
 
 
@@ -1265,21 +1266,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name4</Adapter>
-            <ColorAdapter>group_color4</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name4</Adapter>
         </LabelDef>
 
 
@@ -1503,21 +1504,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class5</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class5</Adapter>
         </LabelDef>
 
 
@@ -1530,21 +1531,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name5</Adapter>
-            <ColorAdapter>group_color5</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name5</Adapter>
         </LabelDef>
 
 
@@ -1768,21 +1769,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class6</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class6</Adapter>
         </LabelDef>
 
 
@@ -1795,21 +1796,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name6</Adapter>
-            <ColorAdapter>group_color6</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name6</Adapter>
         </LabelDef>
 
 
@@ -2033,21 +2034,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_class7</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_class7</Adapter>
         </LabelDef>
 
 
@@ -2060,21 +2061,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter>group_name7</Adapter>
-            <ColorAdapter>group_color7</ColorAdapter>
-            <Width>65</Width>
-            <Height>15</Height>
-            <MaxCharacters>12</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>65</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <MaxCharacters>12</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name7</Adapter>
         </LabelDef>
 
 
@@ -2288,6 +2289,22 @@
             <Width>142</Width>
             <Height>30</Height>
         </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>lym_close</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

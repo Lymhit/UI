@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -39,6 +39,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>300</MinWidth>
         <MinHeight>250</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -85,21 +86,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>180</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>0</R>
                 <G>0</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Rang</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -140,21 +141,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>180</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>0</R>
                 <G>0</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Titre</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -167,21 +168,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>master_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>180</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>0</R>
                 <G>0</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>180</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>master_title</Adapter>
         </LabelDef>
 
 
@@ -197,7 +198,7 @@
             </Alignment>
             <TemplateName>lym_barc_lvl</TemplateName>
             <AdapterName>master_exp</AdapterName>
-            <Width>99</Width>
+            <Width>90</Width>
         </StatusBarDef>
 
 
@@ -211,21 +212,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>0</R>
                 <G>0</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>PRECEDENT</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -239,21 +240,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>0</R>
                 <G>0</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>SUIVANT</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -330,6 +331,94 @@
             <Width>70</Width>
             <Height>13</Height>
         </InvisibleButtonDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>71</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>master_exp</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>20</Height>
+            <MaxCharacters>999</MaxCharacters>
+            <Color>
+                <R>51</R>
+                <G>51</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>55</X>
+                <Y>11</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Color>
+                <R>51</R>
+                <G>51</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>barb10</FontName>
+            <Width>20</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>%</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>145</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <Color>
+                <R>51</R>
+                <G>51</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>barb10</FontName>
+            <Width>40</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>ML XP</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
 
 
     </WindowTemplate>

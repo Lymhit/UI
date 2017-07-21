@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -36,8 +37,8 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>dlg_lg_notitle_noresize</TemplateName>
-            <Width>192</Width>
+            <TemplateName>tool_tip_background</TemplateName>
+            <Width>193</Width>
             <Height>416</Height>
         </FullResizeImageDef>
 
@@ -52,21 +53,21 @@
                 <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>stats_name</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>164</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>164</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data></Data>
             <EndAligned>true</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_name</Adapter>
         </LabelDef>
 
 
@@ -79,21 +80,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Niveau</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -148,21 +149,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Pts de Roy</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -217,21 +218,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Attaque (WS)</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -286,21 +287,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Dégâts</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -355,21 +356,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Pts de Vie</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -424,21 +425,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Fact.Armure</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -482,36 +483,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
-        <FullResizeImageDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>5</X>
-                <Y>69</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-            </Alignment>
-            <TemplateName>dlg_interior_deri</TemplateName>
-            <Width>95</Width>
-            <Height>171</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>99</X>
-                <Y>69</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>dlg_interior_deri</TemplateName>
-            <Width>95</Width>
-            <Height>171</Height>
-        </FullResizeImageDef>
 
 
         <HorizontalResizeImageDef>
@@ -567,21 +538,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>24</ToolTipID>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Force</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -638,21 +609,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>25</ToolTipID>
-            <FontName>brit9s</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Constitution</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -709,21 +680,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>26</ToolTipID>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Dextérité</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -780,21 +751,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>27</ToolTipID>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Vivacité</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -851,21 +822,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>28</ToolTipID>
-            <FontName>brit9s</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Intelligence</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -922,21 +893,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>29</ToolTipID>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Empathie</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -993,21 +964,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>30</ToolTipID>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Piété</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1064,62 +1035,21 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <ToolTipID>31</ToolTipID>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Charisme</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
-        </LabelDef>
-
-
-        <HorizontalResizeImageDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>10</X>
-                <Y>73</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>dialog_inset</TemplateName>
-            <Width>85</Width>
-        </HorizontalResizeImageDef>
-
-
-        <LabelDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>16</X>
-                <Y>75</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>arial9</FontName>
             <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>80</Width>
-            <Height>12</Height>
-            <MaxCharacters>20</MaxCharacters>
-            <Color>
-                <R>200</R>
-                <G>200</G>
-                <B>200</B>
-                <A>200</A>
-            </Color>
-            <Data>Stats &amp; Résists</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
         </LabelDef>
 
 
@@ -1147,21 +1077,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_thrust</Adapter>
-            <ColorAdapter>stats_thrust_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_thrust</Adapter>
         </LabelDef>
 
 
@@ -1174,21 +1104,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Estoc</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1216,21 +1146,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_crush</Adapter>
-            <ColorAdapter>stats_crush_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_crush</Adapter>
         </LabelDef>
 
 
@@ -1243,21 +1173,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Contond.</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1285,21 +1215,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_slash</Adapter>
-            <ColorAdapter>stats_slash_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_slash</Adapter>
         </LabelDef>
 
 
@@ -1312,21 +1242,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Tranchant</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1354,21 +1284,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_heat</Adapter>
-            <ColorAdapter>stats_heat_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_heat</Adapter>
         </LabelDef>
 
 
@@ -1381,21 +1311,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Chaleur</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1423,21 +1353,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_cold</Adapter>
-            <ColorAdapter>stats_cold_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_cold</Adapter>
         </LabelDef>
 
 
@@ -1450,21 +1380,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Froid</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1492,21 +1422,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_matter</Adapter>
-            <ColorAdapter>stats_matter_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_matter</Adapter>
         </LabelDef>
 
 
@@ -1519,21 +1449,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Matière</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1561,21 +1491,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_energy</Adapter>
-            <ColorAdapter>stats_energy_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_energy</Adapter>
         </LabelDef>
 
 
@@ -1588,21 +1518,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Energie</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1630,21 +1560,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_spirit</Adapter>
-            <ColorAdapter>stats_spirit_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_spirit</Adapter>
         </LabelDef>
 
 
@@ -1657,21 +1587,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Esprit</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1699,21 +1629,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_body</Adapter>
-            <ColorAdapter>stats_body_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_body</Adapter>
         </LabelDef>
 
 
@@ -1726,21 +1656,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Corps</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -1768,13 +1698,33 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <Width>184</Width>
+            <Height>118</Height>
             <TemplateName>listbox_gr</TemplateName>
             <AdapterName>stats_additional_info</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>184</Width>
-            <Height>118</Height>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
+
+
+        <ButtonDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>127</X>
+                <Y>362</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>Social</Label>
+            <onClickEvent>Community</onClickEvent>
+        </ButtonDef>
 
 
         <ButtonDef>
@@ -1867,64 +1817,19 @@
         </ButtonDef>
 
 
-        <LabelDef>
-            <ControlId></ControlId>
+        <ButtonDef>
+            <ControlId>1030</ControlId>
             <Position>
-                <X>74</X>
-                <Y>397</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>58</Width>
-            <Height>15</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
-                <A>255</A>
-            </Color>
-            <Data>LyM V2</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
-
-
-        <InvisibleButtonDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>11</X>
-                <Y>72</Y>
+                <X>66</X>
+                <Y>396</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Label></Label>
-            <OnClickEvent>Bonuses</OnClickEvent>
-            <Width>80</Width>
-            <Height>15</Height>
-        </InvisibleButtonDef>
-
-
-        <InvisibleButtonDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>67</X>
-                <Y>395</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Label></Label>
-            <OnClickEvent>ToggleCustom6</OnClickEvent>
-            <Width>58</Width>
-            <Height>15</Height>
-        </InvisibleButtonDef>
+            <TemplateName>button_large</TemplateName>
+            <Label>CHEVAL</Label>
+            <onClickEvent>Mount</onClickEvent>
+        </ButtonDef>
 
 
         <ButtonDef>
@@ -1984,6 +1889,21 @@
             <TemplateName>lym_button0_vsmall</TemplateName>
             <Label>2+</Label>
             <onClickEvent>ToggleCompass</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>20</X>
+                <Y>72</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_button0_large</TemplateName>
+            <Label>Stats/Resists</Label>
+            <onClickEvent>Bonuses</onClickEvent>
         </ButtonDef>
 
 

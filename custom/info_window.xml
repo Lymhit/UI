@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>120</MinWidth>
         <MinHeight>120</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -43,23 +44,6 @@
         </FullResizeImageDef>
 
 
-        <FullResizeImageDef>
-            <ControlId>BackgroundImage</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <TemplateName>dlg_interior_large</TemplateName>
-            <Width>280</Width>
-            <Height>438</Height>
-        </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -70,28 +54,28 @@
                 <GrowWidth>true</GrowWidth>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>info_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>256</Width>
-            <Height>15</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>400</Width>
+            <Height>15</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>info_title</Adapter>
         </LabelDef>
 
 
         <TextAreaDef>
             <ControlId>1001</ControlId>
             <Position>
-                <X>20</X>
+                <X>10</X>
                 <Y>22</Y>
             </Position>
             <Alignment>
@@ -99,12 +83,12 @@
                 <GrowHeight>true</GrowHeight>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>nobg_textarea</TemplateName>
+            <TemplateName>generic_textarea</TemplateName>
             <AdapterName>info_text</AdapterName>
             <HasHotspots>false</HasHotspots>
             <MaxCharacters>32768</MaxCharacters>
-            <Width>260</Width>
-            <Height>415</Height>
+            <Width>280</Width>
+            <Height>400</Height>
         </TextAreaDef>
 
 

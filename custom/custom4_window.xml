@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -66,21 +67,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>80</Width>
-            <Height>17</Height>
-            <MaxCharacters>20</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>80</Width>
+            <Height>17</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>20</MaxCharacters>
             <Data>Résists</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -93,21 +94,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_thrust</Adapter>
-            <ColorAdapter>stats_thrust_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_thrust_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_thrust</Adapter>
         </LabelDef>
 
 
@@ -120,21 +121,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Estoc</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -147,21 +148,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_crush</Adapter>
-            <ColorAdapter>stats_crush_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_crush_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_crush</Adapter>
         </LabelDef>
 
 
@@ -174,21 +175,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Contond.</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -201,21 +202,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_slash</Adapter>
-            <ColorAdapter>stats_slash_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_slash_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_slash</Adapter>
         </LabelDef>
 
 
@@ -228,21 +229,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Tranchant</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -255,21 +256,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_heat</Adapter>
-            <ColorAdapter>stats_heat_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_heat_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_heat</Adapter>
         </LabelDef>
 
 
@@ -282,21 +283,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Chaleur</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -309,21 +310,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_cold</Adapter>
-            <ColorAdapter>stats_cold_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_cold_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_cold</Adapter>
         </LabelDef>
 
 
@@ -336,21 +337,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Froid</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -363,21 +364,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_matter</Adapter>
-            <ColorAdapter>stats_matter_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_matter_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_matter</Adapter>
         </LabelDef>
 
 
@@ -390,21 +391,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Matière</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -417,21 +418,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_energy</Adapter>
-            <ColorAdapter>stats_energy_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_energy_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_energy</Adapter>
         </LabelDef>
 
 
@@ -444,21 +445,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Energie</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -471,21 +472,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_spirit</Adapter>
-            <ColorAdapter>stats_spirit_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_spirit_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_spirit</Adapter>
         </LabelDef>
 
 
@@ -498,21 +499,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Esprit</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -525,21 +526,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>stats_body</Adapter>
-            <ColorAdapter>stats_body_color</ColorAdapter>
-            <Width>64</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>16</Height>
+            <ColorAdapter>stats_body_color</ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>stats_body</Adapter>
         </LabelDef>
 
 
@@ -552,21 +553,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>64</Width>
-            <Height>18</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>200</R>
                 <G>200</G>
                 <B>200</B>
                 <A>200</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>64</Width>
+            <Height>18</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Corps</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

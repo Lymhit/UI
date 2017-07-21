@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>100</MinWidth>
         <MinHeight>450</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -103,7 +104,7 @@
 
 
         <ButtonDef>
-            <ControlId>1002</ControlId>
+            <ControlId>1001</ControlId>
             <Position>
                 <X>50</X>
                 <Y>13</Y>
@@ -118,35 +119,8 @@
         </ButtonDef>
 
 
-        <LabelDef>
-            <ControlId>1003</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>4</Y>
-            </Position>
-            <Alignment>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>none</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>96</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
-                <A>255</A>
-            </Color>
-            <Data>Entraîner</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
-
-
         <ListBoxDef>
-            <ControlId>1004</ControlId>
+            <ControlId>1002</ControlId>
             <Position>
                 <X>15</X>
                 <Y>45</Y>
@@ -154,17 +128,22 @@
             <Alignment>
                 <GrowWidth>true</GrowWidth>
             </Alignment>
+            <Width>270</Width>
+            <Height>120</Height>
             <TemplateName>listbox_gr</TemplateName>
             <AdapterName>train_skills</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>270</Width>
-            <Height>125</Height>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
 
 
         <ListBoxDef>
-            <ControlId>1005</ControlId>
+            <ControlId>1003</ControlId>
             <Position>
                 <X>15</X>
                 <Y>195</Y>
@@ -173,12 +152,17 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
+            <Width>270</Width>
+            <Height>225</Height>
             <TemplateName>listbox_gr</TemplateName>
             <AdapterName>train_realm</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>270</Width>
-            <Height>225</Height>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
 
 
@@ -191,21 +175,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>none</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>120</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>120</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Spécialisations</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
         </LabelDef>
 
 
@@ -218,21 +202,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>train_skill_points</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>96</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>kwijiboe</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>train_skill_points</Adapter>
         </LabelDef>
 
 
@@ -245,21 +229,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>none</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>120</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>120</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Compétences Roy</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
         </LabelDef>
 
 
@@ -272,21 +256,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>train_realm_skill_points</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>96</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>96</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>kwijiboe</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>train_realm_skill_points</Adapter>
         </LabelDef>
 
 

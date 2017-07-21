@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -20,7 +20,7 @@
     <WindowTemplate>
         <Name>summary</Name>
         <WindowId>c_windowInvalid</WindowId>
-        <CloseButton>false</CloseButton>
+        <CloseButton>true</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
@@ -30,13 +30,14 @@
         <TitleWidth>150</TitleWidth>
         <TitleHeight>0</TitleHeight>
         <Width>155</Width>
-        <Height>40</Height>
+        <Height>50</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -48,10 +49,70 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>selection_box_trans</TemplateName>
+            <TemplateName>dlg_sm_title_noresize</TemplateName>
             <Width>155</Width>
-            <Height>40</Height>
+            <Height>50</Height>
         </FullResizeImageDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>8</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_player_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
 
 
         <StatusBarDef>
@@ -88,6 +149,66 @@
             <ControlId></ControlId>
             <Position>
                 <X>26</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_endu</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_endu</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_endu</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_endu</TemplateName>
+            <AdapterName>summary_player_end</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
                 <Y>27</Y>
             </Position>
             <Alignment>
@@ -99,6 +220,117 @@
         </StatusBarDef>
 
 
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_mana</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_mana</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_mana</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_mana</TemplateName>
+            <AdapterName>summary_player_power</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>32</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>32</ToolTipID>
+            <TemplateName>lym_barc_lvl</TemplateName>
+            <AdapterName>summary_exp_coarse</AdapterName>
+            <Width>90</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>33</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>32</ToolTipID>
+            <TemplateName>blue_status</TemplateName>
+            <AdapterName>summary_exp_fine</AdapterName>
+            <Width>88</Width>
+        </StatusBarDef>
+
+
+        <ButtonDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>5</X>
+                <Y>35</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <ToolTipID>32</ToolTipID>
+            <LabelAlignment>
+                <TopLeft>true</TopLeft>
+            </LabelAlignment>
+            <TemplateName>button_nobg</TemplateName>
+            <Label>xp</Label>
+            <onClickEvent>SummaryToggleExp</onClickEvent>
+        </ButtonDef>
+
+
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -108,21 +340,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>32</Width>
-            <Height>12</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>51</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>32</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Pdv</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -163,21 +395,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9s</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>32</Width>
-            <Height>12</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>51</R>
                 <G>255</G>
                 <B>51</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9s</FontName>
+            <Width>32</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Endu</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -218,21 +450,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>32</Width>
-            <Height>12</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>32</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Mana</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

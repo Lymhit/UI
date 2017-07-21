@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
-    <!--fonts-->
 
 
     <Font>
@@ -62,24 +59,63 @@
     </Font>
 
 
-    <!--textures-->
+    <TTFFont>
+        <Name>chat_small</Name>
+        <File>fonts/MyriadPro-Regular.ttf</File>
+        <Height>10</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>chat_large</Name>
+        <File>fonts/MyriadPro-Regular.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>myriadbold</Name>
+        <File>fonts/MyriadPro-Semibold.ttf</File>
+        <Height>13</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
+
+
+    <TTFFont>
+        <Name>minion</Name>
+        <File>fonts/MinionPro-Regular.ttf</File>
+        <Height>16</Height>
+        <Antialiased>true</Antialiased>
+        <Hint>2</Hint>
+    </TTFFont>
 
 
     <Texture>
         <Name>page1</Name>
-        <File>custom/lym_01.tga</File>
+        <File>atlantis/atlantis_01.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page2</Name>
-        <File>custom/lym_02.tga</File>
+        <File>atlantis/atlantis_02.tga</File>
     </Texture>
 
 
     <Texture>
         <Name>page3</Name>
-        <File>custom/lym_03.tga</File>
+        <File>atlantis/atlantis_03.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page4</Name>
+        <File>atlantis/atlantis_04.tga</File>
     </Texture>
 
 
@@ -90,8 +126,140 @@
 
 
     <Texture>
+        <Name>small_arrows</Name>
+        <File>atlantis/smallarrows.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>selected_icon</Name>
+        <File>custom/selected_icon.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>emoticons</Name>
+        <File>atlantis/emoticons.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>slider</Name>
+        <File>atlantis/slider.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>frames_win</Name>
+        <File>atlantis/frames_win.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>navigation</Name>
+        <File>atlantis/navigation.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page4b</Name>
+        <File>atlantis/atlantis_04b.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>DAoC_TV</Name>
+        <File>custom/daoc_tv.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>agra</Name>
+        <File>custom/agra_symb.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>isles4</Name>
+        <File>custom/skin1_pieces4.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>isles_skin</Name>
+        <File>isles/skin1_pieces.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>lym_attak</Name>
+        <File>custom/lym2_test.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>lym_fx</Name>
+        <File>custom/fxsmall.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>lym_fx2</Name>
+        <File>custom/fx.dds</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>map_icons2</Name>
+        <File>custom/map_icons.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page1b</Name>
+        <File>custom/lym_01.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page2b</Name>
+        <File>custom/lym_02.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page22</Name>
+        <File>custom/lym_22.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page3b</Name>
+        <File>custom/lym_03.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page44</Name>
+        <File>custom/lym_04.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>page5</Name>
+        <File>custom/lym_05.tga</File>
+    </Texture>
+
+
+    <Texture>
         <Name>pageLym</Name>
         <File>custom/lym_04.tga</File>
+    </Texture>
+
+
+    <Texture>
+        <Name>realm_bonus</Name>
+        <File>custom/rr_name.dds</File>
     </Texture>
 
 
@@ -104,16 +272,16 @@
     <Include>custom2_window.xml</Include>
 
 
-    <Texture>
-        <Name>lym_fx</Name>
-        <File>custom/fx.dds</File>
-    </Texture>
+    <Include>custom3_window.xml</Include>
 
 
     <Include>custom4_window.xml</Include>
 
 
     <Include>custom5_window.xml</Include>
+
+
+    <Include>custom6_window.xml</Include>
 
 
     <Include>custom7_window.xml</Include>
@@ -155,16 +323,16 @@
     <Include>custom19_window.xml</Include>
 
 
-    <Include>custom3_window.xml</Include>
+    <Font>
+        <Name>negatif</Name>
+        <File>custom/effets_negatifs.tga</File>
+    </Font>
 
 
     <Texture>
-        <Name>realm_bonus</Name>
-        <File>custom/rr_name.dds</File>
+        <Name>HH</Name>
+        <File>custom/fond_grp.dds</File>
     </Texture>
-
-
-    <Include>custom6_window.xml</Include>
 
 
 </Root_Element>

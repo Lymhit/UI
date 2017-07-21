@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -18,13 +18,14 @@
         <TitleWidth>200</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>200</Width>
-        <Height>124</Height>
+        <Height>125</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -37,26 +38,9 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_background_resize</TemplateName>
+            <TemplateName>dlg_sm_title_noresize</TemplateName>
             <Width>200</Width>
-            <Height>124</Height>
-        </FullResizeImageDef>
-
-
-        <FullResizeImageDef>
-            <ControlId>Background</ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <GrowWidth>true</GrowWidth>
-                <GrowHeight>true</GrowHeight>
-                <CenterHorizontally>true</CenterHorizontally>
-            </Alignment>
-            <TemplateName>dlg_lg_notitle_noresize</TemplateName>
-            <Width>180</Width>
-            <Height>114</Height>
+            <Height>125</Height>
         </FullResizeImageDef>
 
 
@@ -69,152 +53,137 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>keep_status_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>200</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>200</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Nom du Fort</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>keep_status_title</Adapter>
         </LabelDef>
-
-
-        <!--keep lord type-->
 
 
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>24</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>keep_status_type</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Type du Fort</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>keep_status_type</Adapter>
         </LabelDef>
-
-
-        <!--current level-->
 
 
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>40</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>keep_status_level</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>190</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>190</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Niveau Actuel</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>keep_status_level</Adapter>
         </LabelDef>
-
-
-        <!--target level-->
 
 
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>56</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>keep_status_target</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>190</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
-            <Data>Niveau C</Data>
+            <FontName>arial9</FontName>
+            <Width>190</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>Niveau Ciblé</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>keep_status_target</Adapter>
         </LabelDef>
-
-
-        <!--controlled by-->
 
 
         <LabelDef>
             <ControlId></ControlId>
             <Position>
-                <X>15</X>
+                <X>10</X>
                 <Y>72</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>keep_status_claimed</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>190</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>192</R>
                 <G>192</G>
                 <B>192</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>190</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Nom du Fort Réclamé</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>keep_status_claimed</Adapter>
         </LabelDef>
-
-
-        <!--repair and hookpoint buttons-->
 
 
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
-                <X>36</X>
-                <Y>93</Y>
+                <X>35</X>
+                <Y>102</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -229,7 +198,7 @@
             <ControlId></ControlId>
             <Position>
                 <X>35</X>
-                <Y>93</Y>
+                <Y>102</Y>
             </Position>
             <Alignment>
                 <OffsetRight>true</OffsetRight>

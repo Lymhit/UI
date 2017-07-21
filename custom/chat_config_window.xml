@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -15,16 +15,17 @@
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
-        <TitleWidth>300</TitleWidth>
-        <TitleHeight>18</TitleHeight>
-        <Width>300</Width>
-        <Height>350</Height>
+        <TitleWidth>333</TitleWidth>
+        <TitleHeight>50</TitleHeight>
+        <Width>333</Width>
+        <Height>436</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>300</MinWidth>
-        <MinHeight>200</MinHeight>
+        <MinWidth>333</MinWidth>
+        <MinHeight>436</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -37,26 +38,57 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
-            <TemplateName>dlg_background_resize</TemplateName>
-            <Width>300</Width>
-            <Height>350</Height>
+            <TemplateName>dlg_lg_title_noresize</TemplateName>
+            <Width>333</Width>
+            <Height>436</Height>
         </FullResizeImageDef>
 
 
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
-                <X>10</X>
-                <Y>0</Y>
+                <X>19</X>
+                <Y>59</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
-                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <TemplateName>dlg_interior_large</TemplateName>
-            <Width>282</Width>
-            <Height>340</Height>
+            <TemplateName>dlg_lg_title_noresize</TemplateName>
+            <Width>145</Width>
+            <Height>283</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>169</X>
+                <Y>59</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_sm_title</TemplateName>
+            <Width>145</Width>
+            <Height>283</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>27</X>
+                <Y>346</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>chat_entry</TemplateName>
+            <Width>278</Width>
+            <Height>48</Height>
         </FullResizeImageDef>
 
 
@@ -64,39 +96,93 @@
             <ControlId></ControlId>
             <Position>
                 <X>0</X>
-                <Y>4</Y>
+                <Y>16</Y>
             </Position>
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>chat_config_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>300</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
-                <G>51</G>
-                <B>0</B>
+                <G>255</G>
+                <B>255</B>
                 <A>255</A>
             </Color>
-            <Data>Configuration Discussion</Data>
+            <FontName>minion</FontName>
+            <Width>312</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>MESSAGES &amp; CANAUX</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>19</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_large</FontName>
+            <Width>141</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>TYPES DE MESSAGE</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>169</X>
+                <Y>46</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_large</FontName>
+            <Width>141</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
+            <Data>CANAUX DE DISCUSSION</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
         <ButtonDef>
             <ControlId>2000</ControlId>
             <Position>
-                <X>16</X>
-                <Y>320</Y>
+                <X>104</X>
+                <Y>398</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_small</TemplateName>
+            <TemplateName>button_large</TemplateName>
             <Label>ACCEPTER</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
@@ -105,8 +191,8 @@
         <ButtonDef>
             <ControlId>2001</ControlId>
             <Position>
-                <X>86</X>
-                <Y>320</Y>
+                <X>170</X>
+                <Y>398</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
@@ -120,692 +206,3120 @@
         <FullResizeImageDef>
             <ControlId>2003</ControlId>
             <Position>
-                <X>11</X>
-                <Y>22</Y>
+                <X>26</X>
+                <Y>66</Y>
             </Position>
             <Alignment>
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
             <TemplateName>selection_box</TemplateName>
-            <Width>278</Width>
+            <Width>134</Width>
             <Height>16</Height>
         </FullResizeImageDef>
 
 
-        <LabelDef>
-            <ControlId>2004</ControlId>
+        <ButtonDef>
+            <ControlId>4000</ControlId>
             <Position>
-                <X>165</X>
-                <Y>322</Y>
+                <X>38</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Data>Changer Couleur</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_0</Coloradapter>
+        </ButtonDef>
 
 
         <ButtonDef>
-            <ControlId>2009</ControlId>
+            <ControlId>4000</ControlId>
             <Position>
-                <X>250</X>
-                <Y>320</Y>
+                <X>37</X>
+                <Y>350</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>color_highlight_button</TemplateName>
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
 
 
         <ButtonDef>
-            <ControlId>2010</ControlId>
+            <ControlId>4001</ControlId>
             <Position>
-                <X>268</X>
-                <Y>320</Y>
+                <X>58</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>color_button</TemplateName>
             <Label></Label>
             <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_1</Coloradapter>
         </ButtonDef>
 
 
-        <LabelDef>
-            <ControlId>2007</ControlId>
-            <Position>
-                <X>16</X>
-                <Y>298</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>chat_config_output_label</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Data>Canal Sortie - Défaut</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
-
-
-        <LabelDef>
-            <ControlId>2008</ControlId>
-            <Position>
-                <X>165</X>
-                <Y>298</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>chat_config_current_output</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>150</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>255</G>
-                <B>255</B>
-                <A>255</A>
-            </Color>
-            <Data>kwijiboe</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
-
-
         <ButtonDef>
-            <ControlId>2005</ControlId>
+            <ControlId>4001</ControlId>
             <Position>
-                <X>250</X>
-                <Y>296</Y>
+                <X>57</X>
+                <Y>350</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_left</TemplateName>
+            <TemplateName>color_highlight_button</TemplateName>
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
 
 
         <ButtonDef>
-            <ControlId>2006</ControlId>
+            <ControlId>4002</ControlId>
             <Position>
-                <X>268</X>
-                <Y>296</Y>
+                <X>78</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>button_right</TemplateName>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_2</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4002</ControlId>
+            <Position>
+                <X>77</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
 
 
-        <!--Check boxes for channel selection (16)-->
-
-
-        <CheckBoxDef>
-            <ControlId>1000</ControlId>
+        <ButtonDef>
+            <ControlId>4003</ControlId>
             <Position>
-                <X>18</X>
-                <Y>24</Y>
+                <X>98</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel0</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1001</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>40</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel1</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1002</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>56</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel2</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1003</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>72</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel3</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1004</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>88</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel4</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1005</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>104</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel5</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1006</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>120</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel6</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1007</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>136</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel7</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1008</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>152</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel8</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1009</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>168</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel9</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1010</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>184</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel10</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1011</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>200</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel11</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1012</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>216</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel12</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1013</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>232</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel13</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1014</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>248</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel14</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <CheckBoxDef>
-            <ControlId>1015</ControlId>
-            <Position>
-                <X>18</X>
-                <Y>264</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>chat_config_check</TemplateName>
-            <AdapterName>none</AdapterName>
-            <TextAdapterName>chat_config_channel15</TextAdapterName>
-            <Data></Data>
-            <LabelWidth>256</LabelWidth>
-        </CheckBoxDef>
-
-
-        <!--Invisible buttons for selecting channel-->
-
-
-        <InvisibleButtonDef>
-            <ControlId>3000</ControlId>
-            <Position>
-                <X>30</X>
-                <Y>22</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
+            <TemplateName>color_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_3</Coloradapter>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3001</ControlId>
+        <ButtonDef>
+            <ControlId>4003</ControlId>
             <Position>
-                <X>30</X>
-                <Y>38</Y>
+                <X>97</X>
+                <Y>350</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3002</ControlId>
+        <ButtonDef>
+            <ControlId>4004</ControlId>
             <Position>
-                <X>30</X>
-                <Y>54</Y>
+                <X>118</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>color_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_4</Coloradapter>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3003</ControlId>
+        <ButtonDef>
+            <ControlId>4004</ControlId>
             <Position>
-                <X>30</X>
-                <Y>70</Y>
+                <X>117</X>
+                <Y>350</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3004</ControlId>
+        <ButtonDef>
+            <ControlId>4005</ControlId>
             <Position>
-                <X>30</X>
-                <Y>86</Y>
+                <X>138</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>color_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_5</Coloradapter>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3005</ControlId>
+        <ButtonDef>
+            <ControlId>4005</ControlId>
             <Position>
-                <X>30</X>
-                <Y>102</Y>
+                <X>137</X>
+                <Y>350</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3006</ControlId>
+        <ButtonDef>
+            <ControlId>4006</ControlId>
             <Position>
-                <X>30</X>
-                <Y>118</Y>
+                <X>158</X>
+                <Y>351</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>color_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_6</Coloradapter>
+        </ButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3007</ControlId>
+        <ButtonDef>
+            <ControlId>4006</ControlId>
             <Position>
-                <X>30</X>
+                <X>157</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4007</ControlId>
+            <Position>
+                <X>178</X>
+                <Y>351</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_7</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4007</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4008</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>351</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_8</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4008</ControlId>
+            <Position>
+                <X>197</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4009</ControlId>
+            <Position>
+                <X>218</X>
+                <Y>351</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_9</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4009</ControlId>
+            <Position>
+                <X>217</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4010</ControlId>
+            <Position>
+                <X>238</X>
+                <Y>351</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_10</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4010</ControlId>
+            <Position>
+                <X>237</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4011</ControlId>
+            <Position>
+                <X>258</X>
+                <Y>351</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_11</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4011</ControlId>
+            <Position>
+                <X>257</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4012</ControlId>
+            <Position>
+                <X>278</X>
+                <Y>351</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_12</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4012</ControlId>
+            <Position>
+                <X>277</X>
+                <Y>350</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4013</ControlId>
+            <Position>
+                <X>38</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_13</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4013</ControlId>
+            <Position>
+                <X>37</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4014</ControlId>
+            <Position>
+                <X>58</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_14</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4014</ControlId>
+            <Position>
+                <X>57</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4015</ControlId>
+            <Position>
+                <X>78</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_15</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4015</ControlId>
+            <Position>
+                <X>77</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4016</ControlId>
+            <Position>
+                <X>98</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_16</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4016</ControlId>
+            <Position>
+                <X>97</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4017</ControlId>
+            <Position>
+                <X>118</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_17</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4017</ControlId>
+            <Position>
+                <X>117</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4018</ControlId>
+            <Position>
+                <X>138</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_18</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4018</ControlId>
+            <Position>
+                <X>137</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4019</ControlId>
+            <Position>
+                <X>158</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_19</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4019</ControlId>
+            <Position>
+                <X>157</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4020</ControlId>
+            <Position>
+                <X>178</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_20</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4020</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4021</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_21</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4021</ControlId>
+            <Position>
+                <X>197</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4022</ControlId>
+            <Position>
+                <X>218</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_22</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4022</ControlId>
+            <Position>
+                <X>217</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4023</ControlId>
+            <Position>
+                <X>238</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_23</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4023</ControlId>
+            <Position>
+                <X>237</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4024</ControlId>
+            <Position>
+                <X>258</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_24</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4024</ControlId>
+            <Position>
+                <X>257</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4025</ControlId>
+            <Position>
+                <X>278</X>
+                <Y>371</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+            <Coloradapter>index_color_25</Coloradapter>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>4025</ControlId>
+            <Position>
+                <X>277</X>
+                <Y>370</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>color_highlight_button</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3016</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3017</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>83</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3018</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3019</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3020</ControlId>
+            <Position>
+                <X>27</X>
                 <Y>134</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId>3008</ControlId>
+        <HorizontalResizeButtonDef>
+            <ControlId>3021</ControlId>
             <Position>
-                <X>30</X>
+                <X>27</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3022</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3023</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>185</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3024</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>202</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3025</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>219</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3026</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>236</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3027</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>253</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3028</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3029</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>287</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3030</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>304</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3031</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>321</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1016</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5016</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Sort</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1017</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>83</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5017</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Coup infligé</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1018</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5018</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Système</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>116</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1019</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5019</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Objets</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>133</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1020</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>134</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5020</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>138</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Marchand</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
                 <Y>150</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <Label></Label>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1021</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
             <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5021</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>155</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
             <Height>16</Height>
-        </InvisibleButtonDef>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Votre mort</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>167</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1022</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5022</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>172</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Autres morts</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1023</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>185</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5023</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Autres combats</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>201</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1024</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>202</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5024</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>206</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Changement Résist.</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1025</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>219</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5025</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>223</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Fin de sort</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1026</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>236</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5026</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Butin</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>252</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1027</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>253</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5027</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>257</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Sort résisté</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>269</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1028</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5028</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>274</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Important</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>286</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1029</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>287</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5029</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>291</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Dégâts</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>303</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1030</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>304</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5030</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Action</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>320</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1031</ControlId>
+            <Position>
+                <X>27</X>
+                <Y>321</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5031</ControlId>
+            <Position>
+                <X>48</X>
+                <Y>325</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Sort pulsant</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3001</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3002</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>83</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3003</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3004</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3005</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>134</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3006</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3007</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
+            <ControlId>3008</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>185</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
+            <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <HorizontalResizeButtonDef>
             <ControlId>3009</ControlId>
             <Position>
-                <X>30</X>
-                <Y>166</Y>
+                <X>177</X>
+                <Y>202</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>3010</ControlId>
             <Position>
-                <X>30</X>
-                <Y>182</Y>
+                <X>177</X>
+                <Y>219</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>3011</ControlId>
             <Position>
-                <X>30</X>
-                <Y>198</Y>
+                <X>177</X>
+                <Y>236</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>3012</ControlId>
             <Position>
-                <X>30</X>
-                <Y>214</Y>
+                <X>177</X>
+                <Y>253</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>3013</ControlId>
             <Position>
-                <X>30</X>
-                <Y>230</Y>
+                <X>177</X>
+                <Y>270</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>3014</ControlId>
             <Position>
-                <X>30</X>
-                <Y>246</Y>
+                <X>177</X>
+                <Y>287</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
-            <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
-            <Height>16</Height>
-        </InvisibleButtonDef>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
 
 
-        <InvisibleButtonDef>
+        <HorizontalResizeButtonDef>
             <ControlId>3015</ControlId>
             <Position>
-                <X>30</X>
-                <Y>262</Y>
+                <X>177</X>
+                <Y>304</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
+            <TemplateName>context_hr_button</TemplateName>
             <Label></Label>
+            <Width>133</Width>
+            <onClickEvent></onClickEvent>
+        </HorizontalResizeButtonDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>66</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
             <OnClickEvent></OnClickEvent>
-            <Width>256</Width>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5001</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
             <Height>16</Height>
-        </InvisibleButtonDef>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Dire</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>83</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5002</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>87</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Envoyer</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>99</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5003</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>104</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Groupe</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>116</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>117</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5004</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>121</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Guilde</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>133</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1005</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>134</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5005</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>138</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Région</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>150</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1006</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>151</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5006</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>155</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Emote</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>167</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1007</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>168</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5007</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>172</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Aide</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>184</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1008</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>185</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5008</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>189</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Discussion</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>201</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1009</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>202</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5009</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>206</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Conseil</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>218</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1010</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>219</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5010</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>223</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Officier</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>235</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1011</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>236</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5011</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>240</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Alliance</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>252</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1012</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>253</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5012</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>257</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Groupe de combat</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>269</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1013</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>270</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5013</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>274</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Chef de groupe de combat</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>286</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1014</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>287</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5014</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>291</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Rechercher Groupe</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
+
+
+        <HorizontalResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>176</X>
+                <Y>303</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>context_hr_image_divider</TemplateName>
+            <Width>133</Width>
+        </HorizontalResizeImageDef>
+
+
+        <CheckBoxDef>
+            <ControlId>1015</ControlId>
+            <Position>
+                <X>177</X>
+                <Y>304</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>chat_config_checkbox</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data></Data>
+            <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
+
+
+        <LabelDef>
+            <ControlId>5015</ControlId>
+            <Position>
+                <X>198</X>
+                <Y>308</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <FontName>chat_small</FontName>
+            <Width>121</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>1024</MaxCharacters>
+            <Data>Echanger</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <Adapter>none</Adapter>
+        </LabelDef>
 
 
     </WindowTemplate>

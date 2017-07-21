@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -174,21 +175,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>mini_pet_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>126</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>102</R>
                 <G>102</G>
                 <B>102</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>126</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
+            <Adapter>mini_pet_title</Adapter>
         </LabelDef>
 
 
@@ -265,6 +266,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Aggro</Data>
             <LabelWidth>40</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -282,6 +284,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Defens</Data>
             <LabelWidth>40</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -299,6 +302,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Passif</Data>
             <LabelWidth>40</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -316,6 +320,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Suivre</Data>
             <LabelWidth>40</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -333,6 +338,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Rester</Data>
             <LabelWidth>30</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -350,6 +356,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Cible</Data>
             <LabelWidth>20</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -367,6 +374,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Ici</Data>
             <LabelWidth>40</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -409,21 +417,21 @@
             </Position>
             <Alignment>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>35</Width>
-            <Height>12</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Attaque</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -435,21 +443,21 @@
             </Position>
             <Alignment>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>33</Width>
-            <Height>12</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>33</Width>
+            <Height>12</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data>Liberer</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 

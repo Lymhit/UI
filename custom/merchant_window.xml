@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -18,13 +18,14 @@
         <TitleWidth>350</TitleWidth>
         <TitleHeight>18</TitleHeight>
         <Width>350</Width>
-        <Height>458</Height>
+        <Height>620</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>500</ResizeableTwoWayWidth>
-        <ResizeableTwoWayHeight>600</ResizeableTwoWayHeight>
+        <ResizeableTwoWayHeight>400</ResizeableTwoWayHeight>
         <MinWidth>300</MinWidth>
         <MinHeight>400</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <!--background elements-->
@@ -42,7 +43,7 @@
             </Alignment>
             <TemplateName>dlg_background_noresize</TemplateName>
             <Width>350</Width>
-            <Height>458</Height>
+            <Height>620</Height>
         </FullResizeImageDef>
 
 
@@ -58,7 +59,7 @@
             </Alignment>
             <TemplateName>dlg_interior_large</TemplateName>
             <Width>330</Width>
-            <Height>448</Height>
+            <Height>610</Height>
         </FullResizeImageDef>
 
 
@@ -74,7 +75,7 @@
             </Alignment>
             <TemplateName>dlg_background_noresize</TemplateName>
             <Width>310</Width>
-            <Height>335</Height>
+            <Height>495</Height>
         </FullResizeImageDef>
 
 
@@ -148,21 +149,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>45</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>45</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Quantité</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -191,21 +192,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>merchant_platinum</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>35</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>P:999</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_platinum</Adapter>
         </LabelDef>
 
 
@@ -219,21 +220,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>merchant_gold</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>35</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>G:999</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_gold</Adapter>
         </LabelDef>
 
 
@@ -247,21 +248,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>merchant_silver</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>35</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>S:999</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_silver</Adapter>
         </LabelDef>
 
 
@@ -275,21 +276,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>merchant_copper</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>35</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>C:999</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_copper</Adapter>
         </LabelDef>
 
 
@@ -362,12 +363,17 @@
                 <GrowWidth>true</GrowWidth>
                 <GrowHeight>true</GrowHeight>
             </Alignment>
+            <Width>310</Width>
+            <Height>495</Height>
             <TemplateName>listbox_nobg</TemplateName>
             <AdapterName>merchant_page0</AdapterName>
             <Sorting>false</Sorting>
             <Columns>2</Columns>
-            <Width>310</Width>
-            <Height>334</Height>
+            <IconTemplate></IconTemplate>
+            <ShowIndicator>false</ShowIndicator>
+            <ShowDefaultToolTips>false</ShowDefaultToolTips>
+            <OnHeaderClickEvent></OnHeaderClickEvent>
+            <OnClickEvent></OnClickEvent>
         </ListBoxDef>
 
 
@@ -380,21 +386,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>merchant_title</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>300</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>300</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Marchand</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_title</Adapter>
         </LabelDef>
 
 
@@ -492,21 +498,21 @@
                 <OffsetRight>true</OffsetRight>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter>merchant_page_display</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>Page 1 sur 1</Data>
             <EndAligned>true</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_page_display</Adapter>
         </LabelDef>
 
 
@@ -552,21 +558,21 @@
                 <TopLeft>true</TopLeft>
                 <OffsetBottom>true</OffsetBottom>
             </Alignment>
-            <FontName>arial11</FontName>
-            <Adapter>merchant_quantity</Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>50</Width>
-            <Height>16</Height>
-            <MaxCharacters>128</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>arial11</FontName>
+            <Width>50</Width>
+            <Height>16</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>128</MaxCharacters>
             <Data>10 x 20</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>merchant_quantity</Adapter>
         </LabelDef>
 
 
@@ -585,6 +591,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Garder Qté</Data>
             <LabelWidth>65</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 

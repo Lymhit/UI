@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -17,7 +17,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>34</Width>
+        <Width>32</Width>
         <Height>40</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -25,74 +25,19 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
-
-
-        <ImageAreaDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <TemplateName>lym_macro</TemplateName>
-        </ImageAreaDef>
-
-
-        <LabelDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>0</X>
-                <Y>-3</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>34</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>153</R>
-                <G>153</G>
-                <B>153</B>
-                <A>255</A>
-            </Color>
-            <Data>Face</Data>
-            <EndAligned>false</EndAligned>
-            <TextCentered>true</TextCentered>
-        </LabelDef>
-
-
-        <InvisibleButtonDef>
-            <ControlId></ControlId>
-            <Position>
-                <X>0</X>
-                <Y>0</Y>
-            </Position>
-            <Alignment>
-                <TopLeft>true</TopLeft>
-            </Alignment>
-            <Label></Label>
-            <OnClickEvent>Face</OnClickEvent>
-            <Width>34</Width>
-            <Height>40</Height>
-        </InvisibleButtonDef>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <ButtonDef>
             <ControlId>face</ControlId>
             <Position>
-                <X>10</X>
-                <Y>13</Y>
+                <X>0</X>
+                <Y>0</Y>
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>lym_button_face</TemplateName>
+            <TemplateName>lym_face</TemplateName>
             <Label></Label>
             <onClickEvent>Face</onClickEvent>
         </ButtonDef>

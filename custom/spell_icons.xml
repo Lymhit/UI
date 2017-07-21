@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <XML ID="DAOCUi">
-	<!--small icons-->
 	<Canvas>
 		<Name>spl1_s</Name>
 		<File>icons/spl1_s.bmp</File>
@@ -61,7 +60,6 @@
 		<Name>spl15_s</Name>
 		<File>icons/spl15_s.bmp</File>
 	</Canvas>
-	<!--large icons-->
 	<Canvas>
 		<Name>spl1_b</Name>
 		<File>icons/spl1_b.bmp</File>

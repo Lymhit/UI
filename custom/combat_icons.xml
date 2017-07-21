@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <XML ID="DAOCUi">
-	<!--small icons-->
 	<Canvas>
 		<Name>combat1_s</Name>
 		<File>icons/combat1_s.bmp</File>
@@ -21,7 +20,6 @@
 		<Name>combat5_s</Name>
 		<File>icons/combat5_s.bmp</File>
 	</Canvas>
-	<!--large icons-->
 	<Canvas>
 		<Name>combat1_b</Name>
 		<File>icons/combat1_b.bmp</File>

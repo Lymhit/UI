@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <XML ID="DAOCUi">
-	<!--templates-->
 	<Include>styles.xml</Include>
-	<!--windows-->
 	<Include>command_window.xml</Include>
 	<Include>timer_window.xml</Include>
 	<Include>clock_window.xml</Include>
@@ -20,7 +18,7 @@
 	<Include>train.xml</Include>
 	<Include>compass.xml</Include>
 	<Include>merchant_window.xml</Include>
-	<!--assets-->
+	<Include>daoc_subclass_window.xml</Include>
 	<Include>item_icons.xml</Include>
 	<Include>combat_icons.xml</Include>
 	<Include>skill_icons.xml</Include>

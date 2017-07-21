@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -37,6 +37,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -48,7 +49,7 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>selection_box_trans</TemplateName>
+            <TemplateName>tool_tip_background</TemplateName>
             <Width>155</Width>
             <Height>25</Height>
         </FullResizeImageDef>
@@ -63,21 +64,21 @@
             <Alignment>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>button_large</FontName>
-            <Adapter>summary_target</Adapter>
-            <ColorAdapter>summary_target_color</ColorAdapter>
-            <Width>150</Width>
-            <Height>20</Height>
-            <MaxCharacters>32</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>button_large</FontName>
+            <Width>150</Width>
+            <Height>20</Height>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
+            <Adapter>summary_target</Adapter>
         </LabelDef>
 
 

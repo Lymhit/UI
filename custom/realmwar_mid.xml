@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -101,6 +101,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -189,21 +190,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>button_large</FontName>
-            <Adapter>realmwar_info_mid0</Adapter>
-            <ColorAdapter>realmwar_info_mid</ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>button_large</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter>realmwar_info_mid</ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Nom du Fort</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>realmwar_info_mid0</Adapter>
         </LabelDef>
 
 
@@ -216,21 +217,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>realmwar_info_mid1</Adapter>
-            <ColorAdapter>realmwar_info_mid</ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter>realmwar_info_mid</ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Royaume</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>realmwar_info_mid1</Adapter>
         </LabelDef>
 
 
@@ -243,21 +244,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>realmwar_info_mid2</Adapter>
-            <ColorAdapter>realmwar_info_mid</ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>204</R>
                 <G>204</G>
                 <B>204</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter>realmwar_info_mid</ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Réclamé par:</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>realmwar_info_mid2</Adapter>
         </LabelDef>
 
 
@@ -270,21 +271,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>realmwar_info_mid3</Adapter>
-            <ColorAdapter>realmwar_info_mid</ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>204</R>
                 <G>204</G>
                 <B>204</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter>realmwar_info_mid</ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Réclamé par</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>realmwar_info_mid3</Adapter>
         </LabelDef>
 
 
@@ -297,21 +298,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>realmwar_info_mid4</Adapter>
-            <ColorAdapter>realmwar_info_mid</ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter>realmwar_info_mid</ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Attaqué</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>realmwar_info_mid4</Adapter>
         </LabelDef>
 
 
@@ -324,21 +325,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>arial9</FontName>
-            <Adapter>realmwar_info_mid5</Adapter>
-            <ColorAdapter>realmwar_info_mid</ColorAdapter>
-            <Width>128</Width>
-            <Height>16</Height>
-            <MaxCharacters>64</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
+            <FontName>arial9</FontName>
+            <Width>128</Width>
+            <Height>16</Height>
+            <ColorAdapter>realmwar_info_mid</ColorAdapter>
+            <MaxCharacters>64</MaxCharacters>
             <Data>Plus de Matériaux Ici</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>realmwar_info_mid5</Adapter>
         </LabelDef>
 
 
@@ -346,6 +347,24 @@
 
 
         <!--These are run by ControlID-->
+
+
+        <CheckBoxDef>
+            <ControlId>2003</ControlId>
+            <Position>
+                <X>30</X>
+                <Y>56</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>agra_box</TemplateName>
+            <AdapterName></AdapterName>
+            <TextAdapterName></TextAdapterName>
+            <Data>Agramon</Data>
+            <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
+        </CheckBoxDef>
 
 
         <CheckBoxDef>
@@ -362,6 +381,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Albion</Data>
             <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -379,6 +399,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Midgard</Data>
             <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -396,6 +417,7 @@
             <TextAdapterName></TextAdapterName>
             <Data>Hibernia</Data>
             <LabelWidth>56</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 

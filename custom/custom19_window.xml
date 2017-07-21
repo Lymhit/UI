@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <ImageAreaDef>
@@ -161,21 +162,21 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter>group_name7</Adapter>
-            <ColorAdapter>group_color7</ColorAdapter>
-            <Width>35</Width>
-            <Height>15</Height>
-            <MaxCharacters>7</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>255</G>
                 <B>255</B>
                 <A>255</A>
             </Color>
+            <FontName>brit9</FontName>
+            <Width>35</Width>
+            <Height>15</Height>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <MaxCharacters>7</MaxCharacters>
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter>group_name7</Adapter>
         </LabelDef>
 
 
@@ -277,6 +278,22 @@
             <Width>43</Width>
             <Height>47</Height>
         </InvisibleButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>lym_close</TemplateName>
+            <Label></Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
 
 
     </WindowTemplate>

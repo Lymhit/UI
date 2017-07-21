@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -47,7 +47,7 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page2b</TextureName>
             <Normal>
                 <X>19</X>
                 <Y>11</Y>
@@ -114,7 +114,7 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page2b</TextureName>
             <Normal>
                 <X>47</X>
                 <Y>11</Y>
@@ -181,13 +181,13 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page2b</TextureName>
             <Normal>
                 <X>75</X>
                 <Y>11</Y>
             </Normal>
             <Pressed>
-                <X>79</X>
+                <X>80</X>
                 <Y>45</Y>
             </Pressed>
             <NormalHighlit>
@@ -195,7 +195,7 @@
                 <Y>11</Y>
             </NormalHighlit>
             <PressedHighlit>
-                <X>79</X>
+                <X>80</X>
                 <Y>45</Y>
             </PressedHighlit>
             <Disabled>
@@ -248,7 +248,7 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page2b</TextureName>
             <Normal>
                 <X>103</X>
                 <Y>11</Y>
@@ -315,7 +315,7 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page2b</TextureName>
             <Normal>
                 <X>131</X>
                 <Y>11</Y>
@@ -382,7 +382,7 @@
             <ChangeFontColor>true</ChangeFontColor>
         </Font>
         <Texture>
-            <TextureName>page2</TextureName>
+            <TextureName>page2b</TextureName>
             <Normal>
                 <X>159</X>
                 <Y>11</Y>
@@ -409,7 +409,7 @@
 
     <ImageAreaTemplate>
         <Name>stats_index_background</Name>
-        <TextureName>page2</TextureName>
+        <TextureName>page2b</TextureName>
         <Size>
             <X>192</X>
             <Y>32</Y>
@@ -425,7 +425,7 @@
         <Name>stats_index</Name>
         <WindowId>StatsIndex</WindowId>
         <CloseButton>false</CloseButton>
-        <MoveButton>true</MoveButton>
+        <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
         <BottomRightResizeButton>false</BottomRightResizeButton>
         <BottomLeftResizeButton>false</BottomLeftResizeButton>
@@ -433,7 +433,7 @@
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>192</Width>
+        <Width>194</Width>
         <Height>32</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
@@ -441,6 +441,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -451,10 +452,9 @@
             </Position>
             <Alignment>
                 <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
             <TemplateName>dlg_sm_title_noresize</TemplateName>
-            <Width>188</Width>
+            <Width>192</Width>
             <Height>32</Height>
         </FullResizeImageDef>
 
@@ -487,6 +487,7 @@
             <TextAdapterName></TextAdapterName>
             <Data></Data>
             <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -505,6 +506,7 @@
             <TextAdapterName></TextAdapterName>
             <Data></Data>
             <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -523,6 +525,7 @@
             <TextAdapterName></TextAdapterName>
             <Data></Data>
             <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -541,6 +544,7 @@
             <TextAdapterName></TextAdapterName>
             <Data></Data>
             <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -559,6 +563,7 @@
             <TextAdapterName></TextAdapterName>
             <Data></Data>
             <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 
@@ -577,6 +582,7 @@
             <TextAdapterName></TextAdapterName>
             <Data></Data>
             <LabelWidth>100</LabelWidth>
+            <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
 
 

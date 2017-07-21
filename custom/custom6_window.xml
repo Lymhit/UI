@@ -1,8 +1,282 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <Texture>
+        <Name>DAoC_TV</Name>
+        <File>custom/daoc_tv.tga</File>
+    </Texture>
+
+
+    <FullResizeImageTemplate>
+        <Name>magic_border</Name>
+        <TopHeight>4</TopHeight>
+        <MiddleHeight>6</MiddleHeight>
+        <BottomHeight>4</BottomHeight>
+        <LeftWidth>4</LeftWidth>
+        <MiddleWidth>6</MiddleWidth>
+        <RightWidth>4</RightWidth>
+        <Texture>
+            <TextureName>daoc_tv</TextureName>
+            <TopLeft>
+                <X>16</X>
+                <Y>16</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>21</X>
+                <Y>16</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>28</X>
+                <Y>16</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>16</X>
+                <Y>21</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>21</X>
+                <Y>21</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>28</X>
+                <Y>21</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>16</X>
+                <Y>28</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>21</X>
+                <Y>28</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>28</X>
+                <Y>28</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <FullResizeImageTemplate>
+        <Name>magic_window_KTV</Name>
+        <TopHeight>8</TopHeight>
+        <MiddleHeight>8</MiddleHeight>
+        <BottomHeight>8</BottomHeight>
+        <LeftWidth>8</LeftWidth>
+        <MiddleWidth>8</MiddleWidth>
+        <RightWidth>8</RightWidth>
+        <Texture>
+            <TextureName>daoc_tv</TextureName>
+            <TopLeft>
+                <X>9</X>
+                <Y>0</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>9</X>
+                <Y>0</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>9</X>
+                <Y>0</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>9</X>
+                <Y>0</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>9</X>
+                <Y>0</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>9</X>
+                <Y>0</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>9</X>
+                <Y>0</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>9</X>
+                <Y>0</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>9</X>
+                <Y>0</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <FullResizeImageTemplate>
+        <Name>magic_window_VLC</Name>
+        <TopHeight>8</TopHeight>
+        <MiddleHeight>8</MiddleHeight>
+        <BottomHeight>8</BottomHeight>
+        <LeftWidth>8</LeftWidth>
+        <MiddleWidth>8</MiddleWidth>
+        <RightWidth>8</RightWidth>
+        <Texture>
+            <TextureName>daoc_tv</TextureName>
+            <TopLeft>
+                <X>18</X>
+                <Y>0</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>18</X>
+                <Y>0</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>18</X>
+                <Y>0</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>18</X>
+                <Y>0</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>18</X>
+                <Y>0</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>18</X>
+                <Y>0</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>18</X>
+                <Y>0</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>18</X>
+                <Y>0</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>18</X>
+                <Y>0</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <FullResizeImageTemplate>
+        <Name>magic_window_ALL</Name>
+        <TopHeight>8</TopHeight>
+        <MiddleHeight>8</MiddleHeight>
+        <BottomHeight>8</BottomHeight>
+        <LeftWidth>8</LeftWidth>
+        <MiddleWidth>8</MiddleWidth>
+        <RightWidth>8</RightWidth>
+        <Texture>
+            <TextureName>daoc_tv</TextureName>
+            <TopLeft>
+                <X>0</X>
+                <Y>0</Y>
+            </TopLeft>
+            <TopMiddle>
+                <X>0</X>
+                <Y>0</Y>
+            </TopMiddle>
+            <TopRight>
+                <X>0</X>
+                <Y>0</Y>
+            </TopRight>
+            <MiddleLeft>
+                <X>0</X>
+                <Y>0</Y>
+            </MiddleLeft>
+            <MiddleMiddle>
+                <X>0</X>
+                <Y>0</Y>
+            </MiddleMiddle>
+            <MiddleRight>
+                <X>0</X>
+                <Y>0</Y>
+            </MiddleRight>
+            <BottomLeft>
+                <X>0</X>
+                <Y>0</Y>
+            </BottomLeft>
+            <BottomMiddle>
+                <X>0</X>
+                <Y>0</Y>
+            </BottomMiddle>
+            <BottomRight>
+                <X>0</X>
+                <Y>0</Y>
+            </BottomRight>
+        </Texture>
+    </FullResizeImageTemplate>
+
+
+    <ButtonTemplate>
+        <Name>magic_tabs_mini</Name>
+        <Size>
+            <X>17</X>
+            <Y>8</Y>
+        </Size>
+        <Font>
+            <Name>brit9</Name>
+            <ColorNormal>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </ColorNormal>
+            <ColorPressed>
+                <R>255</R>
+                <G>204</G>
+                <B>0</B>
+                <A>255</A>
+            </ColorPressed>
+            <ColorHighlit>
+                <R>204</R>
+                <G>0</G>
+                <B>204</B>
+                <A>255</A>
+            </ColorHighlit>
+            <ColorDisabled>
+                <R>153</R>
+                <G>153</G>
+                <B>153</B>
+                <A>255</A>
+            </ColorDisabled>
+        </Font>
+        <Texture>
+            <TextureName>daoc_tv</TextureName>
+            <Normal>
+                <X>0</X>
+                <Y>24</Y>
+            </Normal>
+            <Pressed>
+                <X>0</X>
+                <Y>8</Y>
+            </Pressed>
+            <NormalHighlit>
+                <X>0</X>
+                <Y>16</Y>
+            </NormalHighlit>
+            <PressedHighlit>
+                <X>0</X>
+                <Y>8</Y>
+            </PressedHighlit>
+            <Disabled>
+                <X>0</X>
+                <Y>24</Y>
+            </Disabled>
+        </Texture>
+    </ButtonTemplate>
+
+
+    <TabsTemplate>
+        <Name>magic_tabs</Name>
+        <ControlAreaFullResizeImageTemplate></ControlAreaFullResizeImageTemplate>
+        <TabButtonTemplate>magic_tabs_mini</TabButtonTemplate>
+        <TabXOffset>1</TabXOffset>
+        <TabYOffset>2</TabYOffset>
+    </TabsTemplate>
 
 
     <WindowTemplate>
@@ -11,23 +285,44 @@
         <CloseButton>false</CloseButton>
         <MoveButton>false</MoveButton>
         <TopRightResizeButton>false</TopRightResizeButton>
-        <BottomRightResizeButton>false</BottomRightResizeButton>
-        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
         <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
         <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
         <TitleWidth>0</TitleWidth>
         <TitleHeight>0</TitleHeight>
-        <Width>126</Width>
-        <Height>138</Height>
+        <Width>320</Width>
+        <Height>234</Height>
         <ResizeableWidth>0</ResizeableWidth>
         <ResizeableHeight>0</ResizeableHeight>
         <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
-        <MinWidth>0</MinWidth>
-        <MinHeight>0</MinHeight>
+        <MinWidth>50</MinWidth>
+        <MinHeight>50</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
-        <ImageAreaDef>
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>magic_border</TemplateName>
+            <Width>320</Width>
+            <Height>227</Height>
+        </FullResizeImageDef>
+
+
+        <!-- DAoC TV -->
+
+
+        <TabsDef>
+            <TemplateName>magic_tabs</TemplateName>
             <ControlId></ControlId>
             <Position>
                 <X>0</X>
@@ -36,80 +331,82 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>lym_menu</TemplateName>
-        </ImageAreaDef>
+            <Width>50</Width>
+            <Height>8</Height>
+            <onCLickEvent></onCLickEvent>
+        <Tab>
+            <Id>1</Id>
+            <Name> all</Name>
+        </Tab>
+        <Tab>
+            <Id>2</Id>
+            <Name> ktv</Name>
+        </Tab>
+        <Tab>
+            <Id>3</Id>
+            <Name> vlc</Name>
+        </Tab>
+            <TabControl>
+                <TabId>1</TabId>
+                <ControlId>1100</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>2</TabId>
+                <ControlId>1200</ControlId>
+            </TabControl>
+            <TabControl>
+                <TabId>3</TabId>
+                <ControlId>1300</ControlId>
+            </TabControl>
+        </TabsDef>
 
 
-        <LabelDef>
-            <ControlId></ControlId>
+        <FullResizeImageDef>
+            <ControlId>1100</ControlId>
             <Position>
-                <X>31</X>
-                <Y>55</Y>
+                <X>3</X>
+                <Y>9</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <FontName>title</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>51</G>
-                <B>0</B>
-                <A>255</A>
-            </Color>
-            <Data>UI LyM</Data>
-            <EndAligned>true</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
+            <TemplateName>magic_window_all</TemplateName>
+            <Width>314</Width>
+            <Height>221</Height>
+        </FullResizeImageDef>
 
 
-        <LabelDef>
-            <ControlId></ControlId>
+        <FullResizeImageDef>
+            <ControlId>1200</ControlId>
             <Position>
-                <X>31</X>
-                <Y>72</Y>
+                <X>3</X>
+                <Y>9</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
-                <CenterHorizontally>true</CenterHorizontally>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <FontName>button_large</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
-            <Color>
-                <R>255</R>
-                <G>102</G>
-                <B>0</B>
-                <A>255</A>
-            </Color>
-            <Data>Version 2</Data>
-            <EndAligned>true</EndAligned>
-            <TextCentered>false</TextCentered>
-        </LabelDef>
+            <TemplateName>magic_window_ktv</TemplateName>
+            <Width>314</Width>
+            <Height>221</Height>
+        </FullResizeImageDef>
 
 
-        <InvisibleButtonDef>
-            <ControlId></ControlId>
+        <FullResizeImageDef>
+            <ControlId>1300</ControlId>
             <Position>
-                <X>0</X>
-                <Y>0</Y>
+                <X>3</X>
+                <Y>9</Y>
             </Position>
             <Alignment>
-                <TopLeft>true</TopLeft>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
             </Alignment>
-            <Label></Label>
-            <OnClickEvent>ToggleCustom6</OnClickEvent>
-            <Width>126</Width>
-            <Height>138</Height>
-        </InvisibleButtonDef>
+            <TemplateName>magic_window_vlc</TemplateName>
+            <Width>314</Width>
+            <Height>221</Height>
+        </FullResizeImageDef>
 
 
     </WindowTemplate>

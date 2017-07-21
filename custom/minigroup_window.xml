@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
 
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
 
 
@@ -25,6 +25,7 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
+        <ContextTemplateName></ContextTemplateName>
 
 
         <FullResizeImageDef>
@@ -67,21 +68,21 @@
                 <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>130</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
-            <Data>Afficher / Retirer</Data>
+            <FontName>brit9</FontName>
+            <Width>130</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>32</MaxCharacters>
+            <Data>Afficher/Retirer</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -95,21 +96,21 @@
                 <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>brit9</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>95</Width>
-            <Height>20</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>153</R>
                 <G>153</G>
                 <B>153</B>
                 <A>255</A>
             </Color>
-            <Data>les mini groupe</Data>
+            <FontName>brit9</FontName>
+            <Width>95</Width>
+            <Height>20</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
+            <Data>les mini groupes</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -123,21 +124,21 @@
                 <TopLeft>true</TopLeft>
                 <CenterHorizontally>true</CenterHorizontally>
             </Alignment>
-            <FontName>barb10</FontName>
-            <Adapter></Adapter>
-            <ColorAdapter></ColorAdapter>
-            <Width>100</Width>
-            <Height>25</Height>
-            <MaxCharacters>999</MaxCharacters>
             <Color>
                 <R>255</R>
                 <G>51</G>
                 <B>0</B>
                 <A>255</A>
             </Color>
+            <FontName>barb10</FontName>
+            <Width>100</Width>
+            <Height>25</Height>
+            <ColorAdapter></ColorAdapter>
+            <MaxCharacters>999</MaxCharacters>
             <Data>Groupe</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
+            <Adapter></Adapter>
         </LabelDef>
 
 
@@ -152,7 +153,7 @@
             </Alignment>
             <TemplateName>lym_button0_vsmall</TemplateName>
             <Label>P</Label>
-            <onClickEvent>ToggleCustom1</onClickEvent>
+            <onClickEvent>ToggleCustom2</onClickEvent>
         </ButtonDef>
 
 
@@ -166,8 +167,8 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>lym_button0_vsmall</TemplateName>
-            <Label>M</Label>
-            <onClickEvent>ToggleCustom2</onClickEvent>
+            <Label>G</Label>
+            <onClickEvent>ToggleCustom3</onClickEvent>
         </ButtonDef>
 
 
@@ -182,8 +183,8 @@
                 <OffsetRight>true</OffsetRight>
             </Alignment>
             <TemplateName>lym_button0_vsmall</TemplateName>
-            <Label>G</Label>
-            <onClickEvent>ToggleCustom3</onClickEvent>
+            <Label>H</Label>
+            <onClickEvent>ToggleCustom1</onClickEvent>
         </ButtonDef>
 
 
