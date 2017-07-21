@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom14_window</Name>
+        <WindowId>custom14_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>43</Width>
+        <Height>47</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_menu_grmulti</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>-2</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_high</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <ImageAreaDef>
+            <ControlId>0</ControlId>
+            <Position>
+                <X>-2</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_high</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>4</X>
+                <Y>41</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>34</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>25</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_3</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>19</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>19</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_all_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>31</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>31</X>
+                <Y>27</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_all_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>4</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name2</Adapter>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Width>35</Width>
+            <Height>15</Height>
+            <MaxCharacters>7</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>3</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_health2</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_endurance2</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>153</R>
+                <G>255</G>
+                <B>153</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>30</X>
+                <Y>29</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_power2</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>20</Width>
+            <Height>15</Height>
+            <MaxCharacters>4</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label></Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>43</Width>
+            <Height>47</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

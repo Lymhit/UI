@@ -1,0 +1,1197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>custom1_window</Name>
+        <WindowId>custom1_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>0</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>78</Width>
+        <Height>131</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>-11</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>100</Width>
+            <Height>143</Height>
+        </FullResizeImageDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_menu_groupe1</TemplateName>
+        </ImageAreaDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_1</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health0</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_all_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance0</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_all_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power0</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>7</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name0</Adapter>
+            <ColorAdapter>group_color0</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_2</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>34</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health1</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_all_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance1</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_all_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power1</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name1</Adapter>
+            <ColorAdapter>group_color1</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_3</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>49</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health2</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance2</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power2</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name2</Adapter>
+            <ColorAdapter>group_color2</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_4</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>64</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health3</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance3</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power3</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>52</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name3</Adapter>
+            <ColorAdapter>group_color3</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_5</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>79</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health4</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance4</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power4</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>67</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name4</Adapter>
+            <ColorAdapter>group_color4</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_6</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>94</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health5</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance5</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power5</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>82</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name5</Adapter>
+            <ColorAdapter>group_color5</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_7</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>109</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health6</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance6</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power6</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>97</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name6</Adapter>
+            <ColorAdapter>group_color6</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_pdv_icon_small</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>1</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_groupe_8</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>124</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>group_health7</AdapterName>
+            <Width>33</Width>
+        </StatusBarDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>50</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_endu_icon_small</TemplateName>
+            <AdapterName>group_endurance7</AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_no_icon_small</TemplateName>
+            <AdapterName></AdapterName>
+        </StatusIconDef>
+
+
+        <StatusIconDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>63</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>lym_mana_icon_small</TemplateName>
+            <AdapterName>group_power7</AdapterName>
+        </StatusIconDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>15</X>
+                <Y>112</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>brit9</FontName>
+            <Adapter>group_name7</Adapter>
+            <ColorAdapter>group_color7</ColorAdapter>
+            <Width>40</Width>
+            <Height>15</Height>
+            <MaxCharacters>8</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>10</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>0</Label>
+            <OnClickEvent>SelectGroupMember0</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>25</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>1</Label>
+            <OnClickEvent>SelectGroupMember1</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>40</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>2</Label>
+            <OnClickEvent>SelectGroupMember2</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>55</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>3</Label>
+            <OnClickEvent>SelectGroupMember3</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>70</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>4</Label>
+            <OnClickEvent>SelectGroupMember4</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>85</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>5</Label>
+            <OnClickEvent>SelectGroupMember5</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>100</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>6</Label>
+            <OnClickEvent>SelectGroupMember6</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+        <InvisibleButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>115</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <Label>7</Label>
+            <OnClickEvent>SelectGroupMember7</OnClickEvent>
+            <Width>78</Width>
+            <Height>15</Height>
+        </InvisibleButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

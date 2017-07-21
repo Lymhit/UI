@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>alpha_chooser</Name>
+        <WindowId>AlphaChooser</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>166</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>166</Width>
+        <Height>86</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>166</Width>
+            <Height>87</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>dlg_interior_small</TemplateName>
+            <Width>148</Width>
+            <Height>77</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>51</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data>Choix Alpha</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <!--Window Section-->
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>37</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Fenêtre</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>115</X>
+                <Y>19</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>window_alpha</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>34</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>92</X>
+                <Y>16</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+            <Label></Label>
+            <onClickEvent>WindowAlphaDecrease</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>136</X>
+                <Y>17</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>WindowAlphaIncrease</onClickEvent>
+        </ButtonDef>
+
+
+        <!--Font Section-->
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>37</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>112</Width>
+            <Height>16</Height>
+            <MaxCharacters>64</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data>Font</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>115</X>
+                <Y>36</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>font_alpha</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>34</Width>
+            <Height>18</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+            <DontDrawWhenZero>false</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>92</X>
+                <Y>33</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_left</TemplateName>
+            <Label></Label>
+            <onClickEvent>FontAlphaDecrease</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>136</X>
+                <Y>33</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_right</TemplateName>
+            <Label></Label>
+            <onClickEvent>FontAlphaIncrease</onClickEvent>
+        </ButtonDef>
+
+
+        <!--Commit Buttons-->
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>11</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>lym_button0_large</TemplateName>
+            <Label>ACCEPTER</Label>
+            <onClickEvent>AlphaSettingsAccept</onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>82</X>
+                <Y>54</Y>
+            </Position>
+            <Alignment>
+            </Alignment>
+            <TemplateName>lym_button0_large</TemplateName>
+            <Label>ANNULER</Label>
+            <onClickEvent>AlphaSettingsCancel</onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

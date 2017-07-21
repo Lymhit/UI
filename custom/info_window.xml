@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>info</Name>
+        <WindowId>Info</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>true</BottomRightResizeButton>
+        <BottomLeftResizeButton>true</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>9</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>300</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>300</Width>
+        <Height>448</Height>
+        <ResizeableWidth>6</ResizeableWidth>
+        <ResizeableHeight>6</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>120</MinWidth>
+        <MinHeight>120</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>300</Width>
+            <Height>448</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>BackgroundImage</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>dlg_interior_large</TemplateName>
+            <Width>280</Width>
+            <Height>438</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter>info_title</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>256</Width>
+            <Height>15</Height>
+            <MaxCharacters>128</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>51</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>20</X>
+                <Y>22</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>nobg_textarea</TemplateName>
+            <AdapterName>info_text</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>260</Width>
+            <Height>415</Height>
+        </TextAreaDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

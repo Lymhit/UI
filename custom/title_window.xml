@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <WindowTemplate>
+        <Name>title</Name>
+        <WindowId>Title</WindowId>
+        <CloseButton>true</CloseButton>
+        <MoveButton>true</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>435</TitleWidth>
+        <TitleHeight>18</TitleHeight>
+        <Width>435</Width>
+        <Height>281</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>435</Width>
+            <Height>281</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>10</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_interior_small</TemplateName>
+            <Width>415</Width>
+            <Height>271</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>15</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>200</Width>
+            <Height>200</Height>
+        </FullResizeImageDef>
+
+
+        <FullResizeImageDef>
+            <ControlId>Background</ControlId>
+            <Position>
+                <X>220</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>dlg_background_resize</TemplateName>
+            <Width>200</Width>
+            <Height>200</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>435</Width>
+            <Height>15</Height>
+            <MaxCharacters>50</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>51</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data>Titre du Personnage</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>12</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>128</Width>
+            <Height>17</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <Data>Titres Disponibles</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <ListBoxDef>
+            <ControlId>1002</ControlId>
+            <Position>
+                <X>25</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>listbox_gr</TemplateName>
+            <AdapterName>titles_available_titles</AdapterName>
+            <Sorting>false</Sorting>
+            <Columns>2</Columns>
+            <Width>190</Width>
+            <Height>200</Height>
+        </ListBoxDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>227</X>
+                <Y>23</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <FontName>barb10</FontName>
+            <Adapter></Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>128</Width>
+            <Height>17</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>200</R>
+                <G>200</G>
+                <B>200</B>
+                <A>200</A>
+            </Color>
+            <Data>Statistiques</Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>false</TextCentered>
+        </LabelDef>
+
+
+        <TextAreaDef>
+            <ControlId>1001</ControlId>
+            <Position>
+                <X>230</X>
+                <Y>37</Y>
+            </Position>
+            <Alignment>
+                <GrowWidth>true</GrowWidth>
+                <GrowHeight>true</GrowHeight>
+            </Alignment>
+            <TemplateName>map_textarea</TemplateName>
+            <AdapterName>titles_stats</AdapterName>
+            <HasHotspots>false</HasHotspots>
+            <MaxCharacters>32768</MaxCharacters>
+            <Width>190</Width>
+            <Height>200</Height>
+        </TextAreaDef>
+
+
+        <ButtonDef>
+            <ControlId>1003</ControlId>
+            <Position>
+                <X>148</X>
+                <Y>243</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_small</TemplateName>
+            <Label>MAJ TITRE</Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+        <ButtonDef>
+            <ControlId>1004</ControlId>
+            <Position>
+                <X>360</X>
+                <Y>243</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>button_large</TemplateName>
+            <Label>OK</Label>
+            <onClickEvent></onClickEvent>
+        </ButtonDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>

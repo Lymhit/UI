@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Root_Element ID="DAOCUi">
+
+<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
+
+
+    <StatusBarTemplate>
+        <Name>red_status_NoBG</Name>
+        <ForegroundHResizeTemplate>red_full</ForegroundHResizeTemplate>
+        <BackgroundHResizeTemplate></BackgroundHResizeTemplate>
+        <Height>6</Height>
+        <ForegroundOffset>
+            <X>0</X>
+            <Y>0</Y>
+        </ForegroundOffset>
+    </StatusBarTemplate>
+
+
+    <WindowTemplate>
+        <Name>custom5_window</Name>
+        <WindowId>custom5_window</WindowId>
+        <CloseButton>false</CloseButton>
+        <MoveButton>false</MoveButton>
+        <TopRightResizeButton>false</TopRightResizeButton>
+        <BottomRightResizeButton>false</BottomRightResizeButton>
+        <BottomLeftResizeButton>false</BottomLeftResizeButton>
+        <ResizeButtonOffsetX>0</ResizeButtonOffsetX>
+        <ResizeButtonOffsetY>0</ResizeButtonOffsetY>
+        <TitleWidth>155</TitleWidth>
+        <TitleHeight>0</TitleHeight>
+        <Width>155</Width>
+        <Height>25</Height>
+        <ResizeableWidth>0</ResizeableWidth>
+        <ResizeableHeight>0</ResizeableHeight>
+        <ResizeableTwoWayWidth>0</ResizeableTwoWayWidth>
+        <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
+        <MinWidth>0</MinWidth>
+        <MinHeight>0</MinHeight>
+
+
+        <FullResizeImageDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>0</X>
+                <Y>0</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+            </Alignment>
+            <TemplateName>selection_box_trans</TemplateName>
+            <Width>155</Width>
+            <Height>25</Height>
+        </FullResizeImageDef>
+
+
+        <LabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>5</X>
+                <Y>-1</Y>
+            </Position>
+            <Alignment>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <FontName>button_large</FontName>
+            <Adapter>summary_target</Adapter>
+            <ColorAdapter>summary_target_color</ColorAdapter>
+            <Width>150</Width>
+            <Height>20</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>255</R>
+                <G>255</G>
+                <B>255</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>false</EndAligned>
+            <TextCentered>true</TextCentered>
+        </LabelDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>27</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_vide</TemplateName>
+            <AdapterName></AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <StatusBarDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>2</Y>
+            </Position>
+            <Alignment>
+                <OffsetBottom>true</OffsetBottom>
+                <CenterHorizontally>true</CenterHorizontally>
+            </Alignment>
+            <TemplateName>lym_bar_pdv_groupe2</TemplateName>
+            <AdapterName>summary_target_hits</AdapterName>
+            <Width>104</Width>
+        </StatusBarDef>
+
+
+        <ImageAreaDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>26</X>
+                <Y>6</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+                <OffsetRight>true</OffsetRight>
+            </Alignment>
+            <TemplateName>lym_bar_fin</TemplateName>
+        </ImageAreaDef>
+
+
+        <ScalarLabelDef>
+            <ControlId></ControlId>
+            <Position>
+                <X>131</X>
+                <Y>3</Y>
+            </Position>
+            <Alignment>
+                <TopLeft>true</TopLeft>
+                <OffsetBottom>true</OffsetBottom>
+            </Alignment>
+            <FontName>button_large</FontName>
+            <Adapter>summary_target_hits</Adapter>
+            <ColorAdapter></ColorAdapter>
+            <Width>24</Width>
+            <Height>14</Height>
+            <MaxCharacters>32</MaxCharacters>
+            <Color>
+                <R>204</R>
+                <G>51</G>
+                <B>0</B>
+                <A>255</A>
+            </Color>
+            <Data></Data>
+            <EndAligned>true</EndAligned>
+            <TextCentered>true</TextCentered>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+        </ScalarLabelDef>
+
+
+    </WindowTemplate>
+
+
+</Root_Element>
