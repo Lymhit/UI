@@ -2796,10 +2796,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_nw_font</Name>
@@ -2840,10 +2840,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_sm_bright</Name>
@@ -2884,10 +2884,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>2</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_sm_grey</Name>
@@ -2928,10 +2928,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>2</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg</Name>
@@ -2972,10 +2972,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_bg</Name>
@@ -3016,10 +3016,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_bg_nw_white_font</Name>
@@ -3060,10 +3060,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_bg_nw_font</Name>
@@ -3104,10 +3104,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_bg_sm_bright</Name>
@@ -3148,10 +3148,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>2</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_bg_sm_font</Name>
@@ -3192,10 +3192,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_bg_icons</Name>
@@ -3236,10 +3236,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <TextAreaTemplate>
         <Name>generic_textarea</Name>
@@ -4203,7 +4203,7 @@
         <NormalHighlit>listbox_header</NormalHighlit>
         <PressedHighlit>listbox_header</PressedHighlit>
         <Disabled>listbox_header</Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeImageTemplate>
         <Name>generic_hr_image_normal</Name>
         <Height>16</Height>
@@ -4327,7 +4327,7 @@
         <NormalHighlit>generic_hr_image_normalhighlight</NormalHighlit>
         <PressedHighlit>generic_hr_image_pressed</PressedHighlit>
         <Disabled>generic_hr_image_disabled</Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeButtonTemplate>
         <Name>generic_hr_button_small</Name>
         <Height>16</Height>
@@ -4363,7 +4363,7 @@
         <NormalHighlit>generic_hr_image_normalhighlight</NormalHighlit>
         <PressedHighlit>generic_hr_image_pressed</PressedHighlit>
         <Disabled>generic_hr_image_disabled</Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeImageTemplate>
         <Name>hr_image_normal</Name>
         <Height>20</Height>
@@ -4465,7 +4465,7 @@
         <NormalHighlit>hr_image_highlit</NormalHighlit>
         <PressedHighlit>hr_image_pressed</PressedHighlit>
         <Disabled>hr_image_normal</Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeImageTemplate>
         <Name>simple_hr_image_highlit</Name>
         <Height>20</Height>
@@ -4523,7 +4523,7 @@
         <NormalHighlit>simple_hr_image_highlit</NormalHighlit>
         <PressedHighlit></PressedHighlit>
         <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeImageTemplate>
         <Name>context_hr_image_highlit</Name>
         <Height>16</Height>
@@ -4581,7 +4581,7 @@
         <NormalHighlit>context_hr_image_highlit</NormalHighlit>
         <PressedHighlit></PressedHighlit>
         <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeButtonTemplate>
         <Name>context_hr_button</Name>
         <Height>16</Height>
@@ -4617,7 +4617,7 @@
         <NormalHighlit>context_hr_image_highlit</NormalHighlit>
         <PressedHighlit></PressedHighlit>
         <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeImageTemplate>
         <Name>context_hr_image_divider</Name>
         <Height>1</Height>
@@ -5074,7 +5074,7 @@
         <NormalHighlit>tab_button_highlit</NormalHighlit>
         <PressedHighlit>tab_button_highlit</PressedHighlit>
         <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_nw_white_font</Name>
         <LinePadding>4</LinePadding>
@@ -5114,10 +5114,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_nw_font</Name>
@@ -5158,10 +5158,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>0</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_sm_bright</Name>
@@ -5202,10 +5202,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>2</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <ListBoxTemplate>
         <Name>listbox_nobg_sm_grey</Name>
@@ -5246,10 +5246,10 @@
             <TextRightOffset>0</TextRightOffset>
             <LineOffset>2</LineOffset>
         </TextFont>
-            <IconSize>
-                <X>16</X>
-                <Y>16</Y>
-            </IconSize>
+        <IconSize>
+            <X>16</X>
+            <Y>16</Y>
+        </IconSize>
     </ListBoxTemplate>
     <TreeControlTemplate>
         <Name>generic_tree_control</Name>
@@ -5304,7 +5304,7 @@
         <NormalHighlit>context_hr_image_highlit</NormalHighlit>
         <PressedHighlit></PressedHighlit>
         <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeButtonTemplate>
         <Name>generic_hr_button_title</Name>
         <Height>23</Height>
@@ -5340,7 +5340,7 @@
         <NormalHighlit>hr_image_highlit</NormalHighlit>
         <PressedHighlit>hr_image_pressed</PressedHighlit>
         <Disabled>generic_hr_image_disabled</Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeButtonTemplate>
         <Name>generic_hr_button_barb10</Name>
         <Height>16</Height>
@@ -5376,7 +5376,7 @@
         <NormalHighlit>generic_hr_image_normalhighlight</NormalHighlit>
         <PressedHighlit>generic_hr_image_pressed</PressedHighlit>
         <Disabled>generic_hr_image_pressed</Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <HorizontalResizeButtonTemplate>
         <Name>generic_hr_button_arial9</Name>
         <Height>16</Height>
@@ -5412,7 +5412,7 @@
         <NormalHighlit>generic_hr_image_normalhighlight</NormalHighlit>
         <PressedHighlit>generic_hr_image_pressed</PressedHighlit>
         <Disabled></Disabled>
-</HorizontalResizeButtonTemplate>
+    </HorizontalResizeButtonTemplate>
     <ButtonTemplate>
         <Name>button_wide_barb10</Name>
         <Size>
@@ -5701,7 +5701,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
     <ButtonTemplate>
         <Name>lym_attaque</Name>
         <Size>
@@ -5759,8 +5758,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button0_large</Name>
         <Size>
@@ -5818,8 +5815,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button0_small_blue</Name>
         <Size>
@@ -5877,8 +5872,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button0_small_green</Name>
         <Size>
@@ -5936,8 +5929,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button0_small_red</Name>
         <Size>
@@ -5995,8 +5986,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button0_vsmall</Name>
         <Size>
@@ -6054,8 +6043,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button1_left</Name>
         <Size>
@@ -6113,8 +6100,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button1_right</Name>
         <Size>
@@ -6172,8 +6157,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button2_left</Name>
         <Size>
@@ -6231,8 +6214,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button2_right</Name>
         <Size>
@@ -6290,8 +6271,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button3_left</Name>
         <Size>
@@ -6349,8 +6328,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button3_right</Name>
         <Size>
@@ -6408,8 +6385,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button4_left</Name>
         <Size>
@@ -6467,8 +6442,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button4_right</Name>
         <Size>
@@ -6526,8 +6499,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button5_left</Name>
         <Size>
@@ -6585,8 +6556,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button5_right</Name>
         <Size>
@@ -6644,8 +6613,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button6_left</Name>
         <Size>
@@ -6703,8 +6670,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button6_right</Name>
         <Size>
@@ -6762,8 +6727,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button_attaque</Name>
         <Size>
@@ -6821,8 +6784,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button_face</Name>
         <Size>
@@ -6880,8 +6841,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button_sprint</Name>
         <Size>
@@ -6939,8 +6898,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_button_stick</Name>
         <Size>
@@ -6998,8 +6955,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_close</Name>
         <Size>
@@ -7057,8 +7012,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_coller</Name>
         <Size>
@@ -7116,8 +7069,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_face</Name>
         <Size>
@@ -7175,8 +7126,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_pet_attaque</Name>
         <Size>
@@ -7234,8 +7183,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_pet_libre</Name>
         <Size>
@@ -7293,8 +7240,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>lym_sprint</Name>
         <Size>
@@ -7352,8 +7297,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <ButtonTemplate>
         <Name>magic_tabs_mini</Name>
         <Size>
@@ -7411,8 +7354,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>parchemin2</Name>
         <TopHeight>20</TopHeight>
@@ -7461,8 +7402,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>lym_parchemin</Name>
         <TopHeight>113</TopHeight>
@@ -7511,8 +7450,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>selection_box_trans</Name>
         <TopHeight>6</TopHeight>
@@ -7561,8 +7498,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_border</Name>
         <TopHeight>4</TopHeight>
@@ -7611,8 +7546,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>chat_bg</Name>
         <TopHeight>7</TopHeight>
@@ -7661,8 +7594,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_window_ALL</Name>
         <TopHeight>8</TopHeight>
@@ -7711,8 +7642,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_window_KTV</Name>
         <TopHeight>8</TopHeight>
@@ -7761,8 +7690,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_window_VLC</Name>
         <TopHeight>8</TopHeight>
@@ -7811,8 +7738,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location1</Name>
         <TextureName>map_icons2</TextureName>
@@ -7825,8 +7750,6 @@
             <Y>3</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location2</Name>
         <TextureName>map_icons2</TextureName>
@@ -7839,8 +7762,6 @@
             <Y>12</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location3</Name>
         <TextureName>map_icons2</TextureName>
@@ -7853,8 +7774,6 @@
             <Y>21</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location4</Name>
         <TextureName>map_icons2</TextureName>
@@ -7867,8 +7786,6 @@
             <Y>30</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location5</Name>
         <TextureName>map_icons2</TextureName>
@@ -7881,8 +7798,6 @@
             <Y>39</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location6</Name>
         <TextureName>map_icons2</TextureName>
@@ -7895,8 +7810,6 @@
             <Y>48</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location7</Name>
         <TextureName>map_icons2</TextureName>
@@ -7909,8 +7822,6 @@
             <Y>57</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>group_location8</Name>
         <TextureName>map_icons2</TextureName>
@@ -7923,8 +7834,6 @@
             <Y>66</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_all_icon_small</Name>
         <TextureName>pagelym</TextureName>
@@ -7937,8 +7846,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_attaque_menu_left</Name>
         <TextureName>lym_attak</TextureName>
@@ -7951,8 +7858,6 @@
         <MaxLevels>2</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_attaque_menu_right</Name>
         <TextureName>lym_attak</TextureName>
@@ -7965,8 +7870,6 @@
         <MaxLevels>2</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_compass</Name>
         <TextureName>lym_fx</TextureName>
@@ -7979,8 +7882,6 @@
         <MaxLevels>32</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_endu_icon_small</Name>
         <TextureName>pagelym</TextureName>
@@ -7993,8 +7894,6 @@
         <MaxLevels>18</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_1</Name>
         <TextureName>pagelym</TextureName>
@@ -8007,8 +7906,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_2</Name>
         <TextureName>pagelym</TextureName>
@@ -8021,8 +7918,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_3</Name>
         <TextureName>pagelym</TextureName>
@@ -8035,8 +7930,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_4</Name>
         <TextureName>pagelym</TextureName>
@@ -8049,8 +7942,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_5</Name>
         <TextureName>pagelym</TextureName>
@@ -8063,8 +7954,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_6</Name>
         <TextureName>pagelym</TextureName>
@@ -8077,8 +7966,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_7</Name>
         <TextureName>pagelym</TextureName>
@@ -8091,8 +7978,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_groupe_8</Name>
         <TextureName>pagelym</TextureName>
@@ -8105,8 +7990,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_mana_icon_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8119,8 +8002,6 @@
         <MaxLevels>18</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_menu_groupe3</Name>
         <TextureName>pagelym</TextureName>
@@ -8133,8 +8014,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_no_icon_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8147,8 +8026,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_pdv_icon_high</Name>
         <TextureName>pagelym</TextureName>
@@ -8161,8 +8038,6 @@
         <MaxLevels>18</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_pdv_icon_med</Name>
         <TextureName>pagelym</TextureName>
@@ -8175,8 +8050,6 @@
         <MaxLevels>18</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_pdv_icon_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8189,8 +8062,6 @@
         <MaxLevels>18</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_pdv_no_icon_high</Name>
         <TextureName>pagelym</TextureName>
@@ -8203,8 +8074,6 @@
         <MaxLevels>1</MaxLevels>
         <Horizontal>false</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusIconTemplate>
         <Name>lym_player_view</Name>
         <TextureName>lym_fx</TextureName>
@@ -8217,8 +8086,6 @@
         <MaxLevels>32</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <StatusBarTemplate>
         <Name>red_status_NoBG</Name>
         <ForegroundHResizeTemplate>red_full</ForegroundHResizeTemplate>
@@ -8229,8 +8096,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <CheckBoxTemplate>
         <Name>agra_box</Name>
         <Size>
@@ -8296,8 +8161,6 @@
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
-
-
     <CheckBoxTemplate>
         <Name>tree_check2</Name>
         <Size>
@@ -8363,8 +8226,6 @@
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
-
-
     <CheckBoxTemplate>
         <Name>alb_box</Name>
         <Size>
@@ -8430,8 +8291,6 @@
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
-
-
     <CheckBoxTemplate>
         <Name>hib_box</Name>
         <Size>
@@ -8497,8 +8356,6 @@
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
-
-
     <CheckBoxTemplate>
         <Name>mid_box</Name>
         <Size>
@@ -8564,8 +8421,6 @@
             </Disabled>
         </Texture>
     </CheckBoxTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_menu_left</Name>
         <TextureName>pagelym</TextureName>
@@ -8578,8 +8433,6 @@
             <Y>843</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_menu_right</Name>
         <TextureName>pagelym</TextureName>
@@ -8592,8 +8445,6 @@
             <Y>843</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_assis_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8606,8 +8457,6 @@
             <Y>316</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_attaque_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8620,8 +8469,6 @@
             <Y>315</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_bar_fin</Name>
         <TextureName>pagelym</TextureName>
@@ -8634,8 +8481,6 @@
             <Y>866</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_compass2</Name>
         <TextureName>lym_fx</TextureName>
@@ -8648,8 +8493,6 @@
             <Y>428</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_disband</Name>
         <TextureName>pagelym</TextureName>
@@ -8662,8 +8505,6 @@
             <Y>367</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_face_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8676,8 +8517,6 @@
             <Y>315</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_groupe_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8690,8 +8529,6 @@
             <Y>367</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_invite</Name>
         <TextureName>pagelym</TextureName>
@@ -8704,8 +8541,6 @@
             <Y>367</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_journal_icon</Name>
         <TextureName>pagelym</TextureName>
@@ -8718,8 +8553,6 @@
             <Y>533</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_journal_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8732,8 +8565,6 @@
             <Y>365</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_macro</Name>
         <TextureName>pagelym</TextureName>
@@ -8746,8 +8577,6 @@
             <Y>197</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_map_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8760,8 +8589,6 @@
             <Y>366</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_menu_grmulti</Name>
         <TextureName>pagelym</TextureName>
@@ -8774,8 +8601,6 @@
             <Y>924</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_menu_groupe1</Name>
         <TextureName>pagelym</TextureName>
@@ -8788,8 +8613,6 @@
             <Y>692</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_menu_groupe2</Name>
         <TextureName>pagelym</TextureName>
@@ -8802,8 +8625,6 @@
             <Y>855</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_ml_icon</Name>
         <TextureName>pagelym</TextureName>
@@ -8816,8 +8637,6 @@
             <Y>534</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_ml_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8830,8 +8649,6 @@
             <Y>365</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_no_icon_high</Name>
         <TextureName>pagelym</TextureName>
@@ -8844,8 +8661,6 @@
             <Y>255</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_no_icon_med</Name>
         <TextureName>pagelym</TextureName>
@@ -8858,8 +8673,6 @@
             <Y>311</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_sprint_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8872,8 +8685,6 @@
             <Y>315</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_stick_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8886,8 +8697,6 @@
             <Y>312</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>lym_warmap_small</Name>
         <TextureName>pagelym</TextureName>
@@ -8900,8 +8709,6 @@
             <Y>315</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <HorizontalResizeImageTemplate>
         <Name>lym_bar_pdv_groupe2_plein</Name>
         <Height>6</Height>
@@ -8924,8 +8731,6 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
-
-
     <HorizontalResizeImageTemplate>
         <Name>lym_bar_pdv_groupe2_vide</Name>
         <Height>6</Height>
@@ -8948,8 +8753,6 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
-
-
     <HorizontalResizeImageTemplate>
         <Name>lym_barc_lvl_plein</Name>
         <Height>9</Height>
@@ -8972,8 +8775,6 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
-
-
     <HorizontalResizeImageTemplate>
         <Name>lym_barc_rang_plein</Name>
         <Height>9</Height>
@@ -8996,8 +8797,6 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
-
-
     <HorizontalResizeImageTemplate>
         <Name>lym_barc_rang_vide</Name>
         <Height>9</Height>
@@ -9020,8 +8819,6 @@
             </Right>
         </Texture>
     </HorizontalResizeImageTemplate>
-
-
     <StatusBarTemplate>
         <Name>lym_bar_pdv_groupe2</Name>
         <ForegroundHResizeTemplate>red_full</ForegroundHResizeTemplate>
@@ -9032,8 +8829,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <StatusBarTemplate>
         <Name>lym_bar_endu</Name>
         <ForegroundHResizeTemplate>green_full</ForegroundHResizeTemplate>
@@ -9044,8 +8839,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <StatusBarTemplate>
         <Name>lym_bar_mana</Name>
         <ForegroundHResizeTemplate>yellow_full</ForegroundHResizeTemplate>
@@ -9056,8 +8849,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <StatusBarTemplate>
         <Name>lym_barc_lvl</Name>
         <ForegroundHResizeTemplate>lym_barc_lvl_plein</ForegroundHResizeTemplate>
@@ -9068,8 +8859,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <StatusBarTemplate>
         <Name>lym_barc_rang</Name>
         <ForegroundHResizeTemplate>lym_barc_rang_plein</ForegroundHResizeTemplate>
@@ -9080,8 +8869,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <ImageAreaTemplate>
         <Name>realm_rang</Name>
         <TextureName>realm_bonus</TextureName>
@@ -9094,8 +8881,6 @@
             <Y>0</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <TextAreaTemplate>
         <Name>lym_journal_text</Name>
         <BackgroundTemplate>none</BackgroundTemplate>
@@ -9129,8 +8914,6 @@
             </ColorActive>
         </Font>
     </TextAreaTemplate>
-
-
     <StatusBarTemplate>
         <Name>lym_bar_vide</Name>
         <ForegroundHResizeTemplate>green_back</ForegroundHResizeTemplate>
@@ -9141,8 +8924,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <ImageAreaTemplate>
         <Name>quest_waypoint</Name>
         <TextureName>map_icons2</TextureName>
@@ -9155,8 +8936,6 @@
             <Y>20</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>quest_giver</Name>
         <TextureName>map_icons2</TextureName>
@@ -9169,8 +8948,6 @@
             <Y>4</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>mino_relic_1</Name>
         <TextureName>map_icons2</TextureName>
@@ -9183,8 +8960,6 @@
             <Y>32</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>mino_relic_2</Name>
         <TextureName>map_icons2</TextureName>
@@ -9197,8 +8972,6 @@
             <Y>48</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>mino_relic_3</Name>
         <TextureName>map_icons2</TextureName>
@@ -9211,8 +8984,6 @@
             <Y>64</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ComboBoxTemplate>
         <Name>generic_combobox_scroll</Name>
         <Menuoffset>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
     <WindowTemplate>
         <Name>casual_group_finder_window</Name>
         <CloseButton>true</CloseButton>
@@ -20,7 +19,6 @@
         <ResizeableTwoWayHeight>0</ResizeableTwoWayHeight>
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
-				
         <FullResizeImageDef>
             <ControlId>BackgroundImage</ControlId>
             <Position>
@@ -36,8 +34,7 @@
             <Width>200</Width>
             <Height>200</Height>
         </FullResizeImageDef>
-		
-		<LabelDef>
+        <LabelDef>
             <ControlId></ControlId>
             <Position>
                 <X>20</X>
@@ -60,7 +57,6 @@
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
         </LabelDef>
-		
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -71,18 +67,17 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>simple_check</TemplateName>
-			<Font>
-				<ColorDisabled>
-					<R>64</R>
-					<G>64</G>
-					<B>64</B>
-					<A>255</A>
-				</ColorDisabled>			
-			</Font>
+            <Font>
+                <ColorDisabled>
+                    <R>64</R>
+                    <G>64</G>
+                    <B>64</B>
+                    <A>255</A>
+                </ColorDisabled>
+            </Font>
             <Data>Queue for PvE Group</Data>
             <LabelWidth>180</LabelWidth>
         </CheckBoxDef>
-		
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -106,7 +101,6 @@
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
         </LabelDef>
-				
         <CheckBoxDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -116,20 +110,19 @@
             <Alignment>
                 <TopLeft>true</TopLeft>
             </Alignment>
-            <TemplateName>simple_check</TemplateName>			
-			<Font>
-				<ColorDisabled>
-					<R>64</R>
-					<G>64</G>
-					<B>64</B>
-					<A>255</A>
-				</ColorDisabled>			
-			</Font>
+            <TemplateName>simple_check</TemplateName>
+            <Font>
+                <ColorDisabled>
+                    <R>64</R>
+                    <G>64</G>
+                    <B>64</B>
+                    <A>255</A>
+                </ColorDisabled>
+            </Font>
             <Data>Healer</Data>
             <LabelWidth>100</LabelWidth>
         </CheckBoxDef>
-
-	    <CheckBoxDef>
+        <CheckBoxDef>
             <ControlId>1005</ControlId>
             <Position>
                 <X>50</X>
@@ -139,18 +132,17 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>simple_check</TemplateName>
-			<Font>
-				<ColorDisabled>
-					<R>64</R>
-					<G>64</G>
-					<B>64</B>
-					<A>255</A>
-				</ColorDisabled>			
-			</Font>			
+            <Font>
+                <ColorDisabled>
+                    <R>64</R>
+                    <G>64</G>
+                    <B>64</B>
+                    <A>255</A>
+                </ColorDisabled>
+            </Font>
             <Data>Crowd Control</Data>
             <LabelWidth>100</LabelWidth>
         </CheckBoxDef>
-
         <CheckBoxDef>
             <ControlId>1006</ControlId>
             <Position>
@@ -161,18 +153,17 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>simple_check</TemplateName>
-			<Font>
-				<ColorDisabled>
-					<R>64</R>
-					<G>64</G>
-					<B>64</B>
-					<A>255</A>
-				</ColorDisabled>			
-			</Font>	
+            <Font>
+                <ColorDisabled>
+                    <R>64</R>
+                    <G>64</G>
+                    <B>64</B>
+                    <A>255</A>
+                </ColorDisabled>
+            </Font>
             <Data>Utility</Data>
             <LabelWidth>100</LabelWidth>
-        </CheckBoxDef>		
-		
+        </CheckBoxDef>
         <CheckBoxDef>
             <ControlId>1007</ControlId>
             <Position>
@@ -183,19 +174,18 @@
                 <TopLeft>true</TopLeft>
             </Alignment>
             <TemplateName>simple_check</TemplateName>
-			<Font>
-				<ColorDisabled>
-					<R>64</R>
-					<G>64</G>
-					<B>64</B>
-					<A>255</A>
-				</ColorDisabled>			
-			</Font>
+            <Font>
+                <ColorDisabled>
+                    <R>64</R>
+                    <G>64</G>
+                    <B>64</B>
+                    <A>255</A>
+                </ColorDisabled>
+            </Font>
             <Data>DPS</Data>
             <LabelWidth>100</LabelWidth>
         </CheckBoxDef>
-		
-	    <ButtonDef>
+        <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
                 <X>30</X>
@@ -207,7 +197,6 @@
             <TemplateName>button_large</TemplateName>
             <Label>SET</Label>
         </ButtonDef>
-
         <ButtonDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -220,8 +209,5 @@
             <TemplateName>button_large</TemplateName>
             <Label>CANCEL</Label>
         </ButtonDef>
-	
-				
     </WindowTemplate>
-
 </Root_Element>

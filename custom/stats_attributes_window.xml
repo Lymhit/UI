@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>stats_attributes</Name>
         <WindowId>StatsAttributes</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>BackgroundImage</ControlId>
             <Position>
@@ -41,8 +34,6 @@
             <Width>193</Width>
             <Height>416</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -69,8 +60,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_name</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -96,8 +85,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -110,8 +97,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>24</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -138,8 +123,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -165,8 +148,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -179,8 +160,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>57</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -207,8 +186,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -234,8 +211,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -248,8 +223,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>35</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -276,8 +249,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -303,8 +274,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -317,8 +286,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>35</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -345,8 +312,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -372,8 +337,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -386,8 +349,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>35</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -414,8 +375,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -441,8 +400,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -455,8 +412,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>35</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -483,8 +438,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -498,8 +451,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -526,8 +477,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1019</ControlId>
             <Position>
@@ -554,8 +503,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -569,8 +516,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -597,8 +542,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1020</ControlId>
             <Position>
@@ -625,8 +568,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1005</ControlId>
             <Position>
@@ -640,8 +581,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -668,8 +607,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1021</ControlId>
             <Position>
@@ -696,8 +633,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1006</ControlId>
             <Position>
@@ -711,8 +646,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -739,8 +672,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1022</ControlId>
             <Position>
@@ -767,8 +698,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1007</ControlId>
             <Position>
@@ -782,8 +711,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -810,8 +737,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1023</ControlId>
             <Position>
@@ -838,8 +763,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1008</ControlId>
             <Position>
@@ -853,8 +776,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -881,8 +802,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1024</ControlId>
             <Position>
@@ -909,8 +828,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1009</ControlId>
             <Position>
@@ -924,8 +841,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -952,8 +867,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1025</ControlId>
             <Position>
@@ -980,8 +893,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1010</ControlId>
             <Position>
@@ -995,8 +906,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>28</Width>
         </HorizontalResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1023,8 +932,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1026</ControlId>
             <Position>
@@ -1051,8 +958,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1011</ControlId>
             <Position>
@@ -1066,8 +971,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1093,8 +996,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_thrust</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1120,8 +1021,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1012</ControlId>
             <Position>
@@ -1135,8 +1034,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1162,8 +1059,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_crush</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1189,8 +1084,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1013</ControlId>
             <Position>
@@ -1204,8 +1097,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1231,8 +1122,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_slash</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1258,8 +1147,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1014</ControlId>
             <Position>
@@ -1273,8 +1160,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1300,8 +1185,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_heat</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1327,8 +1210,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1015</ControlId>
             <Position>
@@ -1342,8 +1223,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1369,8 +1248,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_cold</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1396,8 +1273,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1016</ControlId>
             <Position>
@@ -1411,8 +1286,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1438,8 +1311,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_matter</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1465,8 +1336,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1017</ControlId>
             <Position>
@@ -1480,8 +1349,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1507,8 +1374,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_energy</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1534,8 +1399,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1018</ControlId>
             <Position>
@@ -1549,8 +1412,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1576,8 +1437,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_spirit</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1603,8 +1462,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <HorizontalResizeImageDef>
             <ControlId>1027</ControlId>
             <Position>
@@ -1618,8 +1475,6 @@
             <TemplateName>dialog_inset</TemplateName>
             <Width>38</Width>
         </HorizontalResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1645,8 +1500,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_body</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1672,8 +1525,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -1687,8 +1538,6 @@
             <Width>186</Width>
             <Height>118</Height>
         </FullResizeImageDef>
-
-
         <ListBoxDef>
             <ControlId></ControlId>
             <Position>
@@ -1710,8 +1559,6 @@
             <OnHeaderClickEvent></OnHeaderClickEvent>
             <OnClickEvent></OnClickEvent>
         </ListBoxDef>
-
-
         <ButtonDef>
             <ControlId>1029</ControlId>
             <Position>
@@ -1725,8 +1572,6 @@
             <Label>Social</Label>
             <onClickEvent>Community</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1028</ControlId>
             <Position>
@@ -1740,8 +1585,6 @@
             <Label>TITRE</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>17</ControlId>
             <Position>
@@ -1755,8 +1598,6 @@
             <Label>AIDE</Label>
             <onClickEvent>Help</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1770,8 +1611,6 @@
             <Label>Boussole &gt;</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -1785,8 +1624,6 @@
             <Label>Menu 2</Label>
             <onClickEvent>ToggleCommandWindow</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1800,8 +1637,6 @@
             <Label>Menu 1</Label>
             <onClickEvent>ToggleCustom0</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>20</ControlId>
             <Position>
@@ -1815,8 +1650,6 @@
             <Label>CLAVIER</Label>
             <onClickEvent>ShowKeyboardConfig</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1030</ControlId>
             <Position>
@@ -1830,8 +1663,6 @@
             <Label>CHEVAL</Label>
             <onClickEvent>Mount</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1845,8 +1676,6 @@
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1860,8 +1689,6 @@
             <Label>1</Label>
             <onClickEvent>ToggleClock</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1875,8 +1702,6 @@
             <Label>2</Label>
             <onClickEvent>ToggleCompassWindow</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1890,8 +1715,6 @@
             <Label>2+</Label>
             <onClickEvent>ToggleCompass</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1905,9 +1728,5 @@
             <Label>Stats/Resists</Label>
             <onClickEvent>Bonuses</onClickEvent>
         </ButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

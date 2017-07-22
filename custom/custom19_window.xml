@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>custom19_window</Name>
         <WindowId>custom19_window</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -39,8 +32,6 @@
             </Alignment>
             <TemplateName>lym_menu_grmulti</TemplateName>
         </ImageAreaDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -53,8 +44,6 @@
             <TemplateName>lym_pdv_icon_high</TemplateName>
             <AdapterName>group_health7</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>0</ControlId>
             <Position>
@@ -66,8 +55,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_high</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -81,8 +68,6 @@
             <AdapterName>group_health7</AdapterName>
             <Width>34</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -95,8 +80,6 @@
             <TemplateName>lym_groupe_8</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -109,8 +92,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance7</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -123,8 +104,6 @@
             <TemplateName>lym_all_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -137,8 +116,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power7</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -151,8 +128,6 @@
             <TemplateName>lym_all_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -178,8 +153,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name7</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -206,8 +179,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -234,8 +205,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -262,8 +231,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -278,8 +245,6 @@
             <Width>43</Width>
             <Height>47</Height>
         </InvisibleButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -294,9 +259,5 @@
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

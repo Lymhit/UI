@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <Texture>
         <Name>DAoC_TV</Name>
         <File>custom/daoc_tv.tga</File>
     </Texture>
-
-
     <FullResizeImageTemplate>
         <Name>magic_border</Name>
         <TopHeight>4</TopHeight>
@@ -59,8 +52,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_window_KTV</Name>
         <TopHeight>8</TopHeight>
@@ -109,8 +100,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_window_VLC</Name>
         <TopHeight>8</TopHeight>
@@ -159,8 +148,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <FullResizeImageTemplate>
         <Name>magic_window_ALL</Name>
         <TopHeight>8</TopHeight>
@@ -209,8 +196,6 @@
             </BottomRight>
         </Texture>
     </FullResizeImageTemplate>
-
-
     <ButtonTemplate>
         <Name>magic_tabs_mini</Name>
         <Size>
@@ -268,8 +253,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <TabsTemplate>
         <Name>magic_tabs</Name>
         <ControlAreaFullResizeImageTemplate></ControlAreaFullResizeImageTemplate>
@@ -277,8 +260,6 @@
         <TabXOffset>1</TabXOffset>
         <TabYOffset>2</TabYOffset>
     </TabsTemplate>
-
-
     <WindowTemplate>
         <Name>custom6_window</Name>
         <WindowId>custom6_window</WindowId>
@@ -300,8 +281,6 @@
         <MinWidth>50</MinWidth>
         <MinHeight>50</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -316,11 +295,7 @@
             <Width>320</Width>
             <Height>227</Height>
         </FullResizeImageDef>
-
-
         <!-- DAoC TV -->
-
-
         <TabsDef>
             <TemplateName>magic_tabs</TemplateName>
             <ControlId></ControlId>
@@ -334,18 +309,18 @@
             <Width>50</Width>
             <Height>8</Height>
             <onCLickEvent></onCLickEvent>
-        <Tab>
-            <Id>1</Id>
-            <Name> all</Name>
-        </Tab>
-        <Tab>
-            <Id>2</Id>
-            <Name> ktv</Name>
-        </Tab>
-        <Tab>
-            <Id>3</Id>
-            <Name> vlc</Name>
-        </Tab>
+            <Tab>
+                <Id>1</Id>
+                <Name> all</Name>
+            </Tab>
+            <Tab>
+                <Id>2</Id>
+                <Name> ktv</Name>
+            </Tab>
+            <Tab>
+                <Id>3</Id>
+                <Name> vlc</Name>
+            </Tab>
             <TabControl>
                 <TabId>1</TabId>
                 <ControlId>1100</ControlId>
@@ -359,8 +334,6 @@
                 <ControlId>1300</ControlId>
             </TabControl>
         </TabsDef>
-
-
         <FullResizeImageDef>
             <ControlId>1100</ControlId>
             <Position>
@@ -375,8 +348,6 @@
             <Width>314</Width>
             <Height>221</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId>1200</ControlId>
             <Position>
@@ -391,8 +362,6 @@
             <Width>314</Width>
             <Height>221</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId>1300</ControlId>
             <Position>
@@ -407,9 +376,5 @@
             <Width>314</Width>
             <Height>221</Height>
         </FullResizeImageDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

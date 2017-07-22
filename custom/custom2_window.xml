@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>custom2_window</Name>
         <WindowId>custom2_window</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -39,8 +32,6 @@
             </Alignment>
             <TemplateName>lym_menu_groupe2</TemplateName>
         </ImageAreaDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -53,8 +44,6 @@
             <TemplateName>lym_groupe_1</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -67,8 +56,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health0</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>0</ControlId>
             <Position>
@@ -80,8 +67,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -95,8 +80,6 @@
             <AdapterName>group_health0</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -109,8 +92,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance0</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -123,8 +104,6 @@
             <TemplateName>lym_all_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -137,8 +116,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power0</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -151,8 +128,6 @@
             <TemplateName>lym_all_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -178,8 +153,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name0</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -204,10 +177,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -232,10 +204,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -260,10 +231,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -276,8 +246,6 @@
             <TemplateName>lym_groupe_2</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -290,8 +258,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health1</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>1</ControlId>
             <Position>
@@ -303,8 +269,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -318,8 +282,6 @@
             <AdapterName>group_health1</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -332,8 +294,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance1</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -346,8 +306,6 @@
             <TemplateName>lym_all_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -360,8 +318,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power1</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -374,8 +330,6 @@
             <TemplateName>lym_all_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -401,8 +355,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name1</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -427,10 +379,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -455,10 +406,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -483,10 +433,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -499,8 +448,6 @@
             <TemplateName>lym_groupe_3</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -513,8 +460,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health2</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>2</ControlId>
             <Position>
@@ -526,8 +471,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -541,8 +484,6 @@
             <AdapterName>group_health2</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -555,8 +496,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance2</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -569,8 +508,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -583,8 +520,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power2</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -597,8 +532,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -624,8 +557,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name2</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -650,10 +581,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -678,10 +608,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -706,10 +635,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -722,8 +650,6 @@
             <TemplateName>lym_groupe_4</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -736,8 +662,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health3</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>3</ControlId>
             <Position>
@@ -749,8 +673,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -764,8 +686,6 @@
             <AdapterName>group_health3</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -778,8 +698,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance3</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -792,8 +710,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -806,8 +722,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power3</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -820,8 +734,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -847,8 +759,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name3</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -873,10 +783,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -901,10 +810,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -929,10 +837,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -945,8 +852,6 @@
             <TemplateName>lym_groupe_5</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -959,8 +864,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health4</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>4</ControlId>
             <Position>
@@ -972,8 +875,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -987,8 +888,6 @@
             <AdapterName>group_health4</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1001,8 +900,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance4</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1015,8 +912,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1029,8 +924,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power4</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1043,8 +936,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1070,8 +961,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name4</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1096,10 +985,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1124,10 +1012,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1152,10 +1039,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1168,8 +1054,6 @@
             <TemplateName>lym_groupe_6</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1182,8 +1066,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health5</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>5</ControlId>
             <Position>
@@ -1195,8 +1077,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -1210,8 +1090,6 @@
             <AdapterName>group_health5</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1224,8 +1102,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance5</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1238,8 +1114,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1252,8 +1126,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power5</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1266,8 +1138,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1293,8 +1163,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name5</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1319,10 +1187,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1347,10 +1214,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1375,10 +1241,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1391,8 +1256,6 @@
             <TemplateName>lym_groupe_7</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1405,8 +1268,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health6</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>6</ControlId>
             <Position>
@@ -1418,8 +1279,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -1433,8 +1292,6 @@
             <AdapterName>group_health6</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1447,8 +1304,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance6</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1461,8 +1316,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1475,8 +1328,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power6</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1489,8 +1340,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1516,8 +1365,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name6</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1542,10 +1389,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1570,10 +1416,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1598,10 +1443,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1614,8 +1458,6 @@
             <TemplateName>lym_groupe_8</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1628,8 +1470,6 @@
             <TemplateName>lym_pdv_icon_med</TemplateName>
             <AdapterName>group_health7</AdapterName>
         </StatusIconDef>
-
-
         <ImageAreaDef>
             <ControlId>7</ControlId>
             <Position>
@@ -1641,8 +1481,6 @@
             </Alignment>
             <TemplateName>lym_no_icon_med</TemplateName>
         </ImageAreaDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -1656,8 +1494,6 @@
             <AdapterName>group_health7</AdapterName>
             <Width>65</Width>
         </StatusBarDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1670,8 +1506,6 @@
             <TemplateName>lym_endu_icon_small</TemplateName>
             <AdapterName>group_endurance7</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1684,8 +1518,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1698,8 +1530,6 @@
             <TemplateName>lym_mana_icon_small</TemplateName>
             <AdapterName>group_power7</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1712,8 +1542,6 @@
             <TemplateName>lym_no_icon_small</TemplateName>
             <AdapterName></AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1739,8 +1567,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name7</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1765,10 +1591,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1793,10 +1618,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1821,10 +1645,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1839,8 +1662,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1855,8 +1676,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1871,8 +1690,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1887,8 +1704,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1903,8 +1718,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1919,8 +1732,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1935,8 +1746,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1951,8 +1760,6 @@
             <Width>119</Width>
             <Height>21</Height>
         </InvisibleButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1967,9 +1774,5 @@
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

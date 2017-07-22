@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Root_Element ID="DAOCUi">
-
-    <WindowTemplate>
+<Root_Element ID="DAOCUi">    <WindowTemplate>
         <Name>group_options_window</Name>
         <CloseButton>true</CloseButton>
         <MoveButton>true</MoveButton>
@@ -35,9 +33,7 @@
             <TemplateName>dlg_lg_title_noresize</TemplateName>
             <Width>200</Width>
             <Height>130</Height>
-        </FullResizeImageDef>
-
-        <LabelDef>
+        </FullResizeImageDef>        <LabelDef>
             <ControlId></ControlId>
             <Position>
                 <X>20</X>
@@ -59,9 +55,7 @@
             <Data>Group Settings:</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
-        </LabelDef>
-
-        <LabelDef>
+        </LabelDef>        <LabelDef>
             <ControlId>1004</ControlId>
             <Position>
                 <X>10</X>
@@ -83,9 +77,7 @@
             <Data>Looking for Private RvR group</Data>
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
-        </LabelDef>
-
-        <CheckBoxDef>
+        </LabelDef>        <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
                 <X>50</X>
@@ -105,9 +97,7 @@
 			</Font>
             <Data>Casual Group</Data>
             <LabelWidth>180</LabelWidth>
-        </CheckBoxDef>
-
-        <CheckBoxDef>
+        </CheckBoxDef>        <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
                 <X>50</X>
@@ -140,9 +130,7 @@
             </Alignment>
             <TemplateName>button_large</TemplateName>
             <Label>SET</Label>
-        </ButtonDef>
-
-        <ButtonDef>
+        </ButtonDef>        <ButtonDef>
             <ControlId>1001</ControlId>
             <Position>
                 <X>110</X>
@@ -155,6 +143,4 @@
             <Label>CANCEL</Label>
         </ButtonDef>	
 		
-    </WindowTemplate>
-
-</Root_Element>
+    </WindowTemplate></Root_Element>

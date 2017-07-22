@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <Texture>
         <Name>emoticons</Name>
         <File>atlantis/emoticons.tga</File>
     </Texture>
-
-
     <ImageAreaTemplate>
         <Name>emote_button</Name>
         <TextureName>emoticons</TextureName>
@@ -23,8 +16,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <ImageAreaTemplate>
         <Name>channel_button</Name>
         <TextureName>emoticons</TextureName>
@@ -37,8 +28,6 @@
             <Y>100</Y>
         </TopLeft>
     </ImageAreaTemplate>
-
-
     <WindowTemplate>
         <Name>chat</Name>
         <WindowId>Chat</WindowId>
@@ -65,8 +54,6 @@
         <TabName>Guild</TabName>
         <TabName>Group</TabName>
         <TabName>Chat</TabName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -81,8 +68,6 @@
             <Width>350</Width>
             <Height>200</Height>
         </FullResizeImageDef>
-
-
         <ChatControlDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -102,8 +87,6 @@
             <Height>84</Height>
             <BufferName>chat</BufferName>
         </ChatControlDef>
-
-
         <FullResizeImageDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -117,8 +100,6 @@
             <Width>350</Width>
             <Height>16</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -144,8 +125,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>chat_entry</Adapter>
         </LabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>1005</ControlId>
             <Position>
@@ -161,8 +140,6 @@
             <Width>340</Width>
             <Height>98</Height>
         </InvisibleButtonDef>
-
-
         <ButtonDef>
             <ControlId>TwoWayResizeTopRight</ControlId>
             <Position>
@@ -176,8 +153,6 @@
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -198,8 +173,6 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
         <HorizontalResizeImageButtonDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -220,9 +193,5 @@
             <Label></Label>
             <Onclickevent></Onclickevent>
         </HorizontalResizeImageButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

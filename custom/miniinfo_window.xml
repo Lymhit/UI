@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>mini_info</Name>
         <WindowId>MiniInfo</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -42,8 +35,6 @@
             <Width>144</Width>
             <Height>114</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -69,8 +60,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string0</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -96,8 +85,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string1</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -123,8 +110,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string2</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -150,8 +135,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string3</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -177,8 +160,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string4</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
@@ -204,8 +185,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string5</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1006</ControlId>
             <Position>
@@ -231,8 +210,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string6</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId>1007</ControlId>
             <Position>
@@ -258,8 +235,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>mini_info_string7</Adapter>
         </LabelDef>
-
-
         <IconDef>
             <ControlId>2000</ControlId>
             <Position>
@@ -274,8 +249,6 @@
             <IconId>-1</IconId>
             <Data></Data>
         </IconDef>
-
-
         <ButtonDef>
             <ControlId>1100</ControlId>
             <Position>
@@ -289,8 +262,6 @@
             <Label>INFO</Label>
             <onClickEvent>Delve</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1101</ControlId>
             <Position>
@@ -304,8 +275,6 @@
             <Label>REPARER</Label>
             <onClickEvent>Repair</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1102</ControlId>
             <Position>
@@ -319,8 +288,6 @@
             <Label>ARTISANAT</Label>
             <onClickEvent>Craft</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1103</ControlId>
             <Position>
@@ -334,8 +301,6 @@
             <Label>RECYCLER</Label>
             <onClickEvent>Salvage</onClickEvent>
         </ButtonDef>
-
-
         <ListBoxDef>
             <ControlId>1200</ControlId>
             <Position>
@@ -358,9 +323,5 @@
             <OnHeaderClickEvent></OnHeaderClickEvent>
             <OnClickEvent></OnClickEvent>
         </ListBoxDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

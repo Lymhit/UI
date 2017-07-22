@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <EditBoxTemplate>
         <Name>generic_editbox</Name>
         <LinePadding>0</LinePadding>
@@ -37,8 +32,6 @@
             <Y>-4</Y>
         </ScrollbarSizeOffset>
     </EditBoxTemplate>
-
-
     <WindowTemplate>
         <Name>ChatRename</Name>
         <WindowId>chatRenameWindow</WindowId>
@@ -60,8 +53,6 @@
         <MinWidth>5</MinWidth>
         <MinHeight>5</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -76,8 +67,6 @@
             <Width>300</Width>
             <Height>80</Height>
         </FullResizeImageDef>
-
-
         <EditBoxDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -95,8 +84,6 @@
             <Height>24</Height>
             <MaxCharacters>32</MaxCharacters>
         </EditBoxDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -110,8 +97,6 @@
             <Label>Renommer</Label>
             <onClickEvent>ChatRenameOK</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -126,9 +111,5 @@
             <Label>Annuler</Label>
             <onClickEvent>ChatRenameCancel</onClickEvent>
         </ButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

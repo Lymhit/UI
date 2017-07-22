@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>mini_friends</Name>
         <WindowId>MiniFriends</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>128</MinWidth>
         <MinHeight>96</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -42,8 +35,6 @@
             <Width>128</Width>
             <Height>96</Height>
         </FullResizeImageDef>
-
-
         <TextAreaDef>
             <ControlId>1009</ControlId>
             <Position>
@@ -62,8 +53,6 @@
             <Width>116</Width>
             <Height>65</Height>
         </TextAreaDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -89,9 +78,5 @@
             <TextCentered>false</TextCentered>
             <Adapter>none</Adapter>
         </LabelDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

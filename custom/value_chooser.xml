@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>value_chooser</Name>
         <WindowId>ValueChooser</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -42,8 +35,6 @@
             <Width>128</Width>
             <Height>71</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -69,8 +60,6 @@
             <TextCentered>true</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -96,8 +85,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>value_item_title</Adapter>
         </LabelDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -111,8 +98,6 @@
             <Label></Label>
             <onClickEvent>ValueChooserDecrease</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -126,8 +111,6 @@
             <Label></Label>
             <onClickEvent>ValueChooserIncrease</onClickEvent>
         </ButtonDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -154,11 +137,7 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <!--                                                                                                                                                                                                                                Commit Buttons                                                                                                                                                                                                                                -->
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -171,8 +150,6 @@
             <Label>ACCEPTER</Label>
             <onClickEvent>ValueChooserAccept</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -185,8 +162,6 @@
             <Label>ANNULER</Label>
             <onClickEvent>ValueChooserCancel</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -200,8 +175,6 @@
             <Label></Label>
             <onClickEvent>ValueChooserShiftIncrease</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -215,9 +188,5 @@
             <Label></Label>
             <onClickEvent>ValueChooserShiftDecrease</onClickEvent>
         </ButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

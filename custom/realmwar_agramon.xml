@@ -936,9 +936,7 @@
 				<Y>0</Y>
 			</Position>
 			<ControlId>2013</ControlId>
-		</ImageAreaDef>
-
-		<InvisibleButtonDef>
+		</ImageAreaDef>		<InvisibleButtonDef>
 			<Position>
 				<X>0</X>
 				<Y>0</Y>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <StatusIconTemplate>
         <Name>HH</Name>
         <TextureName>hh</TextureName>
@@ -17,8 +12,6 @@
         <MaxLevels>16</MaxLevels>
         <Horizontal>true</Horizontal>
     </StatusIconTemplate>
-
-
     <ButtonTemplate>
         <Name>Selection_HH</Name>
         <Size>
@@ -76,8 +69,6 @@
             </Disabled>
         </Texture>
     </ButtonTemplate>
-
-
     <WindowTemplate>
         <Name>custom1_window</Name>
         <WindowId>custom1_window</WindowId>
@@ -99,8 +90,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -115,8 +104,6 @@
             <Width>269</Width>
             <Height>128</Height>
         </FullResizeImageDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -129,8 +116,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health0</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -156,8 +141,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name0</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -182,10 +165,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -211,8 +193,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name0</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -237,10 +217,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -265,10 +244,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>0</ControlId>
             <Position>
@@ -283,8 +261,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -297,8 +273,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health1</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -324,8 +298,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name1</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -350,10 +322,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -379,8 +350,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name1</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -405,10 +374,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -433,10 +401,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>1</ControlId>
             <Position>
@@ -451,8 +418,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -465,8 +430,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health2</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -492,8 +455,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name2</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -518,10 +479,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -547,8 +507,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name2</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -573,10 +531,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -601,10 +558,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>2</ControlId>
             <Position>
@@ -619,8 +575,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -633,8 +587,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health3</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -660,8 +612,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name3</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -686,10 +636,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -715,8 +664,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name3</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -741,10 +688,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -769,10 +715,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>3</ControlId>
             <Position>
@@ -787,8 +732,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -801,8 +744,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health4</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -828,8 +769,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name4</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -854,10 +793,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -883,8 +821,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name4</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -909,10 +845,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -937,10 +872,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>4</ControlId>
             <Position>
@@ -955,8 +889,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -969,8 +901,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health5</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -996,8 +926,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name5</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1022,10 +950,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1051,8 +978,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name5</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1077,10 +1002,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1105,10 +1029,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>5</ControlId>
             <Position>
@@ -1123,8 +1046,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1137,8 +1058,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health6</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1164,8 +1083,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name6</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1190,10 +1107,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1219,8 +1135,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name6</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1245,10 +1159,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1273,10 +1186,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>6</ControlId>
             <Position>
@@ -1291,8 +1203,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -1305,8 +1215,6 @@
             <TemplateName>hh</TemplateName>
             <AdapterName>group_health7</AdapterName>
         </StatusIconDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1332,8 +1240,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>group_name7</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1358,10 +1264,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1387,8 +1292,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>group_name7</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1413,10 +1316,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1441,10 +1343,9 @@
             <Data></Data>
             <EndAligned>false</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>7</ControlId>
             <Position>
@@ -1459,8 +1360,6 @@
             <Width>64</Width>
             <Height>50</Height>
         </InvisibleButtonDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -1474,8 +1373,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>113</Width>
         </StatusBarDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -1489,8 +1386,6 @@
             <Width>115</Width>
             <Height>18</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -1504,8 +1399,6 @@
             <Width>266</Width>
             <Height>18</Height>
         </FullResizeImageDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1520,9 +1413,5 @@
             <Width>262</Width>
             <Height>16</Height>
         </InvisibleButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

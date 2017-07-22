@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>custom4_window</Name>
         <WindowId>custom4_window</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -41,8 +34,6 @@
             <Width>192</Width>
             <Height>75</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -56,8 +47,6 @@
             <Width>172</Width>
             <Height>65</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -83,8 +72,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -110,8 +97,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_thrust</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -137,8 +122,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -164,8 +147,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_crush</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -191,8 +172,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -218,8 +197,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_slash</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -245,8 +222,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -272,8 +247,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_heat</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -299,8 +272,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -326,8 +297,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_cold</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -353,8 +322,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -380,8 +347,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_matter</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -407,8 +372,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -434,8 +397,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_energy</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -461,8 +422,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -488,8 +447,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_spirit</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -515,8 +472,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -542,8 +497,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>stats_body</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -569,8 +522,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -586,8 +537,6 @@
             <Width>80</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -603,8 +552,6 @@
             <Width>80</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -620,8 +567,6 @@
             <Width>80</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -637,8 +582,6 @@
             <Width>80</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -654,8 +597,6 @@
             <Width>70</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -671,8 +612,6 @@
             <Width>70</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -688,8 +627,6 @@
             <Width>70</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -705,8 +642,6 @@
             <Width>70</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -722,9 +657,5 @@
             <Width>70</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

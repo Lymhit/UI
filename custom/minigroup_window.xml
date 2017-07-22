@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>mini_group</Name>
         <WindowId>MiniGroup</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -41,8 +34,6 @@
             <Width>102</Width>
             <Height>120</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -56,8 +47,6 @@
             <Width>82</Width>
             <Height>110</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -84,8 +73,6 @@
             <TextCentered>true</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -112,8 +99,6 @@
             <TextCentered>true</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -140,8 +125,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -155,8 +138,6 @@
             <Label>P</Label>
             <onClickEvent>ToggleCustom2</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -170,8 +151,6 @@
             <Label>G</Label>
             <onClickEvent>ToggleCustom3</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -186,8 +165,6 @@
             <Label>H</Label>
             <onClickEvent>ToggleCustom1</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -201,8 +178,6 @@
             <Label>1</Label>
             <onClickEvent>ToggleCustom12</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -216,8 +191,6 @@
             <Label>2</Label>
             <onClickEvent>ToggleCustom13</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -231,8 +204,6 @@
             <Label>3</Label>
             <onClickEvent>ToggleCustom14</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -246,8 +217,6 @@
             <Label>4</Label>
             <onClickEvent>ToggleCustom15</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -261,8 +230,6 @@
             <Label>5</Label>
             <onClickEvent>ToggleCustom16</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -276,8 +243,6 @@
             <Label>6</Label>
             <onClickEvent>ToggleCustom17</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -291,8 +256,6 @@
             <Label>7</Label>
             <onClickEvent>ToggleCustom18</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -306,9 +269,5 @@
             <Label>8</Label>
             <onClickEvent>ToggleCustom19</onClickEvent>
         </ButtonDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

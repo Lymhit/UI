@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <StatusBarTemplate>
         <Name>red_status_NoBG</Name>
         <ForegroundHResizeTemplate>red_full</ForegroundHResizeTemplate>
@@ -15,8 +10,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <WindowTemplate>
         <Name>summary</Name>
         <WindowId>c_windowInvalid</WindowId>
@@ -38,8 +31,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -53,8 +44,6 @@
             <Width>155</Width>
             <Height>50</Height>
         </FullResizeImageDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -68,8 +57,6 @@
             <AdapterName>summary_player_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -83,8 +70,6 @@
             <AdapterName>summary_player_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -98,8 +83,6 @@
             <AdapterName>summary_player_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -113,8 +96,6 @@
             <AdapterName>summary_player_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -128,8 +109,6 @@
             <AdapterName>summary_player_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -143,8 +122,6 @@
             <AdapterName>summary_player_end</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -158,8 +135,6 @@
             <AdapterName>summary_player_end</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -173,8 +148,6 @@
             <AdapterName>summary_player_end</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -188,8 +161,6 @@
             <AdapterName>summary_player_end</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -203,8 +174,6 @@
             <AdapterName>summary_player_end</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -218,8 +187,6 @@
             <AdapterName>summary_player_power</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -233,8 +200,6 @@
             <AdapterName>summary_player_power</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -248,8 +213,6 @@
             <AdapterName>summary_player_power</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -263,8 +226,6 @@
             <AdapterName>summary_player_power</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -278,8 +239,6 @@
             <AdapterName>summary_player_power</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -294,8 +253,6 @@
             <AdapterName>summary_exp_coarse</AdapterName>
             <Width>90</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -310,8 +267,6 @@
             <AdapterName>summary_exp_fine</AdapterName>
             <Width>88</Width>
         </StatusBarDef>
-
-
         <ButtonDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -329,8 +284,6 @@
             <Label>xp</Label>
             <onClickEvent>SummaryToggleExp</onClickEvent>
         </ButtonDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -356,8 +309,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -384,8 +335,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -411,8 +360,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -439,8 +386,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -466,8 +411,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -494,9 +437,5 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>true</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

@@ -21,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>ImageBackground</ControlId>
             <Position>
@@ -36,8 +34,6 @@
             <Width>108</Width>
             <Height>40</Height>
         </FullResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -64,8 +60,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -91,8 +85,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -106,8 +98,6 @@
             <AdapterName>summary_champ_exp_coarse</AdapterName>
             <Width>90</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -121,9 +111,5 @@
             <AdapterName>summary_champ_exp_fine</AdapterName>
             <Width>90</Width>
         </StatusBarDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

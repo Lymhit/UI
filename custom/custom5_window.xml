@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <StatusBarTemplate>
         <Name>red_status_NoBG</Name>
         <ForegroundHResizeTemplate>red_full</ForegroundHResizeTemplate>
@@ -15,8 +10,6 @@
             <Y>0</Y>
         </ForegroundOffset>
     </StatusBarTemplate>
-
-
     <WindowTemplate>
         <Name>custom5_window</Name>
         <WindowId>custom5_window</WindowId>
@@ -38,8 +31,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -53,8 +44,6 @@
             <Width>155</Width>
             <Height>25</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -80,8 +69,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>summary_target</Adapter>
         </LabelDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -96,8 +83,6 @@
             <AdapterName></AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -112,8 +97,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -128,8 +111,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -144,8 +125,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -160,8 +139,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -176,8 +153,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -192,8 +167,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -208,8 +181,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -224,8 +195,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -240,8 +209,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -256,8 +223,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>104</Width>
         </StatusBarDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -271,8 +236,6 @@
             </Alignment>
             <TemplateName>lym_bar_fin</TemplateName>
         </ImageAreaDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -298,11 +261,8 @@
             <Data></Data>
             <EndAligned>true</EndAligned>
             <TextCentered>true</TextCentered>
-            <DontDrawWhenZero>true</DontDrawWhenZero> <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
+            <DontDrawWhenZero>true</DontDrawWhenZero>
+            <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

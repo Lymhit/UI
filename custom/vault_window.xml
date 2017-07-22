@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
+<Root_Element ID="DAOCUi"><!-- @@ Edited with the DAoC User Interface Editor v1.75 -->
 <!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <VerticalResizeImageTemplate>
         <Name>vault_blank</Name>
         <Width>20</Width>
@@ -27,8 +23,6 @@
             </Bottom>
         </Texture>
     </VerticalResizeImageTemplate>
-
-
     <WindowTemplate>
         <Name>vault_window</Name>
         <WindowId>Vault</WindowId>
@@ -49,8 +43,6 @@
         <ResizeableTwoWayHeight>8</ResizeableTwoWayHeight>
         <MinWidth>300</MinWidth>
         <MinHeight>200</MinHeight>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -65,8 +57,6 @@
             <Width>300</Width>
             <Height>430</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -81,8 +71,6 @@
             <Width>280</Width>
             <Height>420</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -108,8 +96,6 @@
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
         </LabelDef>
-
-
         <VerticalResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -122,8 +108,6 @@
             <TemplateName>vault_blank</TemplateName>
             <Height>362</Height>
         </VerticalResizeImageDef>
-
-
         <ButtonDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -138,8 +122,6 @@
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -154,8 +136,6 @@
             <Label></Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <LabelDef>
             <ControlId>1005</ControlId>
             <Position>
@@ -182,8 +162,6 @@
             <EndAligned>false</EndAligned>
             <TextCentered>false</TextCentered>
         </LabelDef>
-
-
         <ButtonDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -198,8 +176,6 @@
             <Label>PAGES</Label>
             <onClickEvent></onClickEvent>
         </ButtonDef>
-
-
         <ListBoxDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -217,9 +193,5 @@
             <Width>270</Width>
             <Height>366</Height>
         </ListBoxDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

@@ -21,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>BackgroundImage</ControlId>
             <Position>
@@ -37,8 +35,6 @@
             <Width>160</Width>
             <Height>90</Height>
         </FullResizeImageDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -65,8 +61,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -93,8 +87,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -108,8 +100,6 @@
             <AdapterName>summary_player_hits</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -135,8 +125,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -150,8 +138,6 @@
             <AdapterName>summary_player_end</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -165,8 +151,6 @@
             <AdapterName>summary_player_power</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -193,8 +177,6 @@
          <DontDrawWhenZero>true</DontDrawWhenZero>
 	 <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -221,8 +203,6 @@
          <DontDrawWhenZero>true</DontDrawWhenZero>
 	 <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -248,8 +228,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -276,8 +254,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>summary_target</Adapter>
         </LabelDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -291,8 +267,6 @@
             <AdapterName>summary_target_hits</AdapterName>
             <Width>125</Width>
         </StatusBarDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -320,8 +294,6 @@
             <DontDrawWhenZero>false</DontDrawWhenZero>
             <DontDrawWhenNegOne>true</DontDrawWhenNegOne>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -347,8 +319,6 @@
             <TextCentered>true</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -375,8 +345,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -402,8 +370,6 @@
             <TextCentered>true</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -429,8 +395,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -457,8 +421,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -484,8 +446,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -511,8 +471,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -539,8 +497,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -567,8 +523,6 @@
             <TextCentered>true</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -595,9 +549,5 @@
             <TextCentered>true</TextCentered>
             <Adapter>summary_title</Adapter>
         </LabelDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

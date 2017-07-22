@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>timer</Name>
         <WindowId>Timer</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId>Background</ControlId>
             <Position>
@@ -41,8 +34,6 @@
             <Width>300</Width>
             <Height>50</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -56,8 +47,6 @@
             <Width>280</Width>
             <Height>40</Height>
         </FullResizeImageDef>
-
-
         <StatusBarDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -71,8 +60,6 @@
             <AdapterName>timer_time</AdapterName>
             <Width>274</Width>
         </StatusBarDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -98,8 +85,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>timer_text</Adapter>
         </LabelDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -113,8 +98,6 @@
             <Label>REL</Label>
             <onClickEvent>Release</onClickEvent>
         </ButtonDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -141,9 +124,5 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

@@ -465,9 +465,7 @@
 				<Y>173</Y>
 			</Position>
 			<ColorAdapter>realm_bonus_color11</ColorAdapter>
-		</LabelDef>
-
-        <LabelDef>
+		</LabelDef>        <LabelDef>
 			<Color>
 				<R>192</R>
 				<G>192</G>

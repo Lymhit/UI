@@ -250,9 +250,7 @@
             			<Y>336</Y>
          		</Position>
       		</ButtonDef>
-		<LabelDef>
-
-         		<Color>
+		<LabelDef>         		<Color>
             			<R>255</R>
             			<G>255</G>
             			<B>255</B>

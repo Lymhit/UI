@@ -63,7 +63,8 @@
         <Height>16</Height>
         <Antialiased>true</Antialiased>
         <Hint>2</Hint>
-    </TTFFont>   <Texture>
+    </TTFFont>
+    <Texture>
         <Name>page1</Name>
         <File>custom/lym_01.tga</File>
     </Texture>
@@ -127,33 +128,25 @@
         <Name>lym_attak</Name>
         <File>custom/lym2_test.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>lym_fx</Name>
         <File>custom/fxsmall.dds</File>
     </Texture>
-
-
     <Texture>
         <Name>lym_fx2</Name>
         <File>custom/fx.dds</File>
-    </Texture>
-    
-    <Texture>
+    </Texture>    <Texture>
         <Name>map_icons2</Name>
         <File>custom/map_icons.tga</File>
     </Texture>
-        <Texture>
+    <Texture>
         <Name>page1b</Name>
         <File>custom/lym_01.tga</File>
     </Texture>
-     <Texture>
+    <Texture>
         <Name>page2b</Name>
         <File>custom/lym_02.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>page22</Name>
         <File>custom/lym_22.tga</File>
@@ -162,34 +155,26 @@
         <Name>page3b</Name>
         <File>custom/lym_03.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>page44</Name>
         <File>custom/lym_04.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>page5</Name>
         <File>custom/lym_05.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>pageLym</Name>
         <File>custom/lym_04.tga</File>
     </Texture>
-
-
     <Texture>
         <Name>realm_bonus</Name>
         <File>custom/rr_name.dds</File>
     </Texture>
-	<Include>custom0_window.xml</Include>
+    <Include>custom0_window.xml</Include>
     <Include>custom1_window.xml</Include>
     <Include>custom2_window.xml</Include>
-	<Include>custom3_window.xml</Include>
+    <Include>custom3_window.xml</Include>
     <Include>custom4_window.xml</Include>
     <Include>custom5_window.xml</Include>
     <Include>custom7_window.xml</Include>

@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>mini_pet</Name>
         <WindowId>MiniPet</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -41,8 +34,6 @@
             <Width>200</Width>
             <Height>20</Height>
         </FullResizeImageDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -54,8 +45,6 @@
             </Alignment>
             <TemplateName>lym_macro</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -67,8 +56,6 @@
             </Alignment>
             <TemplateName>lym_macro</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -80,8 +67,6 @@
             </Alignment>
             <TemplateName>lym_macro</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -93,8 +78,6 @@
             </Alignment>
             <TemplateName>lym_macro</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -106,8 +89,6 @@
             </Alignment>
             <TemplateName>lym_macro</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -119,8 +100,6 @@
             </Alignment>
             <TemplateName>lym_macro</TemplateName>
         </ImageAreaDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -134,8 +113,6 @@
             <Width>126</Width>
             <Height>22</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -149,8 +126,6 @@
             <Width>66</Width>
             <Height>43</Height>
         </FullResizeImageDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -164,8 +139,6 @@
             <Width>66</Width>
             <Height>43</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -191,8 +164,6 @@
             <TextCentered>true</TextCentered>
             <Adapter>mini_pet_title</Adapter>
         </LabelDef>
-
-
         <StatusBarDef>
             <ControlId></ControlId>
             <Position>
@@ -206,8 +177,6 @@
             <AdapterName>mini_pet_life</AdapterName>
             <Width>120</Width>
         </StatusBarDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -234,8 +203,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId>1009</ControlId>
             <Position>
@@ -250,8 +217,6 @@
             <Width>140</Width>
             <Height>10</Height>
         </InvisibleButtonDef>
-
-
         <CheckBoxDef>
             <ControlId>1000</ControlId>
             <Position>
@@ -268,8 +233,6 @@
             <LabelWidth>40</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <CheckBoxDef>
             <ControlId>1001</ControlId>
             <Position>
@@ -286,8 +249,6 @@
             <LabelWidth>40</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <CheckBoxDef>
             <ControlId>1002</ControlId>
             <Position>
@@ -304,8 +265,6 @@
             <LabelWidth>40</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <CheckBoxDef>
             <ControlId>1003</ControlId>
             <Position>
@@ -322,8 +281,6 @@
             <LabelWidth>40</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <CheckBoxDef>
             <ControlId>1004</ControlId>
             <Position>
@@ -340,8 +297,6 @@
             <LabelWidth>30</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <CheckBoxDef>
             <ControlId>1005</ControlId>
             <Position>
@@ -358,8 +313,6 @@
             <LabelWidth>20</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <CheckBoxDef>
             <ControlId>1006</ControlId>
             <Position>
@@ -376,8 +329,6 @@
             <LabelWidth>40</LabelWidth>
             <OnClickEvent></OnClickEvent>
         </CheckBoxDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -392,8 +343,6 @@
             <Width>32</Width>
             <Height>32</Height>
         </InvisibleButtonDef>
-
-
         <ButtonDef>
             <ControlId>1008</ControlId>
             <Position>
@@ -407,8 +356,6 @@
             <Label>RELEASE</Label>
             <onClickEvent>PetRelease</onClickEvent>
         </ButtonDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -433,8 +380,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -459,8 +404,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ButtonDef>
             <ControlId>1007</ControlId>
             <Position>
@@ -473,8 +416,6 @@
             <Label>ATTACK</Label>
             <onClickEvent>PetAttack</onClickEvent>
         </ButtonDef>
-
-
         <IconDef>
             <ControlId></ControlId>
             <Position>
@@ -489,8 +430,6 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
-
-
         <IconDef>
             <ControlId></ControlId>
             <Position>
@@ -505,8 +444,6 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
-
-
         <IconDef>
             <ControlId></ControlId>
             <Position>
@@ -521,8 +458,6 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
-
-
         <IconDef>
             <ControlId></ControlId>
             <Position>
@@ -537,8 +472,6 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
-
-
         <IconDef>
             <ControlId></ControlId>
             <Position>
@@ -553,8 +486,6 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
-
-
         <IconDef>
             <ControlId></ControlId>
             <Position>
@@ -569,9 +500,5 @@
             <IconId>0</IconId>
             <Data></Data>
         </IconDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>

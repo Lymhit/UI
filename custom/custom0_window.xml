@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Root_Element ID="DAOCUi">
-
-<!-- @@ Edited with the DAoC User Interface Editor v1.80 -->
-<!-- @@ Free download available at http://www.bradtownsend.com/daoced -->
-
-
     <WindowTemplate>
         <Name>custom0_window</Name>
         <WindowId>custom0_window</WindowId>
@@ -26,8 +21,6 @@
         <MinWidth>0</MinWidth>
         <MinHeight>0</MinHeight>
         <ContextTemplateName></ContextTemplateName>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -39,8 +32,6 @@
             </Alignment>
             <TemplateName>lym_menu_left</TemplateName>
         </ImageAreaDef>
-
-
         <StatusIconDef>
             <ControlId></ControlId>
             <Position>
@@ -53,8 +44,6 @@
             <TemplateName>lym_attaque_menu_left</TemplateName>
             <AdapterName>combat_mode</AdapterName>
         </StatusIconDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -68,8 +57,6 @@
             <Label>Map</Label>
             <onClickEvent>ToggleMap</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -83,8 +70,6 @@
             <Label>Journal</Label>
             <onClickEvent>ToggleJournal</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -98,8 +83,6 @@
             <Label>MasterLevel</Label>
             <onClickEvent>ToggleMasterLevel</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -113,8 +96,6 @@
             <Label>Invite</Label>
             <onClickEvent>GroupInvite</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -128,8 +109,6 @@
             <Label>Disband</Label>
             <onClickEvent>GroupDisband</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -143,8 +122,6 @@
             <Label>MiniGroup</Label>
             <onClickEvent>ToggleMiniGroup</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -158,8 +135,6 @@
             <Label>Bouton</Label>
             <onClickEvent>ToggleCustom7</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -173,8 +148,6 @@
             <Label>Conc.</Label>
             <onClickEvent>ToggleConcentration</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -188,8 +161,6 @@
             <Label>Résist</Label>
             <onClickEvent>ToggleCustom4</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -203,8 +174,6 @@
             <Label>Bonus RvR</Label>
             <onClickEvent>WarmapUpdateBonuses</onClickEvent>
         </ButtonDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -218,8 +187,6 @@
             <Label>Options</Label>
             <onClickEvent>ToggleOptions</onClickEvent>
         </ButtonDef>
-
-
         <FullResizeImageDef>
             <ControlId></ControlId>
             <Position>
@@ -233,8 +200,6 @@
             <Width>130</Width>
             <Height>53</Height>
         </FullResizeImageDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -260,8 +225,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -287,8 +250,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -314,8 +275,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>time_of_day</Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -341,8 +300,6 @@
             <TextCentered>false</TextCentered>
             <Adapter>game_time</Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -369,8 +326,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1019</ControlId>
             <Position>
@@ -397,8 +352,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -425,8 +378,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1020</ControlId>
             <Position>
@@ -453,8 +404,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -481,8 +430,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1021</ControlId>
             <Position>
@@ -509,8 +456,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -537,8 +482,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1022</ControlId>
             <Position>
@@ -565,8 +508,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -593,8 +534,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1023</ControlId>
             <Position>
@@ -621,8 +560,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -649,8 +586,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1024</ControlId>
             <Position>
@@ -677,8 +612,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -705,8 +638,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1025</ControlId>
             <Position>
@@ -733,8 +664,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -761,8 +690,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId>1026</ControlId>
             <Position>
@@ -789,8 +716,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -806,8 +731,6 @@
             <Width>50</Width>
             <Height>13</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -823,8 +746,6 @@
             <Width>74</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -840,8 +761,6 @@
             <Width>63</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -857,8 +776,6 @@
             <Width>63</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -874,8 +791,6 @@
             <Width>50</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -891,8 +806,6 @@
             <Width>50</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -908,8 +821,6 @@
             <Width>50</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <InvisibleButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -925,8 +836,6 @@
             <Width>50</Width>
             <Height>12</Height>
         </InvisibleButtonDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -952,8 +861,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -979,8 +886,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1007,8 +912,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1035,8 +938,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <LabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1062,8 +963,6 @@
             <TextCentered>false</TextCentered>
             <Adapter></Adapter>
         </LabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1090,8 +989,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <StatusIconDef>
             <ControlId>2000</ControlId>
             <Position>
@@ -1104,8 +1001,6 @@
             <TemplateName>performance_icon_small</TemplateName>
             <AdapterName>performance_meter</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId>2001</ControlId>
             <Position>
@@ -1118,8 +1013,6 @@
             <TemplateName>performance_icon_small</TemplateName>
             <AdapterName>lag_meter</AdapterName>
         </StatusIconDef>
-
-
         <StatusIconDef>
             <ControlId>2002</ControlId>
             <Position>
@@ -1132,8 +1025,6 @@
             <TemplateName>performance_icon_small</TemplateName>
             <AdapterName>framerate_meter</AdapterName>
         </StatusIconDef>
-
-
         <ButtonDef>
             <ControlId></ControlId>
             <Position>
@@ -1147,8 +1038,6 @@
             <Label></Label>
             <onClickEvent>ToggleCustom0</onClickEvent>
         </ButtonDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1175,8 +1064,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1203,8 +1090,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <ScalarLabelDef>
             <ControlId></ControlId>
             <Position>
@@ -1231,8 +1116,6 @@
             <TextCentered>false</TextCentered>
             <DontDrawWhenZero>false</DontDrawWhenZero>
         </ScalarLabelDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -1244,8 +1127,6 @@
             </Alignment>
             <TemplateName>lym_map_small</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -1257,8 +1138,6 @@
             </Alignment>
             <TemplateName>lym_journal_small</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -1270,8 +1149,6 @@
             </Alignment>
             <TemplateName>lym_ml_small</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -1283,8 +1160,6 @@
             </Alignment>
             <TemplateName>lym_invite</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -1296,8 +1171,6 @@
             </Alignment>
             <TemplateName>lym_disband</TemplateName>
         </ImageAreaDef>
-
-
         <ImageAreaDef>
             <ControlId></ControlId>
             <Position>
@@ -1309,9 +1182,5 @@
             </Alignment>
             <TemplateName>lym_groupe_small</TemplateName>
         </ImageAreaDef>
-
-
     </WindowTemplate>
-
-
 </Root_Element>
